@@ -1,0 +1,4 @@
+Invoking command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle -- -j4 -l4
+Invoked command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle -- -j4 -l4
+Invoking command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle
+Invoked command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle

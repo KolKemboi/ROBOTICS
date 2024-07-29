@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (cpp_turtle) JobQueued: {'identifier': 'cpp_turtle', 'dependencies': OrderedDict()}
+[0.000567] (cpp_turtle) JobStarted: {'identifier': 'cpp_turtle'}
+[0.018468] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'cmake'}
+[0.019623] (cpp_turtle) Command: {'cmd': ['/usr/bin/cmake', '/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle'], 'cwd': '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1354,unix/kol:/tmp/.ICE-unix/1354'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67096b31_40e1_4f0a_86a2_cbb4edc30b7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHPZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098171] (-) TimerEvent: {}
+[0.198674] (-) TimerEvent: {}
+[0.203098] (cpp_turtle) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.298827] (-) TimerEvent: {}
+[0.382292] (cpp_turtle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399018] (-) TimerEvent: {}
+[0.423236] (cpp_turtle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499186] (-) TimerEvent: {}
+[0.599815] (-) TimerEvent: {}
+[0.687559] (cpp_turtle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.700002] (-) TimerEvent: {}
+[0.725601] (cpp_turtle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.736516] (cpp_turtle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.739279] (cpp_turtle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.755573] (cpp_turtle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800200] (-) TimerEvent: {}
+[0.900983] (-) TimerEvent: {}
+[1.001713] (-) TimerEvent: {}
+[1.096612] (cpp_turtle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.101840] (-) TimerEvent: {}
+[1.130660] (cpp_turtle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.132285] (cpp_turtle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.135808] (cpp_turtle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.145565] (cpp_turtle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.202010] (-) TimerEvent: {}
+[1.302719] (-) TimerEvent: {}
+[1.403480] (-) TimerEvent: {}
+[1.504182] (-) TimerEvent: {}
+[1.604906] (-) TimerEvent: {}
+[1.705687] (-) TimerEvent: {}
+[1.717391] (cpp_turtle) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.805866] (-) TimerEvent: {}
+[1.906502] (-) TimerEvent: {}
+[1.960293] (cpp_turtle) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.006711] (-) TimerEvent: {}
+[2.086244] (cpp_turtle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.106916] (-) TimerEvent: {}
+[2.207674] (-) TimerEvent: {}
+[2.270086] (cpp_turtle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.290288] (cpp_turtle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.307837] (-) TimerEvent: {}
+[2.324984] (cpp_turtle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.387366] (cpp_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.408030] (-) TimerEvent: {}
+[2.472943] (cpp_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.508225] (-) TimerEvent: {}
+[2.609040] (-) TimerEvent: {}
+[2.709743] (-) TimerEvent: {}
+[2.810507] (-) TimerEvent: {}
+[2.867638] (cpp_turtle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.883977] (cpp_turtle) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.910722] (-) TimerEvent: {}
+[3.011609] (-) TimerEvent: {}
+[3.112493] (-) TimerEvent: {}
+[3.127213] (cpp_turtle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.188943] (cpp_turtle) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.212709] (-) TimerEvent: {}
+[3.313451] (-) TimerEvent: {}
+[3.414740] (-) TimerEvent: {}
+[3.515575] (-) TimerEvent: {}
+[3.616459] (-) TimerEvent: {}
+[3.630649] (cpp_turtle) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.632982] (cpp_turtle) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.716675] (-) TimerEvent: {}
+[3.817399] (-) TimerEvent: {}
+[3.918195] (-) TimerEvent: {}
+[3.962386] (cpp_turtle) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.966728] (cpp_turtle) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.018390] (-) TimerEvent: {}
+[4.119243] (-) TimerEvent: {}
+[4.220100] (-) TimerEvent: {}
+[4.321019] (-) TimerEvent: {}
+[4.421849] (-) TimerEvent: {}
+[4.522577] (-) TimerEvent: {}
+[4.623306] (-) TimerEvent: {}
+[4.724039] (-) TimerEvent: {}
+[4.783563] (cpp_turtle) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.824220] (-) TimerEvent: {}
+[4.924915] (-) TimerEvent: {}
+[5.014322] (cpp_turtle) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[5.025051] (-) TimerEvent: {}
+[5.125698] (-) TimerEvent: {}
+[5.226411] (-) TimerEvent: {}
+[5.327064] (-) TimerEvent: {}
+[5.427768] (-) TimerEvent: {}
+[5.528473] (-) TimerEvent: {}
+[5.629227] (-) TimerEvent: {}
+[5.725062] (cpp_turtle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.729404] (-) TimerEvent: {}
+[5.830060] (-) TimerEvent: {}
+[5.930812] (-) TimerEvent: {}
+[6.031603] (-) TimerEvent: {}
+[6.084563] (cpp_turtle) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:43 (_install):\n'}
+[6.085321] (cpp_turtle) StderrLine: {'line': b'  _install does not recognize sub-command TARGET\n'}
+[6.085788] (cpp_turtle) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.086316] (cpp_turtle) StderrLine: {'line': b'  CMakeLists.txt:33 (install)\n'}
+[6.086864] (cpp_turtle) StderrLine: {'line': b'\n'}
+[6.087188] (cpp_turtle) StderrLine: {'line': b'\x1b[0m\n'}
+[6.108882] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.109636] (cpp_turtle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.110248] (cpp_turtle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.113428] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.119442] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.120026] (cpp_turtle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.121870] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.129250] (cpp_turtle) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.129870] (cpp_turtle) StdoutLine: {'line': b'See also "/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/CMakeOutput.log".\n'}
+[6.131767] (-) TimerEvent: {}
+[6.163034] (cpp_turtle) CommandEnded: {'returncode': 1}
+[6.232777] (-) TimerEvent: {}
+[6.245258] (cpp_turtle) JobEnded: {'identifier': 'cpp_turtle', 'rc': 1}
+[6.257284] (-) EventReactorShutdown: {}

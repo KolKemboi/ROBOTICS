@@ -1,0 +1,2 @@
+Invoking command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/Robotics/Tests/ros_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/Tests/ros_cpp/install/cpp_pubsub
+Invoked command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/Robotics/Tests/ros_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/Tests/ros_cpp/install/cpp_pubsub

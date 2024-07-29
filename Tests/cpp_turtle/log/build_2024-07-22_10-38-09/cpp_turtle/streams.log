@@ -1,0 +1,44 @@
+[0.071s] Invoking command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle -- -j4 -l4
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target pos_sub[0m
+[0.412s] [ 50%] Built target pos_pub
+[0.439s] [ 75%] [32mBuilding CXX object CMakeFiles/pos_sub.dir/src/subscriber.cpp.o[0m
+[11.450s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.455s]                  from [01m[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:3[m[K:
+[11.456s] [01m[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:[m[K In member function ‘[01m[Kvoid PoseSubscriber::topic_callback(const Pose&) const[m[K’:
+[11.456s] [01m[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:21:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[11.457s]    21 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard"[m[K, msg.x, msg.angular_velocity);
+[11.458s]       |                                             [01;35m[K^~~~~~~~~[m[K
+[36.569s] [100%] [32m[1mLinking CXX executable pos_sub[0m
+[38.256s] [100%] Built target pos_sub
+[38.304s] Invoked command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle -- -j4 -l4
+[38.476s] Invoking command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle
+[38.509s] -- Install configuration: ""
+[38.511s] -- Execute custom install script
+[38.513s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/lib/cpp_turtle/pos_pub
+[38.514s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/lib/cpp_turtle/pos_sub
+[38.516s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_turtle
+[38.517s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_turtle
+[38.518s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.sh
+[38.519s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.dsv
+[38.520s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/environment/path.sh
+[38.522s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/environment/path.dsv
+[38.523s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/local_setup.bash
+[38.524s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/local_setup.sh
+[38.525s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/local_setup.zsh
+[38.527s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/local_setup.dsv
+[38.527s] -- Symlinking: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/package.dsv
+[38.571s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/ament_index/resource_index/packages/cpp_turtle
+[38.572s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig.cmake
+[38.573s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig-version.cmake
+[38.574s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle/share/cpp_turtle/package.xml
+[38.582s] Invoked command in '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle

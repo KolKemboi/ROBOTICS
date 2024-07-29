@@ -1,0 +1,16 @@
+[5.026s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/build --no-deps symlink_data
+[6.449s] running develop
+[7.543s] running egg_info
+[7.544s] writing four_wheel_bot_description.egg-info/PKG-INFO
+[7.545s] writing dependency_links to four_wheel_bot_description.egg-info/dependency_links.txt
+[7.546s] writing entry points to four_wheel_bot_description.egg-info/entry_points.txt
+[7.547s] writing requirements to four_wheel_bot_description.egg-info/requires.txt
+[7.547s] writing top-level names to four_wheel_bot_description.egg-info/top_level.txt
+[7.557s] reading manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'
+[7.564s] writing manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'
+[7.577s] running build_ext
+[7.578s] Creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages/four-wheel-bot-description.egg-link (link to .)
+[7.579s] 
+[7.580s] Installed /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description
+[7.580s] running symlink_data
+[7.734s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/build --no-deps symlink_data

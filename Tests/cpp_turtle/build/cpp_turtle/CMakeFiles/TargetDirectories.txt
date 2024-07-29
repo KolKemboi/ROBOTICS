@@ -1,0 +1,12 @@
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/uninstall.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/cpp_turtle_uninstall.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/pos_pub.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/pos_sub.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/pubsub.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/test.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/edit_cache.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/rebuild_cache.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/list_install_components.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/install.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/install/local.dir
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/CMakeFiles/install/strip.dir

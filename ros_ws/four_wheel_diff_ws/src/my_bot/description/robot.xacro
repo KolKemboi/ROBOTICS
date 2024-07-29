@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+    <xacro:property name="chassis_length" value = "0.4"></xacro:property>
+    <xacro:property name="chassis_width" value = "0.3"></xacro:property>
+    <xacro:property name="chassis_height" value = "0.2"></xacro:property>
+    <xacro:property name="chassis_mass" value = "10"></xacro:property>
+    <xacro:property name="wheel_rad" value = "0.07"></xacro:property>
+    <xacro:property name="wheel_width" value = "0.05"></xacro:property>
+    
+    <link name="base_link">
+        
+    </link>
+
+    <link name="chassis">
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
+            </geometry>
+            <material name="">
+                <color rgba="1.0 0.0 0.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="back_left_wheel">
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+            <material name="">
+                <color rgba="0.0 0.0 0.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <link name="front_left_wheel">
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+            <material name="">
+                <color rgba="0.0 0.0 0.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="back_right_wheel">
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+            <material name="">
+                <color rgba="0.0 0.0 0.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="front_right_wheel">
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+            <material name="">
+                <color rgba="0.0 0.0 0.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="${wheel_rad}" length="${wheel_width}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="baselink_chassis" type="fixed">
+        <origin xyz="0.0 0.0 ${wheel_rad}" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="chassis"/>
+    </joint>
+
+    <joint name="back_left_wheel_joint" type="continuous">
+        <origin xyz="-${chassis_length/2 - wheel_rad} ${chassis_width/2 + wheel_width/2} -${chassis_height/2}" rpy="${pi/2} 0.0 0.0"/>
+        <parent link="chassis"/>
+        <child link="back_left_wheel"/>
+        <axis xyz="0.0 0.0 -1.0"/>
+        <limit lower="0.0" upper="0.0" effort="0.0" velocity="0.0"/>
+    </joint>    
+
+    <joint name="front_left_wheel_joint" type="continuous">
+        <origin xyz="${chassis_length/2 - wheel_rad} ${chassis_width/2 + wheel_width/2} -${chassis_height/2}" rpy="${pi/2} 0.0 0.0"/>
+        <parent link="chassis"/>
+        <child link="front_left_wheel"/>
+        <axis xyz="0.0 0.0 -1.0"/>
+        <limit lower="0.0" upper="0.0" effort="0.0" velocity="0.0"/>
+    </joint>
+
+    <joint name="back_right_wheel_joint" type="continuous">
+        <origin xyz="-${chassis_length/2 - wheel_rad} -${chassis_width/2 + wheel_width/2} -${chassis_height/2}" rpy="${pi/2} 0.0 0.0"/>
+        <parent link="chassis"/>
+        <child link="back_right_wheel"/>
+        <axis xyz="0.0 0.0 -1.0"/>
+        <limit lower="0.0" upper="0.0" effort="0.0" velocity="0.0"/>
+    </joint>
+
+    <joint name="front_right_wheel_joint" type="continuous">
+        <origin xyz="${chassis_length/2 - wheel_rad} -${chassis_width/2 + wheel_width/2} -${chassis_height/2}" rpy="${pi/2} 0.0 0.0"/>
+        <parent link="chassis"/>
+        <child link="front_right_wheel"/>
+        <axis xyz="0.0 0.0 -1.0"/>
+        <limit lower="0.0" upper="0.0" effort="0.0" velocity="0.0"/>
+    </joint>
+
+</robot>

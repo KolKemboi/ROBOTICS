@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating bot_control.egg-info
+writing bot_control.egg-info/PKG-INFO
+writing dependency_links to bot_control.egg-info/dependency_links.txt
+writing entry points to bot_control.egg-info/entry_points.txt
+writing requirements to bot_control.egg-info/requires.txt
+writing top-level names to bot_control.egg-info/top_level.txt
+writing manifest file 'bot_control.egg-info/SOURCES.txt'
+reading manifest file 'bot_control.egg-info/SOURCES.txt'
+writing manifest file 'bot_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/lib/python3.10/site-packages/bot-control.egg-link (link to .)
+Installing botPub script to /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/lib/bot_control
+
+Installed /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/bot_control
+running symlink_data
+creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/share/ament_index
+creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/share/ament_index/resource_index
+creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/bot_control/resource/bot_control -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/bot_control/package.xml -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/bot_control/share/bot_control

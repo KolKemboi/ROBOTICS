@@ -1,0 +1,44 @@
+[3.080s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/build --no-deps symlink_data
+[4.416s] running develop
+[5.581s] running egg_info
+[5.582s] creating four_wheel_bot_description.egg-info
+[5.583s] writing four_wheel_bot_description.egg-info/PKG-INFO
+[5.584s] writing dependency_links to four_wheel_bot_description.egg-info/dependency_links.txt
+[5.585s] writing entry points to four_wheel_bot_description.egg-info/entry_points.txt
+[5.586s] writing requirements to four_wheel_bot_description.egg-info/requires.txt
+[5.587s] writing top-level names to four_wheel_bot_description.egg-info/top_level.txt
+[5.588s] writing manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'
+[5.594s] reading manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'
+[5.598s] writing manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'
+[5.604s] running build_ext
+[5.605s] Creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages/four-wheel-bot-description.egg-link (link to .)
+[5.608s] 
+[5.609s] Installed /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description
+[5.610s] running symlink_data
+[5.611s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index
+[5.612s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index/resource_index
+[5.613s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index/resource_index/packages
+[5.613s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/resource/four_wheel_bot_description -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index/resource_index/packages
+[5.614s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/package.xml -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description
+[5.615s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/launch
+[5.616s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/launch
+[5.617s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/launch/display.launch.py -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/launch
+[5.618s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.619s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/four_wheel_bot.gazebo -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.620s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/four_wheel_bot.xacro -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.621s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.622s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/schematic.png -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.622s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.623s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/four_wheel_bot.trans -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf
+[5.624s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.624s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.625s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/left_back_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.625s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/left_front_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.626s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/right_back_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.626s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/camera_sensor_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.627s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/right_front_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.628s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/lidar_sensor_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes
+[5.628s] creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/config
+[5.629s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/config/display.rviz -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/config
+[5.629s] symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/config/my_configs.yaml -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/config
+[5.756s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/build --no-deps symlink_data

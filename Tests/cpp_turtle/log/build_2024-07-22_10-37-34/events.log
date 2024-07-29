@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.001113] (cpp_turtle) JobQueued: {'identifier': 'cpp_turtle', 'dependencies': OrderedDict()}
+[0.002057] (cpp_turtle) JobStarted: {'identifier': 'cpp_turtle'}
+[0.048538] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'cmake'}
+[0.058570] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'build'}
+[0.058958] (cpp_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle', '--', '-j4', '-l4'], 'cwd': '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/cpp_turtle/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1354,unix/kol:/tmp/.ICE-unix/1354'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67096b31_40e1_4f0a_86a2_cbb4edc30b7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHPZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/cpp_turtle/install/cpp_turtle:/opt/ros/humble')]), 'shell': False}
+[0.098555] (-) TimerEvent: {}
+[0.199372] (-) TimerEvent: {}
+[0.299709] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pos_sub\x1b[0m\n'}
+[0.301209] (-) TimerEvent: {}
+[0.337046] (cpp_turtle) StdoutLine: {'line': b'[ 50%] Built target pos_pub\n'}
+[0.393907] (cpp_turtle) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pos_sub.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.401403] (-) TimerEvent: {}
+[0.502277] (-) TimerEvent: {}
+[0.603057] (-) TimerEvent: {}
+[0.704969] (-) TimerEvent: {}
+[0.805707] (-) TimerEvent: {}
+[0.906414] (-) TimerEvent: {}
+[1.007094] (-) TimerEvent: {}
+[1.107986] (-) TimerEvent: {}
+[1.208987] (-) TimerEvent: {}
+[1.309928] (-) TimerEvent: {}
+[1.410869] (-) TimerEvent: {}
+[1.511740] (-) TimerEvent: {}
+[1.612575] (-) TimerEvent: {}
+[1.713461] (-) TimerEvent: {}
+[1.814383] (-) TimerEvent: {}
+[1.915260] (-) TimerEvent: {}
+[2.016105] (-) TimerEvent: {}
+[2.116945] (-) TimerEvent: {}
+[2.217762] (-) TimerEvent: {}
+[2.318603] (-) TimerEvent: {}
+[2.419417] (-) TimerEvent: {}
+[2.520316] (-) TimerEvent: {}
+[2.621359] (-) TimerEvent: {}
+[2.722282] (-) TimerEvent: {}
+[2.823018] (-) TimerEvent: {}
+[2.923897] (-) TimerEvent: {}
+[3.024786] (-) TimerEvent: {}
+[3.125634] (-) TimerEvent: {}
+[3.226536] (-) TimerEvent: {}
+[3.327414] (-) TimerEvent: {}
+[3.428245] (-) TimerEvent: {}
+[3.529049] (-) TimerEvent: {}
+[3.629893] (-) TimerEvent: {}
+[3.730633] (-) TimerEvent: {}
+[3.831395] (-) TimerEvent: {}
+[3.932286] (-) TimerEvent: {}
+[4.033165] (-) TimerEvent: {}
+[4.134085] (-) TimerEvent: {}
+[4.234976] (-) TimerEvent: {}
+[4.335842] (-) TimerEvent: {}
+[4.436749] (-) TimerEvent: {}
+[4.537607] (-) TimerEvent: {}
+[4.638541] (-) TimerEvent: {}
+[4.739492] (-) TimerEvent: {}
+[4.840295] (-) TimerEvent: {}
+[4.941071] (-) TimerEvent: {}
+[5.041960] (-) TimerEvent: {}
+[5.142807] (-) TimerEvent: {}
+[5.243709] (-) TimerEvent: {}
+[5.344497] (-) TimerEvent: {}
+[5.445294] (-) TimerEvent: {}
+[5.546205] (-) TimerEvent: {}
+[5.647051] (-) TimerEvent: {}
+[5.747876] (-) TimerEvent: {}
+[5.848721] (-) TimerEvent: {}
+[5.949574] (-) TimerEvent: {}
+[6.050432] (-) TimerEvent: {}
+[6.151310] (-) TimerEvent: {}
+[6.252204] (-) TimerEvent: {}
+[6.353068] (-) TimerEvent: {}
+[6.453955] (-) TimerEvent: {}
+[6.554829] (-) TimerEvent: {}
+[6.655680] (-) TimerEvent: {}
+[6.756542] (-) TimerEvent: {}
+[6.857403] (-) TimerEvent: {}
+[6.958324] (-) TimerEvent: {}
+[7.059209] (-) TimerEvent: {}
+[7.160116] (-) TimerEvent: {}
+[7.261039] (-) TimerEvent: {}
+[7.361914] (-) TimerEvent: {}
+[7.462753] (-) TimerEvent: {}
+[7.563592] (-) TimerEvent: {}
+[7.664452] (-) TimerEvent: {}
+[7.765325] (-) TimerEvent: {}
+[7.867208] (-) TimerEvent: {}
+[7.968030] (-) TimerEvent: {}
+[8.068878] (-) TimerEvent: {}
+[8.169867] (-) TimerEvent: {}
+[8.270770] (-) TimerEvent: {}
+[8.371663] (-) TimerEvent: {}
+[8.472569] (-) TimerEvent: {}
+[8.573458] (-) TimerEvent: {}
+[8.674545] (-) TimerEvent: {}
+[8.775492] (-) TimerEvent: {}
+[8.876381] (-) TimerEvent: {}
+[8.977266] (-) TimerEvent: {}
+[9.078159] (-) TimerEvent: {}
+[9.179020] (-) TimerEvent: {}
+[9.279879] (-) TimerEvent: {}
+[9.380741] (-) TimerEvent: {}
+[9.481618] (-) TimerEvent: {}
+[9.582706] (-) TimerEvent: {}
+[9.683582] (-) TimerEvent: {}
+[9.784479] (-) TimerEvent: {}
+[9.885360] (-) TimerEvent: {}
+[9.986289] (-) TimerEvent: {}
+[10.087161] (-) TimerEvent: {}
+[10.188020] (-) TimerEvent: {}
+[10.288894] (-) TimerEvent: {}
+[10.389986] (-) TimerEvent: {}
+[10.490845] (-) TimerEvent: {}
+[10.591696] (-) TimerEvent: {}
+[10.692628] (-) TimerEvent: {}
+[10.793606] (-) TimerEvent: {}
+[10.894495] (-) TimerEvent: {}
+[10.995341] (-) TimerEvent: {}
+[11.096204] (-) TimerEvent: {}
+[11.197087] (-) TimerEvent: {}
+[11.297990] (-) TimerEvent: {}
+[11.398891] (-) TimerEvent: {}
+[11.499935] (-) TimerEvent: {}
+[11.600849] (-) TimerEvent: {}
+[11.701781] (-) TimerEvent: {}
+[11.802827] (-) TimerEvent: {}
+[11.903770] (-) TimerEvent: {}
+[12.004626] (-) TimerEvent: {}
+[12.105499] (-) TimerEvent: {}
+[12.206415] (-) TimerEvent: {}
+[12.307213] (-) TimerEvent: {}
+[12.407899] (-) TimerEvent: {}
+[12.508722] (-) TimerEvent: {}
+[12.609528] (-) TimerEvent: {}
+[12.710319] (-) TimerEvent: {}
+[12.789302] (cpp_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.790009] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.790455] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.790918] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.791327] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.791780] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.792234] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.792682] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.793097] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.793501] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.793991] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.794454] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[12.794908] (cpp_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PoseSubscriber::topic_callback(const Pose&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.795359] (cpp_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:21:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst _x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.795817] (cpp_turtle) StderrLine: {'line': b'   21 |             RCLCPP_INFO(this->get_logger(), \x1b[01;31m\x1b[Kmsg.x\x1b[m\x1b[K, msg.angular_velocity);\n'}
+[12.796265] (cpp_turtle) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[12.796713] (cpp_turtle) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[12.797143] (cpp_turtle) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[Kconst _x_type {aka const float}\x1b[m\x1b[K\n'}
+[12.797632] (cpp_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[12.798130] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[12.798590] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[12.799042] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[12.799501] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[12.799938] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[12.800338] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[12.800737] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.801138] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.801535] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.801964] (cpp_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kol/Documents/Robotics/Tests/cpp_turtle/src/cpp_turtle/src/subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[12.802243] (cpp_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.802503] (cpp_turtle) StderrLine: {'line': b'  479 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[12.802753] (cpp_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[12.810465] (-) TimerEvent: {}
+[12.911056] (-) TimerEvent: {}
+[13.011648] (-) TimerEvent: {}
+[13.112330] (-) TimerEvent: {}
+[13.212912] (-) TimerEvent: {}
+[13.313539] (-) TimerEvent: {}
+[13.414172] (-) TimerEvent: {}
+[13.514810] (-) TimerEvent: {}
+[13.615443] (-) TimerEvent: {}
+[13.716219] (-) TimerEvent: {}
+[13.817003] (-) TimerEvent: {}
+[13.917748] (-) TimerEvent: {}
+[14.018491] (-) TimerEvent: {}
+[14.119226] (-) TimerEvent: {}
+[14.219876] (-) TimerEvent: {}
+[14.320529] (-) TimerEvent: {}
+[14.421175] (-) TimerEvent: {}
+[14.521848] (-) TimerEvent: {}
+[14.622495] (-) TimerEvent: {}
+[14.723161] (-) TimerEvent: {}
+[14.823803] (-) TimerEvent: {}
+[14.924449] (-) TimerEvent: {}
+[15.025305] (-) TimerEvent: {}
+[15.126147] (-) TimerEvent: {}
+[15.226979] (-) TimerEvent: {}
+[15.327837] (-) TimerEvent: {}
+[15.428649] (-) TimerEvent: {}
+[15.529421] (-) TimerEvent: {}
+[15.630181] (-) TimerEvent: {}
+[15.730919] (-) TimerEvent: {}
+[15.831701] (-) TimerEvent: {}
+[15.932496] (-) TimerEvent: {}
+[16.033309] (-) TimerEvent: {}
+[16.134108] (-) TimerEvent: {}
+[16.234990] (-) TimerEvent: {}
+[16.335826] (-) TimerEvent: {}
+[16.436558] (-) TimerEvent: {}
+[16.537421] (-) TimerEvent: {}
+[16.638138] (-) TimerEvent: {}
+[16.738840] (-) TimerEvent: {}
+[16.839537] (-) TimerEvent: {}
+[16.940267] (-) TimerEvent: {}
+[17.041274] (-) TimerEvent: {}
+[17.142469] (-) TimerEvent: {}
+[17.243291] (-) TimerEvent: {}
+[17.344131] (-) TimerEvent: {}
+[17.444967] (-) TimerEvent: {}
+[17.545842] (-) TimerEvent: {}
+[17.646683] (-) TimerEvent: {}
+[17.747518] (-) TimerEvent: {}
+[17.848350] (-) TimerEvent: {}
+[17.949187] (-) TimerEvent: {}
+[18.050048] (-) TimerEvent: {}
+[18.150926] (-) TimerEvent: {}
+[18.251733] (-) TimerEvent: {}
+[18.352528] (-) TimerEvent: {}
+[18.453342] (-) TimerEvent: {}
+[18.554199] (-) TimerEvent: {}
+[18.654963] (-) TimerEvent: {}
+[18.755780] (-) TimerEvent: {}
+[18.856597] (-) TimerEvent: {}
+[18.957392] (-) TimerEvent: {}
+[19.058304] (-) TimerEvent: {}
+[19.159186] (-) TimerEvent: {}
+[19.260104] (-) TimerEvent: {}
+[19.361142] (-) TimerEvent: {}
+[19.462147] (-) TimerEvent: {}
+[19.563233] (-) TimerEvent: {}
+[19.664380] (-) TimerEvent: {}
+[19.765448] (-) TimerEvent: {}
+[19.866424] (-) TimerEvent: {}
+[19.967276] (-) TimerEvent: {}
+[20.068044] (-) TimerEvent: {}
+[20.168826] (-) TimerEvent: {}
+[20.269602] (-) TimerEvent: {}
+[20.370444] (-) TimerEvent: {}
+[20.471251] (-) TimerEvent: {}
+[20.572075] (-) TimerEvent: {}
+[20.672917] (-) TimerEvent: {}
+[20.773690] (-) TimerEvent: {}
+[20.874509] (-) TimerEvent: {}
+[20.975280] (-) TimerEvent: {}
+[21.076050] (-) TimerEvent: {}
+[21.176829] (-) TimerEvent: {}
+[21.277586] (-) TimerEvent: {}
+[21.378416] (-) TimerEvent: {}
+[21.479184] (-) TimerEvent: {}
+[21.579980] (-) TimerEvent: {}
+[21.680816] (-) TimerEvent: {}
+[21.781659] (-) TimerEvent: {}
+[21.882525] (-) TimerEvent: {}
+[21.983360] (-) TimerEvent: {}
+[22.084183] (-) TimerEvent: {}
+[22.185019] (-) TimerEvent: {}
+[22.285878] (-) TimerEvent: {}
+[22.386711] (-) TimerEvent: {}
+[22.487585] (-) TimerEvent: {}
+[22.588558] (-) TimerEvent: {}
+[22.612154] (cpp_turtle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pos_sub.dir/build.make:76: CMakeFiles/pos_sub.dir/src/subscriber.cpp.o] Error 1\n'}
+[22.613112] (cpp_turtle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pos_sub.dir/all] Error 2\n'}
+[22.613844] (cpp_turtle) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.622162] (cpp_turtle) CommandEnded: {'returncode': 2}
+[22.688710] (-) TimerEvent: {}
+[22.789521] (-) TimerEvent: {}
+[22.791661] (cpp_turtle) JobEnded: {'identifier': 'cpp_turtle', 'rc': 2}
+[22.803566] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/uninstall.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/four_wheel_bot_uninstall.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/test.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/edit_cache.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/rebuild_cache.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/list_install_components.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/install.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/install/local.dir
+/home/kol/Documents/Robotics/ros_ws/four_wheel_diff_ws/build/four_wheel_bot/CMakeFiles/install/strip.dir

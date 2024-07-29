@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/Robotics/Tests/ros_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/Tests/ros_cpp/install/cpp_pubsub
+[0.240s] -- The C compiler identification is GNU 11.4.0
+[0.441s] -- The CXX compiler identification is GNU 11.4.0
+[0.468s] -- Detecting C compiler ABI info
+[0.717s] -- Detecting C compiler ABI info - done
+[0.761s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.768s] -- Detecting C compile features
+[0.770s] -- Detecting C compile features - done
+[0.788s] -- Detecting CXX compiler ABI info
+[1.131s] -- Detecting CXX compiler ABI info - done
+[1.167s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.168s] -- Detecting CXX compile features
+[1.170s] -- Detecting CXX compile features - done
+[1.180s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.775s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.170s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.489s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.490s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[2.490s]   before
+[2.491s] Call Stack (most recent call first):
+[2.491s]   CMakeLists.txt:27 (ament_target_dependencies)
+[2.492s] 
+[2.492s] [0m
+[2.493s] -- Configuring incomplete, errors occurred!
+[2.493s] See also "/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[2.507s] Invoked command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kol/Documents/Robotics/Tests/ros_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/Tests/ros_cpp/install/cpp_pubsub

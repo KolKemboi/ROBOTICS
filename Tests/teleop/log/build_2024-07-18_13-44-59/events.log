@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.003816] (robot_cont) JobQueued: {'identifier': 'robot_cont', 'dependencies': OrderedDict()}
+[0.008435] (robot_cont) JobStarted: {'identifier': 'robot_cont'}
+[0.099821] (-) TimerEvent: {}
+[0.200435] (-) TimerEvent: {}
+[0.301045] (-) TimerEvent: {}
+[0.401677] (-) TimerEvent: {}
+[0.502304] (-) TimerEvent: {}
+[0.602943] (-) TimerEvent: {}
+[0.703605] (-) TimerEvent: {}
+[0.804391] (-) TimerEvent: {}
+[0.905227] (-) TimerEvent: {}
+[1.005895] (-) TimerEvent: {}
+[1.106661] (-) TimerEvent: {}
+[1.207517] (-) TimerEvent: {}
+[1.308240] (-) TimerEvent: {}
+[1.409035] (-) TimerEvent: {}
+[1.509827] (-) TimerEvent: {}
+[1.610605] (-) TimerEvent: {}
+[1.711415] (-) TimerEvent: {}
+[1.812223] (-) TimerEvent: {}
+[1.912991] (-) TimerEvent: {}
+[2.013740] (-) TimerEvent: {}
+[2.114519] (-) TimerEvent: {}
+[2.215341] (-) TimerEvent: {}
+[2.316098] (-) TimerEvent: {}
+[2.416846] (-) TimerEvent: {}
+[2.517638] (-) TimerEvent: {}
+[2.618316] (-) TimerEvent: {}
+[2.719095] (-) TimerEvent: {}
+[2.819817] (-) TimerEvent: {}
+[2.920567] (-) TimerEvent: {}
+[3.021432] (-) TimerEvent: {}
+[3.051856] (robot_cont) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/Tests/teleop/build/robot_cont/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/Tests/teleop/build/robot_cont', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/Tests', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'SYSTEMD_EXEC_PID': '1572', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1309,unix/kol:/tmp/.ICE-unix/1309', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fd2ac7e2_67a8_447b_873a_adcc0135936d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WDS2Q2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/Tests/teleop/build/robot_cont', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/Tests/teleop/build/robot_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.121623] (-) TimerEvent: {}
+[3.222460] (-) TimerEvent: {}
+[3.323220] (-) TimerEvent: {}
+[3.423892] (-) TimerEvent: {}
+[3.524767] (-) TimerEvent: {}
+[3.625489] (-) TimerEvent: {}
+[3.726148] (-) TimerEvent: {}
+[3.826902] (-) TimerEvent: {}
+[3.927755] (-) TimerEvent: {}
+[4.028636] (-) TimerEvent: {}
+[4.129368] (-) TimerEvent: {}
+[4.230142] (-) TimerEvent: {}
+[4.330971] (-) TimerEvent: {}
+[4.431838] (-) TimerEvent: {}
+[4.532619] (-) TimerEvent: {}
+[4.633386] (-) TimerEvent: {}
+[4.734153] (-) TimerEvent: {}
+[4.834963] (-) TimerEvent: {}
+[4.852366] (robot_cont) StdoutLine: {'line': b'running develop\n'}
+[4.935173] (-) TimerEvent: {}
+[5.035966] (-) TimerEvent: {}
+[5.136763] (-) TimerEvent: {}
+[5.237495] (-) TimerEvent: {}
+[5.338283] (-) TimerEvent: {}
+[5.439157] (-) TimerEvent: {}
+[5.540026] (-) TimerEvent: {}
+[5.640909] (-) TimerEvent: {}
+[5.741639] (-) TimerEvent: {}
+[5.764330] (robot_cont) StdoutLine: {'line': b'running egg_info\n'}
+[5.765246] (robot_cont) StdoutLine: {'line': b'creating robot_cont.egg-info\n'}
+[5.766105] (robot_cont) StdoutLine: {'line': b'writing robot_cont.egg-info/PKG-INFO\n'}
+[5.767012] (robot_cont) StdoutLine: {'line': b'writing dependency_links to robot_cont.egg-info/dependency_links.txt\n'}
+[5.767938] (robot_cont) StdoutLine: {'line': b'writing entry points to robot_cont.egg-info/entry_points.txt\n'}
+[5.768868] (robot_cont) StdoutLine: {'line': b'writing requirements to robot_cont.egg-info/requires.txt\n'}
+[5.769421] (robot_cont) StdoutLine: {'line': b'writing top-level names to robot_cont.egg-info/top_level.txt\n'}
+[5.773751] (robot_cont) StdoutLine: {'line': b"writing manifest file 'robot_cont.egg-info/SOURCES.txt'\n"}
+[5.780271] (robot_cont) StdoutLine: {'line': b"reading manifest file 'robot_cont.egg-info/SOURCES.txt'\n"}
+[5.782987] (robot_cont) StdoutLine: {'line': b"writing manifest file 'robot_cont.egg-info/SOURCES.txt'\n"}
+[5.788103] (robot_cont) StdoutLine: {'line': b'running build_ext\n'}
+[5.789178] (robot_cont) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/lib/python3.10/site-packages/robot-cont.egg-link (link to .)\n'}
+[5.793125] (robot_cont) StdoutLine: {'line': b'Installing robo_cont script to /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/lib/robot_cont\n'}
+[5.794994] (robot_cont) StdoutLine: {'line': b'\n'}
+[5.796127] (robot_cont) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/Tests/teleop/build/robot_cont\n'}
+[5.796989] (robot_cont) StdoutLine: {'line': b'running symlink_data\n'}
+[5.798004] (robot_cont) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index\n'}
+[5.798672] (robot_cont) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index/resource_index\n'}
+[5.799366] (robot_cont) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index/resource_index/packages\n'}
+[5.800020] (robot_cont) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/teleop/build/robot_cont/resource/robot_cont -> /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index/resource_index/packages\n'}
+[5.800689] (robot_cont) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/teleop/build/robot_cont/package.xml -> /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/robot_cont\n'}
+[5.841841] (-) TimerEvent: {}
+[5.920208] (robot_cont) CommandEnded: {'returncode': 0}
+[5.942093] (-) TimerEvent: {}
+[5.987365] (robot_cont) JobEnded: {'identifier': 'robot_cont', 'rc': 0}
+[5.990652] (-) EventReactorShutdown: {}

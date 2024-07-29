@@ -1,0 +1,3 @@
+[console_scripts]
+botPub = bot_control.main:main
+

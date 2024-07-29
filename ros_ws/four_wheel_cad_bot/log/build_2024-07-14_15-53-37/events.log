@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.001463] (four_wheel_bot_description) JobQueued: {'identifier': 'four_wheel_bot_description', 'dependencies': OrderedDict()}
+[0.001990] (four_wheel_bot_description) JobStarted: {'identifier': 'four_wheel_bot_description'}
+[0.099321] (-) TimerEvent: {}
+[0.199935] (-) TimerEvent: {}
+[0.300571] (-) TimerEvent: {}
+[0.401198] (-) TimerEvent: {}
+[0.501858] (-) TimerEvent: {}
+[0.602514] (-) TimerEvent: {}
+[0.703171] (-) TimerEvent: {}
+[0.804036] (-) TimerEvent: {}
+[0.904750] (-) TimerEvent: {}
+[1.005464] (-) TimerEvent: {}
+[1.106219] (-) TimerEvent: {}
+[1.207266] (-) TimerEvent: {}
+[1.308062] (-) TimerEvent: {}
+[1.408838] (-) TimerEvent: {}
+[1.509637] (-) TimerEvent: {}
+[1.610334] (-) TimerEvent: {}
+[1.711109] (-) TimerEvent: {}
+[1.811876] (-) TimerEvent: {}
+[1.912652] (-) TimerEvent: {}
+[2.013450] (-) TimerEvent: {}
+[2.114242] (-) TimerEvent: {}
+[2.215021] (-) TimerEvent: {}
+[2.315767] (-) TimerEvent: {}
+[2.416520] (-) TimerEvent: {}
+[2.517202] (-) TimerEvent: {}
+[2.617976] (-) TimerEvent: {}
+[2.718668] (-) TimerEvent: {}
+[2.819464] (-) TimerEvent: {}
+[2.920506] (-) TimerEvent: {}
+[3.021385] (-) TimerEvent: {}
+[3.078796] (four_wheel_bot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1344', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1f0021f37961a49fbf48df666693f39f', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1344,unix/kol:/tmp/.ICE-unix/1344', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67571857_90fd_4d02_8078_6691decafe31', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AYW1Q2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1f0021f37961a49fbf48df666693f39f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.121555] (-) TimerEvent: {}
+[3.222275] (-) TimerEvent: {}
+[3.323760] (-) TimerEvent: {}
+[3.424457] (-) TimerEvent: {}
+[3.525149] (-) TimerEvent: {}
+[3.625879] (-) TimerEvent: {}
+[3.726609] (-) TimerEvent: {}
+[3.827332] (-) TimerEvent: {}
+[3.928065] (-) TimerEvent: {}
+[4.028795] (-) TimerEvent: {}
+[4.129528] (-) TimerEvent: {}
+[4.230284] (-) TimerEvent: {}
+[4.331322] (-) TimerEvent: {}
+[4.417974] (four_wheel_bot_description) StdoutLine: {'line': b'running develop\n'}
+[4.431492] (-) TimerEvent: {}
+[4.532233] (-) TimerEvent: {}
+[4.633081] (-) TimerEvent: {}
+[4.733885] (-) TimerEvent: {}
+[4.834634] (-) TimerEvent: {}
+[4.935329] (-) TimerEvent: {}
+[5.036081] (-) TimerEvent: {}
+[5.136765] (-) TimerEvent: {}
+[5.237538] (-) TimerEvent: {}
+[5.338233] (-) TimerEvent: {}
+[5.438924] (-) TimerEvent: {}
+[5.539642] (-) TimerEvent: {}
+[5.582695] (four_wheel_bot_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.583899] (four_wheel_bot_description) StdoutLine: {'line': b'creating four_wheel_bot_description.egg-info\n'}
+[5.584721] (four_wheel_bot_description) StdoutLine: {'line': b'writing four_wheel_bot_description.egg-info/PKG-INFO\n'}
+[5.585766] (four_wheel_bot_description) StdoutLine: {'line': b'writing dependency_links to four_wheel_bot_description.egg-info/dependency_links.txt\n'}
+[5.587133] (four_wheel_bot_description) StdoutLine: {'line': b'writing entry points to four_wheel_bot_description.egg-info/entry_points.txt\n'}
+[5.588026] (four_wheel_bot_description) StdoutLine: {'line': b'writing requirements to four_wheel_bot_description.egg-info/requires.txt\n'}
+[5.589296] (four_wheel_bot_description) StdoutLine: {'line': b'writing top-level names to four_wheel_bot_description.egg-info/top_level.txt\n'}
+[5.590090] (four_wheel_bot_description) StdoutLine: {'line': b"writing manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'\n"}
+[5.596585] (four_wheel_bot_description) StdoutLine: {'line': b"reading manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'\n"}
+[5.600195] (four_wheel_bot_description) StdoutLine: {'line': b"writing manifest file 'four_wheel_bot_description.egg-info/SOURCES.txt'\n"}
+[5.606208] (four_wheel_bot_description) StdoutLine: {'line': b'running build_ext\n'}
+[5.607156] (four_wheel_bot_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/lib/python3.10/site-packages/four-wheel-bot-description.egg-link (link to .)\n'}
+[5.610454] (four_wheel_bot_description) StdoutLine: {'line': b'\n'}
+[5.611359] (four_wheel_bot_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description\n'}
+[5.612366] (four_wheel_bot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[5.613140] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index\n'}
+[5.614103] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index/resource_index\n'}
+[5.614834] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index/resource_index/packages\n'}
+[5.615666] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/resource/four_wheel_bot_description -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/ament_index/resource_index/packages\n'}
+[5.616452] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/package.xml -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description\n'}
+[5.617343] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/launch\n'}
+[5.618280] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/launch\n'}
+[5.619105] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/launch/display.launch.py -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/launch\n'}
+[5.619970] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.620800] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/four_wheel_bot.gazebo -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.621837] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/four_wheel_bot.xacro -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.622909] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.623796] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/schematic.png -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.624682] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.625481] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/urdf/four_wheel_bot.trans -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/urdf\n'}
+[5.626141] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.626706] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.627230] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/left_back_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.627742] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/left_front_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.628260] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/right_back_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.628795] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/camera_sensor_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.629406] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/right_front_wheel_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.629986] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/meshes/lidar_sensor_1.stl -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/meshes\n'}
+[5.630521] (four_wheel_bot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/config\n'}
+[5.631056] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/config/display.rviz -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/config\n'}
+[5.631574] (four_wheel_bot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/build/four_wheel_bot_description/config/my_configs.yaml -> /home/kol/Documents/Robotics/ros_ws/four_wheel_cad_bot/install/four_wheel_bot_description/share/four_wheel_bot_description/config\n'}
+[5.639841] (-) TimerEvent: {}
+[5.740719] (-) TimerEvent: {}
+[5.755294] (four_wheel_bot_description) CommandEnded: {'returncode': 0}
+[5.840995] (-) TimerEvent: {}
+[5.844825] (four_wheel_bot_description) JobEnded: {'identifier': 'four_wheel_bot_description', 'rc': 0}
+[5.848269] (-) EventReactorShutdown: {}

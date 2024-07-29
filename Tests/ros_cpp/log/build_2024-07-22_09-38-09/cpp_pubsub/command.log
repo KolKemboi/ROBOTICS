@@ -1,0 +1,4 @@
+Invoking command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub -- -j4 -l4
+Invoked command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub -- -j4 -l4
+Invoking command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub
+Invoked command in '/home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/ros_cpp/build/cpp_pubsub

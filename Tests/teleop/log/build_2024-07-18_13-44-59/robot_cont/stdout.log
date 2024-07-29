@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot_cont.egg-info
+writing robot_cont.egg-info/PKG-INFO
+writing dependency_links to robot_cont.egg-info/dependency_links.txt
+writing entry points to robot_cont.egg-info/entry_points.txt
+writing requirements to robot_cont.egg-info/requires.txt
+writing top-level names to robot_cont.egg-info/top_level.txt
+writing manifest file 'robot_cont.egg-info/SOURCES.txt'
+reading manifest file 'robot_cont.egg-info/SOURCES.txt'
+writing manifest file 'robot_cont.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/lib/python3.10/site-packages/robot-cont.egg-link (link to .)
+Installing robo_cont script to /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/lib/robot_cont
+
+Installed /home/kol/Documents/Robotics/Tests/teleop/build/robot_cont
+running symlink_data
+creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index
+creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index/resource_index
+creating /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robotics/Tests/teleop/build/robot_cont/resource/robot_cont -> /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robotics/Tests/teleop/build/robot_cont/package.xml -> /home/kol/Documents/Robotics/Tests/teleop/install/robot_cont/share/robot_cont

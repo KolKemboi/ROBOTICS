@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtle.egg-info
+writing turtle.egg-info/PKG-INFO
+writing dependency_links to turtle.egg-info/dependency_links.txt
+writing entry points to turtle.egg-info/entry_points.txt
+writing requirements to turtle.egg-info/requires.txt
+writing top-level names to turtle.egg-info/top_level.txt
+writing manifest file 'turtle.egg-info/SOURCES.txt'
+reading manifest file 'turtle.egg-info/SOURCES.txt'
+writing manifest file 'turtle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kol/Documents/Robotics/Tests/services/install/turtle/lib/python3.10/site-packages/turtle.egg-link (link to .)
+Installing closed script to /home/kol/Documents/Robotics/Tests/services/install/turtle/lib/turtle
+
+Installed /home/kol/Documents/Robotics/Tests/services/build/turtle
+running symlink_data
+creating /home/kol/Documents/Robotics/Tests/services/install/turtle/share/ament_index
+creating /home/kol/Documents/Robotics/Tests/services/install/turtle/share/ament_index/resource_index
+creating /home/kol/Documents/Robotics/Tests/services/install/turtle/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robotics/Tests/services/build/turtle/resource/turtle -> /home/kol/Documents/Robotics/Tests/services/install/turtle/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robotics/Tests/services/build/turtle/package.xml -> /home/kol/Documents/Robotics/Tests/services/install/turtle/share/turtle

@@ -1,0 +1,1 @@
+/home/kol/Documents/Robotics/Tests/cpp_turtle/build/cpp_turtle/ament_cmake_environment_hooks/local_setup.sh
