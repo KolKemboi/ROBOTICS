@@ -1,6 +1,23 @@
 <?xml version="1.0" ?>
 <robot name="welder" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+
+<!--
+<ros2_control name="some name" type = "system">
+  <hardware>
+    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+  </hardware>
+
+  <joint name = "joint name">
+    <command_interfaces name = "position/velocity/effort">
+      <param name = "min"> min_value </param>
+      <param name = "max"> max_value </param>
+    </command_interfaces>
+    <state_interfaces name = "position/velocity/effor">
+      <param name = "initial_value"> initial value </param>
+    </state_interface>
+-->
+
 <ros2_control name="welder" type="system">
   <hardware>
     <plugin>gazebo_ros2_control/GazeboSystem</plugin>
