@@ -7,7 +7,7 @@ from launch.substitutions import PathJoinSubstitution
 import os
 import xacro
 from ament_index_python.packages import get_package_share_directory
-
+from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     share_dir = get_package_share_directory('welder_description')
@@ -64,10 +64,24 @@ def generate_launch_description():
         output='screen'
     )
 
+    load_joint_state_broad = ExecuteProcess(
+        cmd = ["ros2", "control", "load_controller", "--set-state", "active",
+               "joint_state_broadcaster"],
+        output = "screen"
+    )
+
+    load_joint_traj_cont = ExecuteProcess(
+        cmd = ["ros2", "control", "load_controller", "--set-state", "active",
+               "joint_trajectory_controller"],
+        output = "screen"        
+    )
+
     return LaunchDescription([
         robot_state_publisher_node,
         joint_state_publisher_node,
         gazebo_server,
         gazebo_client,
         urdf_spawn_node,
+        load_joint_state_broad,
+        load_joint_traj_cont,
     ])
