@@ -1,0 +1,184 @@
+[0.497s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.497s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ba2601aee30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ba2603607c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ba2603607c0>>, mixin_verb=('build',))
+[1.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.195s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extension 'colcon_meta'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extensions ['ros']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_controller) by extension 'ros'
+[1.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_controller' with type 'ros.ament_python' and name 'python_controller'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'ignore'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'ignore_ament_install'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['colcon_pkg']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'colcon_pkg'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['colcon_meta']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'colcon_meta'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extensions ['ros']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/welder_description) by extension 'ros'
+[1.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/welder_description' with type 'ros.ament_python' and name 'welder_description'
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'cmake_args' from command line to 'None'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'cmake_target' from command line to 'None'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.531s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'python_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.532s] DEBUG:colcon.colcon_core.verb:Building package 'python_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller', 'merge_install': False, 'path': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/python_controller', 'symlink_install': True, 'test_result_base': None}
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_target' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'welder_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.534s] DEBUG:colcon.colcon_core.verb:Building package 'welder_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description', 'merge_install': False, 'path': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/welder_description', 'symlink_install': True, 'test_result_base': None}
+[1.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.540s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/python_controller' with build type 'ament_python'
+[1.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_controller', 'ament_prefix_path')
+[1.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/hook/ament_prefix_path.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/hook/ament_prefix_path.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/hook/ament_prefix_path.sh'
+[1.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.567s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/welder_description' with build type 'ament_python'
+[1.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_description', 'ament_prefix_path')
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/hook/ament_prefix_path.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/hook/ament_prefix_path.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/hook/ament_prefix_path.sh'
+[1.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.716s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/python_controller'
+[2.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.125s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/welder_description'
+[4.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build --no-deps symlink_data
+[6.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/build --no-deps symlink_data
+[9.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_description', 'pythonpath_develop')
+[9.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/share/welder_description/hook/pythonpath_develop.ps1'
+[9.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/share/welder_description/hook/pythonpath_develop.dsv'
+[9.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/build --no-deps symlink_data
+[9.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/share/welder_description/hook/pythonpath_develop.sh'
+[9.630s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description' for CMake module files
+[9.632s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description' for CMake config files
+[9.636s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib'
+[9.637s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/bin'
+[9.637s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/pkgconfig/welder_description.pc'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages'
+[9.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('welder_description', 'pythonpath')
+[9.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/hook/pythonpath.ps1'
+[9.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/hook/pythonpath.dsv'
+[9.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/hook/pythonpath.sh'
+[9.648s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/bin'
+[9.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(welder_description)
+[9.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/package.ps1'
+[9.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/package.dsv'
+[9.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/package.sh'
+[9.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/package.bash'
+[9.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/package.zsh'
+[9.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/colcon-core/packages/welder_description)
+[10.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_controller', 'pythonpath_develop')
+[10.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/share/python_controller/hook/pythonpath_develop.ps1'
+[10.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build --no-deps symlink_data
+[10.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/share/python_controller/hook/pythonpath_develop.dsv'
+[10.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/share/python_controller/hook/pythonpath_develop.sh'
+[10.074s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller' for CMake module files
+[10.076s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller' for CMake config files
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib'
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/bin'
+[10.079s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/pkgconfig/python_controller.pc'
+[10.080s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages'
+[10.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_controller', 'pythonpath')
+[10.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/hook/pythonpath.ps1'
+[10.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/hook/pythonpath.dsv'
+[10.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/hook/pythonpath.sh'
+[10.086s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/bin'
+[10.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_controller)
+[10.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/package.ps1'
+[10.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/package.dsv'
+[10.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/package.sh'
+[10.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/package.bash'
+[10.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller/package.zsh'
+[10.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/colcon-core/packages/python_controller)
+[10.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.101s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.102s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.130s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.190s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/local_setup.ps1'
+[10.196s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/_local_setup_util_ps1.py'
+[10.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/setup.ps1'
+[10.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/local_setup.sh'
+[10.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/_local_setup_util_sh.py'
+[10.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/setup.sh'
+[10.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/local_setup.bash'
+[10.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/setup.bash'
+[10.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/local_setup.zsh'
+[10.232s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/setup.zsh'

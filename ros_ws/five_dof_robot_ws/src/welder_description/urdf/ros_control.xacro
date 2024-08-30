@@ -3,7 +3,7 @@
 
 
 <gazebo>
-  <plugin name="robot control" filename="libgazebo_ros2_control.so">
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
     <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
     <parameters>$(find welder_description)/config/my_controller.yaml </parameters>
   </plugin>

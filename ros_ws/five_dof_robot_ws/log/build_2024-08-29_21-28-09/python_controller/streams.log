@@ -1,0 +1,23 @@
+[6.658s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build --no-deps symlink_data
+[9.157s] running develop
+[10.819s] running egg_info
+[10.833s] creating python_controller.egg-info
+[10.834s] writing python_controller.egg-info/PKG-INFO
+[10.835s] writing dependency_links to python_controller.egg-info/dependency_links.txt
+[10.835s] writing entry points to python_controller.egg-info/entry_points.txt
+[10.836s] writing requirements to python_controller.egg-info/requires.txt
+[10.837s] writing top-level names to python_controller.egg-info/top_level.txt
+[10.837s] writing manifest file 'python_controller.egg-info/SOURCES.txt'
+[10.838s] reading manifest file 'python_controller.egg-info/SOURCES.txt'
+[10.839s] writing manifest file 'python_controller.egg-info/SOURCES.txt'
+[10.841s] running build_ext
+[10.854s] Creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages/python-controller.egg-link (link to .)
+[10.858s] 
+[10.859s] Installed /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller
+[10.859s] running symlink_data
+[10.861s] creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index
+[10.862s] creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index/resource_index
+[10.863s] creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index/resource_index/packages
+[10.863s] symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/resource/python_controller -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index/resource_index/packages
+[10.866s] symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/package.xml -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller
+[11.049s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+[0.078s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller -- -j4 -l4
+[2.032s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller -- -j4 -l4
+[2.190s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller
+[2.230s] -- Install configuration: ""
+[2.233s] -- Execute custom install script
+[2.236s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/package_run_dependencies/cpp_controller
+[2.239s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/parent_prefix_path/cpp_controller
+[2.240s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/ament_prefix_path.sh
+[2.243s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/ament_prefix_path.dsv
+[2.244s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/path.sh
+[2.246s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/path.dsv
+[2.248s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.bash
+[2.249s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.sh
+[2.251s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.zsh
+[2.252s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.dsv
+[2.253s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/package.dsv
+[2.302s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/packages/cpp_controller
+[2.304s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/cmake/cpp_controllerConfig.cmake
+[2.305s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/cmake/cpp_controllerConfig-version.cmake
+[2.306s] -- Up-to-date symlink: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/package.xml
+[2.316s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller

@@ -1,0 +1,51 @@
+[0.097s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller': CMAKE_PREFIX_PATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/cpp_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller
+[1.861s] -- The C compiler identification is GNU 11.4.0
+[1.867s] -- The CXX compiler identification is GNU 11.4.0
+[1.872s] -- Detecting C compiler ABI info
+[1.875s] -- Detecting C compiler ABI info - done
+[1.876s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.877s] -- Detecting C compile features
+[1.881s] -- Detecting C compile features - done
+[1.882s] -- Detecting CXX compiler ABI info
+[1.885s] -- Detecting CXX compiler ABI info - done
+[1.887s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.888s] -- Detecting CXX compile features
+[1.894s] -- Detecting CXX compile features - done
+[1.894s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.591s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.943s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.138s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[3.147s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.421s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.462s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.552s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.267s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.942s] -- Added test 'lint_cmake' to check CMake code style
+[9.954s] -- Added test 'xmllint' to check XML markup files
+[9.980s] -- Configuring done
+[10.000s] -- Generating done
+[10.025s] -- Build files have been written to: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller
+[10.101s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble /usr/bin/cmake /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/cpp_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller
+[10.105s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller': CMAKE_PREFIX_PATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller -- -j4 -l4
+[10.498s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller -- -j4 -l4
+[10.696s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller': CMAKE_PREFIX_PATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller
+[10.794s] -- Install configuration: ""
+[10.811s] -- Execute custom install script
+[10.834s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/package_run_dependencies/cpp_controller
+[10.915s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/parent_prefix_path/cpp_controller
+[11.000s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/ament_prefix_path.sh
+[11.114s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/ament_prefix_path.dsv
+[11.175s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/path.sh
+[11.226s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/path.dsv
+[11.269s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.bash
+[11.311s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.sh
+[11.358s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.zsh
+[11.398s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.dsv
+[11.440s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/package.dsv
+[11.487s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/packages/cpp_controller
+[11.533s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/cmake/cpp_controllerConfig.cmake
+[11.574s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/cmake/cpp_controllerConfig-version.cmake
+[11.615s] -- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/package.xml
+[11.664s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller
