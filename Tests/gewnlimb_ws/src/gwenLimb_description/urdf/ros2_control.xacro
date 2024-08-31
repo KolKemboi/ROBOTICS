@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<robot name="gwenLimb" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+</gazebo>
+
+<ros2_control name = "Gwen Limb" type = 
+
+</robot>
+

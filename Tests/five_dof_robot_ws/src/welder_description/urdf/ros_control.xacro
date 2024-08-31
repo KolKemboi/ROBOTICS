@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="welder" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<!--the plugin name must be strictly gazebo_ros2_control-->
 
 <gazebo>
   <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
@@ -17,23 +16,23 @@
 
     <joint name = "joint_1">
         <command_interface name = "position">
-            <param name="min">-3.14</param>
-            <param name="max">3.14</param>
+            <param name="min" value="-3.14"/>
+            <param name="max" value="3.14"/>
         </command_interface>
         <state_interface name = "position">
-            <param name="initial_position">0.0</param>
+            <param name="initial_position" value="0.0"/>
         </state_interface>
         <state_interface name = "velocity">
         </state_interface>
     </joint>
-    
+
     <joint name = "joint_2">
         <command_interface name = "position">
-            <param name="min">-3.14</param>
-            <param name="max">3.14</param>
+            <param name="min" value="-3.14"/>
+            <param name="max" value="3.14"/>
         </command_interface>
         <state_interface name = "position">
-            <param name="initial_position">0.0</param>
+            <param name="initial_position" value="0.0"/>
         </state_interface>
         <state_interface name = "velocity">
         </state_interface>
@@ -41,11 +40,11 @@
     
     <joint name = "joint_3">
         <command_interface name = "position">
-            <param name="min">-3.14</param>
-            <param name="max">3.14</param>
+            <param name="min" value="-3.14"/>
+            <param name="max" value="3.14"/>
         </command_interface>
         <state_interface name = "position">
-            <param name="initial_position">0.0</param>
+            <param name="initial_position" value="0.0"/>
         </state_interface>
         <state_interface name = "velocity">
         </state_interface>
@@ -53,11 +52,11 @@
     
     <joint name = "joint_4">
         <command_interface name = "position">
-            <param name="min">-3.14</param>
-            <param name="max">3.14</param>
+            <param name="min" value="-3.14"/>
+            <param name="max" value="3.14"/>
         </command_interface>
         <state_interface name = "position">
-            <param name="initial_position">0.0</param>
+            <param name="initial_position" value="0.0"/>
         </state_interface>
         <state_interface name = "velocity">
         </state_interface>
@@ -65,16 +64,15 @@
     
     <joint name = "joint_5">
         <command_interface name = "position">
-            <param name="min">-3.14</param>
-            <param name="max">3.14</param>
+            <param name="min" value="-3.14"/>
+            <param name="max" value="3.14"/>
         </command_interface>
         <state_interface name = "position">
-            <param name="initial_position">0.0</param>
+            <param name="initial_position" value="0.0"/>
         </state_interface>
         <state_interface name = "velocity">
         </state_interface>
     </joint>
-    
 </ros2_control>
 
 </robot>
