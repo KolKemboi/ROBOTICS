@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001889] (welder_description) JobQueued: {'identifier': 'welder_description', 'dependencies': OrderedDict()}
+[0.002047] (welder_description) JobStarted: {'identifier': 'welder_description'}
+[0.098247] (-) TimerEvent: {}
+[0.198864] (-) TimerEvent: {}
+[0.299460] (-) TimerEvent: {}
+[0.400015] (-) TimerEvent: {}
+[0.500634] (-) TimerEvent: {}
+[0.601255] (-) TimerEvent: {}
+[0.701881] (-) TimerEvent: {}
+[0.802501] (-) TimerEvent: {}
+[0.903137] (-) TimerEvent: {}
+[1.003807] (-) TimerEvent: {}
+[1.104496] (-) TimerEvent: {}
+[1.205206] (-) TimerEvent: {}
+[1.306132] (-) TimerEvent: {}
+[1.406893] (-) TimerEvent: {}
+[1.507574] (-) TimerEvent: {}
+[1.608248] (-) TimerEvent: {}
+[1.708929] (-) TimerEvent: {}
+[1.809609] (-) TimerEvent: {}
+[1.910308] (-) TimerEvent: {}
+[2.010988] (-) TimerEvent: {}
+[2.111668] (-) TimerEvent: {}
+[2.212372] (-) TimerEvent: {}
+[2.313057] (-) TimerEvent: {}
+[2.413763] (-) TimerEvent: {}
+[2.514480] (-) TimerEvent: {}
+[2.615148] (-) TimerEvent: {}
+[2.715828] (-) TimerEvent: {}
+[2.816537] (-) TimerEvent: {}
+[2.861132] (welder_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1424', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=db5e0917d6c03715df4b604966cebd41', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1424,unix/kol:/tmp/.ICE-unix/1424', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ed94d113_4806_413f_99f6_38d265c2dd62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C6M8S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=db5e0917d6c03715df4b604966cebd41', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.916757] (-) TimerEvent: {}
+[3.017833] (-) TimerEvent: {}
+[3.118656] (-) TimerEvent: {}
+[3.219440] (-) TimerEvent: {}
+[3.320167] (-) TimerEvent: {}
+[3.420901] (-) TimerEvent: {}
+[3.521611] (-) TimerEvent: {}
+[3.622348] (-) TimerEvent: {}
+[3.723038] (-) TimerEvent: {}
+[3.823821] (-) TimerEvent: {}
+[3.924635] (-) TimerEvent: {}
+[4.025457] (-) TimerEvent: {}
+[4.126275] (-) TimerEvent: {}
+[4.227096] (-) TimerEvent: {}
+[4.327851] (-) TimerEvent: {}
+[4.428613] (-) TimerEvent: {}
+[4.526297] (welder_description) StdoutLine: {'line': b'running develop\n'}
+[4.528792] (-) TimerEvent: {}
+[4.629636] (-) TimerEvent: {}
+[4.730350] (-) TimerEvent: {}
+[4.831147] (-) TimerEvent: {}
+[4.931954] (-) TimerEvent: {}
+[5.032752] (-) TimerEvent: {}
+[5.133567] (-) TimerEvent: {}
+[5.234344] (-) TimerEvent: {}
+[5.335101] (-) TimerEvent: {}
+[5.435850] (-) TimerEvent: {}
+[5.536602] (-) TimerEvent: {}
+[5.631144] (welder_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.632833] (welder_description) StdoutLine: {'line': b'creating welder_description.egg-info\n'}
+[5.633827] (welder_description) StdoutLine: {'line': b'writing welder_description.egg-info/PKG-INFO\n'}
+[5.634803] (welder_description) StdoutLine: {'line': b'writing dependency_links to welder_description.egg-info/dependency_links.txt\n'}
+[5.635576] (welder_description) StdoutLine: {'line': b'writing entry points to welder_description.egg-info/entry_points.txt\n'}
+[5.636066] (welder_description) StdoutLine: {'line': b'writing requirements to welder_description.egg-info/requires.txt\n'}
+[5.636860] (-) TimerEvent: {}
+[5.637419] (welder_description) StdoutLine: {'line': b'writing top-level names to welder_description.egg-info/top_level.txt\n'}
+[5.638077] (welder_description) StdoutLine: {'line': b"writing manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[5.644572] (welder_description) StdoutLine: {'line': b"reading manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[5.652276] (welder_description) StdoutLine: {'line': b"writing manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[5.655063] (welder_description) StdoutLine: {'line': b'running build_ext\n'}
+[5.656416] (welder_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)\n'}
+[5.659596] (welder_description) StdoutLine: {'line': b'\n'}
+[5.660992] (welder_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description\n'}
+[5.662020] (welder_description) StdoutLine: {'line': b'running symlink_data\n'}
+[5.663185] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/ament_index\n'}
+[5.688165] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/ament_index/resource_index\n'}
+[5.688864] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/ament_index/resource_index/packages\n'}
+[5.689442] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/resource/welder_description -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/ament_index/resource_index/packages\n'}
+[5.689988] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/package.xml -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description\n'}
+[5.691259] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/launch\n'}
+[5.691785] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/launch\n'}
+[5.696874] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/launch/display.launch.py -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/launch\n'}
+[5.697640] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/urdf\n'}
+[5.698225] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/urdf/welder.trans -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/urdf\n'}
+[5.698759] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/urdf/welder.gazebo -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/urdf\n'}
+[5.699281] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/urdf\n'}
+[5.699781] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/urdf/welder.xacro -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/urdf\n'}
+[5.700352] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/urdf/ros_control.xacro -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/urdf\n'}
+[5.700894] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.701391] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.701890] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/link_4_1.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.702521] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/link_3_1.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.703019] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/link_1_1.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.707433] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/link_2_1.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.708254] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/link_6_1.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.708909] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/meshes/link_5_1.stl -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/meshes\n'}
+[5.710047] (welder_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/config\n'}
+[5.710667] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/config/display.rviz -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/config\n'}
+[5.711248] (welder_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/config/my_controller.yaml -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/share/welder_description/config\n'}
+[5.737112] (-) TimerEvent: {}
+[5.796593] (welder_description) CommandEnded: {'returncode': 0}
+[5.838396] (-) TimerEvent: {}
+[5.853045] (welder_description) JobEnded: {'identifier': 'welder_description', 'rc': 0}
+[5.856769] (-) EventReactorShutdown: {}

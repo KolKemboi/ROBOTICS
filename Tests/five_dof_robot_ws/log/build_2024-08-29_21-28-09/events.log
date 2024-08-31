@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (cpp_controller) JobQueued: {'identifier': 'cpp_controller', 'dependencies': OrderedDict()}
+[0.001801] (python_controller) JobQueued: {'identifier': 'python_controller', 'dependencies': OrderedDict()}
+[0.001938] (welder_description) JobQueued: {'identifier': 'welder_description', 'dependencies': OrderedDict()}
+[0.002046] (cpp_controller) JobStarted: {'identifier': 'cpp_controller'}
+[0.033097] (python_controller) JobStarted: {'identifier': 'python_controller'}
+[0.056767] (welder_description) JobStarted: {'identifier': 'welder_description'}
+[0.091199] (cpp_controller) JobProgress: {'identifier': 'cpp_controller', 'progress': 'cmake'}
+[0.091853] (cpp_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src/cpp_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1374,unix/kol:/tmp/.ICE-unix/1374'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/221fc368_54de_4a67_b888_8089fc2cf36f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PIOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble')]), 'shell': False}
+[0.102859] (-) TimerEvent: {}
+[0.204039] (-) TimerEvent: {}
+[0.304758] (-) TimerEvent: {}
+[0.405959] (-) TimerEvent: {}
+[0.507096] (-) TimerEvent: {}
+[0.609030] (-) TimerEvent: {}
+[0.710418] (-) TimerEvent: {}
+[0.811676] (-) TimerEvent: {}
+[0.912815] (-) TimerEvent: {}
+[1.013611] (-) TimerEvent: {}
+[1.116131] (-) TimerEvent: {}
+[1.218384] (-) TimerEvent: {}
+[1.319187] (-) TimerEvent: {}
+[1.420423] (-) TimerEvent: {}
+[1.521263] (-) TimerEvent: {}
+[1.622651] (-) TimerEvent: {}
+[1.723460] (-) TimerEvent: {}
+[1.824247] (-) TimerEvent: {}
+[1.853036] (cpp_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.865095] (cpp_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.870241] (cpp_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.875040] (cpp_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.877462] (cpp_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.878458] (cpp_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.879230] (cpp_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.883597] (cpp_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.884412] (cpp_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.888484] (cpp_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.889360] (cpp_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.894860] (cpp_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.895970] (cpp_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.924409] (-) TimerEvent: {}
+[2.025544] (-) TimerEvent: {}
+[2.126366] (-) TimerEvent: {}
+[2.227466] (-) TimerEvent: {}
+[2.328705] (-) TimerEvent: {}
+[2.429976] (-) TimerEvent: {}
+[2.530836] (-) TimerEvent: {}
+[2.591864] (cpp_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.631102] (-) TimerEvent: {}
+[2.732360] (-) TimerEvent: {}
+[2.833198] (-) TimerEvent: {}
+[2.934040] (-) TimerEvent: {}
+[2.944563] (cpp_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.034217] (-) TimerEvent: {}
+[3.135007] (-) TimerEvent: {}
+[3.139684] (cpp_controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.149075] (cpp_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[3.235199] (-) TimerEvent: {}
+[3.336069] (-) TimerEvent: {}
+[3.422153] (cpp_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.436266] (-) TimerEvent: {}
+[3.461095] (cpp_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.536460] (-) TimerEvent: {}
+[3.550231] (cpp_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.636654] (-) TimerEvent: {}
+[3.693296] (cpp_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.736845] (-) TimerEvent: {}
+[3.838710] (-) TimerEvent: {}
+[3.920586] (cpp_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.938893] (-) TimerEvent: {}
+[4.040757] (-) TimerEvent: {}
+[4.143182] (-) TimerEvent: {}
+[4.244116] (-) TimerEvent: {}
+[4.349877] (-) TimerEvent: {}
+[4.450779] (-) TimerEvent: {}
+[4.552485] (-) TimerEvent: {}
+[4.654655] (-) TimerEvent: {}
+[4.756553] (-) TimerEvent: {}
+[4.858628] (-) TimerEvent: {}
+[4.960473] (-) TimerEvent: {}
+[5.062675] (-) TimerEvent: {}
+[5.163850] (-) TimerEvent: {}
+[5.266062] (-) TimerEvent: {}
+[5.368785] (-) TimerEvent: {}
+[5.471515] (-) TimerEvent: {}
+[5.573375] (-) TimerEvent: {}
+[5.675441] (-) TimerEvent: {}
+[5.778191] (-) TimerEvent: {}
+[5.881468] (-) TimerEvent: {}
+[5.983150] (-) TimerEvent: {}
+[6.084852] (-) TimerEvent: {}
+[6.186372] (-) TimerEvent: {}
+[6.288445] (-) TimerEvent: {}
+[6.390409] (-) TimerEvent: {}
+[6.492450] (-) TimerEvent: {}
+[6.594999] (-) TimerEvent: {}
+[6.642446] (welder_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1374', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1374,unix/kol:/tmp/.ICE-unix/1374', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/221fc368_54de_4a67_b888_8089fc2cf36f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1PIOT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.674069] (python_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1374', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1374,unix/kol:/tmp/.ICE-unix/1374', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/221fc368_54de_4a67_b888_8089fc2cf36f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1PIOT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.695482] (-) TimerEvent: {}
+[6.796341] (-) TimerEvent: {}
+[6.897321] (-) TimerEvent: {}
+[6.998276] (-) TimerEvent: {}
+[7.099203] (-) TimerEvent: {}
+[7.201375] (-) TimerEvent: {}
+[7.302258] (-) TimerEvent: {}
+[7.405124] (-) TimerEvent: {}
+[7.505977] (-) TimerEvent: {}
+[7.608001] (-) TimerEvent: {}
+[7.710828] (-) TimerEvent: {}
+[7.812973] (-) TimerEvent: {}
+[7.915618] (-) TimerEvent: {}
+[8.018122] (-) TimerEvent: {}
+[8.120686] (-) TimerEvent: {}
+[8.223888] (-) TimerEvent: {}
+[8.326053] (-) TimerEvent: {}
+[8.428652] (-) TimerEvent: {}
+[8.531698] (-) TimerEvent: {}
+[8.634493] (-) TimerEvent: {}
+[8.735798] (-) TimerEvent: {}
+[8.838142] (-) TimerEvent: {}
+[8.940494] (-) TimerEvent: {}
+[9.006226] (welder_description) StdoutLine: {'line': b'running develop\n'}
+[9.040675] (-) TimerEvent: {}
+[9.142954] (-) TimerEvent: {}
+[9.188855] (python_controller) StdoutLine: {'line': b'running develop\n'}
+[9.243615] (-) TimerEvent: {}
+[9.267314] (cpp_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.344082] (-) TimerEvent: {}
+[9.447092] (-) TimerEvent: {}
+[9.548058] (-) TimerEvent: {}
+[9.648987] (-) TimerEvent: {}
+[9.751036] (-) TimerEvent: {}
+[9.852145] (-) TimerEvent: {}
+[9.943249] (cpp_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.952639] (-) TimerEvent: {}
+[9.955202] (cpp_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.981138] (cpp_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.001274] (cpp_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[10.026141] (cpp_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller\n'}
+[10.055594] (-) TimerEvent: {}
+[10.101523] (cpp_controller) CommandEnded: {'returncode': 0}
+[10.104358] (cpp_controller) JobProgress: {'identifier': 'cpp_controller', 'progress': 'build'}
+[10.104990] (cpp_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller', '--', '-j4', '-l4'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1374,unix/kol:/tmp/.ICE-unix/1374'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/221fc368_54de_4a67_b888_8089fc2cf36f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PIOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble')]), 'shell': False}
+[10.155946] (-) TimerEvent: {}
+[10.257055] (-) TimerEvent: {}
+[10.361386] (-) TimerEvent: {}
+[10.464224] (-) TimerEvent: {}
+[10.476051] (cpp_controller) CommandEnded: {'returncode': 0}
+[10.564670] (-) TimerEvent: {}
+[10.625092] (cpp_controller) JobProgress: {'identifier': 'cpp_controller', 'progress': 'install'}
+[10.678177] (welder_description) StdoutLine: {'line': b'running egg_info\n'}
+[10.685900] (-) TimerEvent: {}
+[10.690650] (welder_description) StdoutLine: {'line': b'writing welder_description.egg-info/PKG-INFO\n'}
+[10.691800] (welder_description) StdoutLine: {'line': b'writing dependency_links to welder_description.egg-info/dependency_links.txt\n'}
+[10.692433] (welder_description) StdoutLine: {'line': b'writing entry points to welder_description.egg-info/entry_points.txt\n'}
+[10.693191] (welder_description) StdoutLine: {'line': b'writing requirements to welder_description.egg-info/requires.txt\n'}
+[10.693878] (welder_description) StdoutLine: {'line': b'writing top-level names to welder_description.egg-info/top_level.txt\n'}
+[10.694664] (welder_description) StdoutLine: {'line': b"reading manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[10.695369] (cpp_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1374,unix/kol:/tmp/.ICE-unix/1374'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/221fc368_54de_4a67_b888_8089fc2cf36f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1PIOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/cpp_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=554d2771b62d773a7cb2c41d66d0dea8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description:/opt/ros/humble')]), 'shell': False}
+[10.699644] (welder_description) StdoutLine: {'line': b"writing manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[10.700477] (welder_description) StdoutLine: {'line': b'running build_ext\n'}
+[10.708355] (welder_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)\n'}
+[10.709167] (welder_description) StdoutLine: {'line': b'\n'}
+[10.709956] (welder_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description\n'}
+[10.710614] (welder_description) StdoutLine: {'line': b'running symlink_data\n'}
+[10.786099] (-) TimerEvent: {}
+[10.795201] (cpp_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.804253] (cpp_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.815922] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/package_run_dependencies/cpp_controller\n'}
+[10.843320] (python_controller) StdoutLine: {'line': b'running egg_info\n'}
+[10.860169] (python_controller) StdoutLine: {'line': b'creating python_controller.egg-info\n'}
+[10.866734] (python_controller) StdoutLine: {'line': b'writing python_controller.egg-info/PKG-INFO\n'}
+[10.867515] (python_controller) StdoutLine: {'line': b'writing dependency_links to python_controller.egg-info/dependency_links.txt\n'}
+[10.868150] (python_controller) StdoutLine: {'line': b'writing entry points to python_controller.egg-info/entry_points.txt\n'}
+[10.868696] (python_controller) StdoutLine: {'line': b'writing requirements to python_controller.egg-info/requires.txt\n'}
+[10.869591] (python_controller) StdoutLine: {'line': b'writing top-level names to python_controller.egg-info/top_level.txt\n'}
+[10.870137] (python_controller) StdoutLine: {'line': b"writing manifest file 'python_controller.egg-info/SOURCES.txt'\n"}
+[10.870751] (python_controller) StdoutLine: {'line': b"reading manifest file 'python_controller.egg-info/SOURCES.txt'\n"}
+[10.871773] (python_controller) StdoutLine: {'line': b"writing manifest file 'python_controller.egg-info/SOURCES.txt'\n"}
+[10.872361] (python_controller) StdoutLine: {'line': b'running build_ext\n'}
+[10.874529] (python_controller) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages/python-controller.egg-link (link to .)\n'}
+[10.887237] (-) TimerEvent: {}
+[10.888132] (welder_description) CommandEnded: {'returncode': 0}
+[10.891078] (python_controller) StdoutLine: {'line': b'\n'}
+[10.891758] (python_controller) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller\n'}
+[10.892325] (python_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[10.892857] (python_controller) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index\n'}
+[10.895009] (python_controller) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index/resource_index\n'}
+[10.895574] (python_controller) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index/resource_index/packages\n'}
+[10.896098] (python_controller) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/resource/python_controller -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/ament_index/resource_index/packages\n'}
+[10.896603] (python_controller) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/package.xml -> /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/share/python_controller\n'}
+[10.916681] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/parent_prefix_path/cpp_controller\n'}
+[10.989592] (-) TimerEvent: {}
+[11.001671] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/ament_prefix_path.sh\n'}
+[11.073556] (welder_description) JobEnded: {'identifier': 'welder_description', 'rc': 0}
+[11.081189] (python_controller) CommandEnded: {'returncode': 0}
+[11.090801] (-) TimerEvent: {}
+[11.115433] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/ament_prefix_path.dsv\n'}
+[11.152390] (python_controller) JobEnded: {'identifier': 'python_controller', 'rc': 0}
+[11.176300] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/path.sh\n'}
+[11.189978] (-) TimerEvent: {}
+[11.227288] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/environment/path.dsv\n'}
+[11.270370] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.bash\n'}
+[11.290174] (-) TimerEvent: {}
+[11.312795] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.sh\n'}
+[11.359221] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.zsh\n'}
+[11.390354] (-) TimerEvent: {}
+[11.399539] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/local_setup.dsv\n'}
+[11.441790] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/package.dsv\n'}
+[11.488736] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/ament_index/resource_index/packages/cpp_controller\n'}
+[11.490666] (-) TimerEvent: {}
+[11.533840] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/cmake/cpp_controllerConfig.cmake\n'}
+[11.575438] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/cmake/cpp_controllerConfig-version.cmake\n'}
+[11.590866] (-) TimerEvent: {}
+[11.617025] (cpp_controller) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/cpp_controller/share/cpp_controller/package.xml\n'}
+[11.665572] (cpp_controller) CommandEnded: {'returncode': 0}
+[11.691273] (-) TimerEvent: {}
+[11.792469] (-) TimerEvent: {}
+[11.830483] (cpp_controller) JobEnded: {'identifier': 'cpp_controller', 'rc': 0}
+[11.832429] (-) EventReactorShutdown: {}

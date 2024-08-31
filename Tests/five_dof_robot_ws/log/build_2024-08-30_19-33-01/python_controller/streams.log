@@ -1,0 +1,16 @@
+[4.218s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build --no-deps symlink_data
+[5.447s] running develop
+[6.512s] running egg_info
+[6.513s] writing python_controller.egg-info/PKG-INFO
+[6.514s] writing dependency_links to python_controller.egg-info/dependency_links.txt
+[6.514s] writing entry points to python_controller.egg-info/entry_points.txt
+[6.515s] writing requirements to python_controller.egg-info/requires.txt
+[6.515s] writing top-level names to python_controller.egg-info/top_level.txt
+[6.523s] reading manifest file 'python_controller.egg-info/SOURCES.txt'
+[6.528s] writing manifest file 'python_controller.egg-info/SOURCES.txt'
+[6.534s] running build_ext
+[6.535s] Creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages/python-controller.egg-link (link to .)
+[6.538s] 
+[6.538s] Installed /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller
+[6.538s] running symlink_data
+[6.672s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/python_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/python_controller/build --no-deps symlink_data

@@ -1,0 +1,16 @@
+[5.496s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/build --no-deps symlink_data
+[7.441s] running develop
+[9.298s] running egg_info
+[9.300s] writing py_cont.egg-info/PKG-INFO
+[9.302s] writing dependency_links to py_cont.egg-info/dependency_links.txt
+[9.305s] writing entry points to py_cont.egg-info/entry_points.txt
+[9.318s] writing requirements to py_cont.egg-info/requires.txt
+[9.320s] writing top-level names to py_cont.egg-info/top_level.txt
+[9.350s] reading manifest file 'py_cont.egg-info/SOURCES.txt'
+[9.366s] writing manifest file 'py_cont.egg-info/SOURCES.txt'
+[9.373s] running build_ext
+[9.376s] Creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages/py-cont.egg-link (link to .)
+[9.390s] 
+[9.391s] Installed /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont
+[9.391s] running symlink_data
+[9.605s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/build --no-deps symlink_data

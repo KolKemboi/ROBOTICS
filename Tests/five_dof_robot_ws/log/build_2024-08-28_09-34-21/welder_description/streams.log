@@ -1,0 +1,17 @@
+[2.678s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/build --no-deps symlink_data
+[3.997s] running develop
+[4.984s] running egg_info
+[4.984s] writing welder_description.egg-info/PKG-INFO
+[4.986s] writing dependency_links to welder_description.egg-info/dependency_links.txt
+[4.987s] writing entry points to welder_description.egg-info/entry_points.txt
+[4.988s] writing requirements to welder_description.egg-info/requires.txt
+[4.988s] writing top-level names to welder_description.egg-info/top_level.txt
+[4.996s] reading manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.001s] writing manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.008s] running build_ext
+[5.011s] Creating /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)
+[5.016s] 
+[5.017s] Installed /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description
+[5.018s] running symlink_data
+[5.022s] error: can't copy '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/urdf/ros_contrl': doesn't exist or not a regular file
+[5.155s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description' returned '1': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/five_dof_robot_ws/build/welder_description/build --no-deps symlink_data

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/welder_control
+welder_control/__init__.py
+welder_control/main.py
+welder_control.egg-info/PKG-INFO
+welder_control.egg-info/SOURCES.txt
+welder_control.egg-info/dependency_links.txt
+welder_control.egg-info/entry_points.txt
+welder_control.egg-info/requires.txt
+welder_control.egg-info/top_level.txt
+welder_control.egg-info/zip-safe

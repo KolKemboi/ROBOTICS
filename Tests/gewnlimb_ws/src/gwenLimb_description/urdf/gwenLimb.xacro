@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<robot name="gwenLimb" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find gwenLimb_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find gwenLimb_description)/urdf/gwenLimb.trans" />
+<xacro:include filename="$(find gwenLimb_description)/urdf/gwenLimb.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="3.634199599635309e-18 0.0 0.005021235985580691" rpy="0 0 0"/>
+    <mass value="0.1534797504318836"/>
+    <inertia ixx="2.5e-05" iyy="2.5e-05" izz="4.8e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_1_1">
+  <inertial>
+    <origin xyz="0.021706913096556698 -0.0062309390414855646 0.03365814496933181" rpy="0 0 0"/>
+    <mass value="1.2002468402382447"/>
+    <inertia ixx="0.000797" iyy="0.001394" izz="0.00095" ixy="0.000167" iyz="0.000103" ixz="-0.000412"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_2_1">
+  <inertial>
+    <origin xyz="0.02617228010459379 0.007499999999999999 0.006317447727762132" rpy="0 0 0"/>
+    <mass value="0.24927046307112125"/>
+    <inertia ixx="2.5e-05" iyy="0.000176" izz="0.00016" ixy="0.0" iyz="0.0" ixz="-3.5e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0525 -0.0 -0.0875" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0525 -0.0 -0.0875" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_3_1">
+  <inertial>
+    <origin xyz="0.044615796410054226 -0.007500000000000002 -0.01982914762689375" rpy="0 0 0"/>
+    <mass value="0.21793986576617638"/>
+    <inertia ixx="4.6e-05" iyy="0.000231" izz="0.000194" ixy="0.0" iyz="-0.0" ixz="8.2e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.125 -0.0 -0.105" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.125 -0.0 -0.105" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_4_1">
+  <inertial>
+    <origin xyz="-0.0060918878128145 0.007499999999999999 -0.0258589168833933" rpy="0 0 0"/>
+    <mass value="0.20504652335686618"/>
+    <inertia ixx="9.9e-05" iyy="0.000109" izz="1.7e-05" ixy="-0.0" iyz="-0.0" ixz="-2.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.215 -0.0 -0.065" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.215 -0.0 -0.065" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find gwenLimb_description)/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="joint_1" type="revolute">
+  <origin xyz="0.0 0.0 0.01" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="link_1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_2" type="revolute">
+  <origin xyz="0.0525 0.0 0.0775" rpy="0 0 0"/>
+  <parent link="link_1_1"/>
+  <child link="link_2_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_3" type="revolute">
+  <origin xyz="0.0725 0.0 0.0175" rpy="0 0 0"/>
+  <parent link="link_2_1"/>
+  <child link="link_3_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="3.403392" lower="-1.48353" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_4" type="continuous">
+  <origin xyz="0.09 0.0 -0.04" rpy="0 0 0"/>
+  <parent link="link_3_1"/>
+  <child link="link_4_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+</robot>

@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (py_cont) JobQueued: {'identifier': 'py_cont', 'dependencies': OrderedDict()}
+[0.000916] (welder_description) JobQueued: {'identifier': 'welder_description', 'dependencies': OrderedDict()}
+[0.001022] (py_cont) JobStarted: {'identifier': 'py_cont'}
+[0.035337] (welder_description) JobStarted: {'identifier': 'welder_description'}
+[0.098036] (-) TimerEvent: {}
+[0.198611] (-) TimerEvent: {}
+[0.299165] (-) TimerEvent: {}
+[0.399699] (-) TimerEvent: {}
+[0.500283] (-) TimerEvent: {}
+[0.601019] (-) TimerEvent: {}
+[0.701609] (-) TimerEvent: {}
+[0.802175] (-) TimerEvent: {}
+[0.902769] (-) TimerEvent: {}
+[1.003330] (-) TimerEvent: {}
+[1.103948] (-) TimerEvent: {}
+[1.205054] (-) TimerEvent: {}
+[1.305890] (-) TimerEvent: {}
+[1.406588] (-) TimerEvent: {}
+[1.507293] (-) TimerEvent: {}
+[1.607934] (-) TimerEvent: {}
+[1.708567] (-) TimerEvent: {}
+[1.809200] (-) TimerEvent: {}
+[1.909814] (-) TimerEvent: {}
+[2.010441] (-) TimerEvent: {}
+[2.111076] (-) TimerEvent: {}
+[2.211667] (-) TimerEvent: {}
+[2.312266] (-) TimerEvent: {}
+[2.412932] (-) TimerEvent: {}
+[2.513645] (-) TimerEvent: {}
+[2.614473] (-) TimerEvent: {}
+[2.715328] (-) TimerEvent: {}
+[2.816155] (-) TimerEvent: {}
+[2.916885] (-) TimerEvent: {}
+[3.017641] (-) TimerEvent: {}
+[3.118366] (-) TimerEvent: {}
+[3.219103] (-) TimerEvent: {}
+[3.319885] (-) TimerEvent: {}
+[3.420611] (-) TimerEvent: {}
+[3.521379] (-) TimerEvent: {}
+[3.622176] (-) TimerEvent: {}
+[3.722996] (-) TimerEvent: {}
+[3.823839] (-) TimerEvent: {}
+[3.924624] (-) TimerEvent: {}
+[4.025445] (-) TimerEvent: {}
+[4.126263] (-) TimerEvent: {}
+[4.227077] (-) TimerEvent: {}
+[4.328068] (-) TimerEvent: {}
+[4.429274] (-) TimerEvent: {}
+[4.465286] (welder_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1387', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c81de7ec9df615ff3800c13866d214d9', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1387,unix/kol:/tmp/.ICE-unix/1387', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ba3ebcdd_1d18_4e57_8b5a_78437978ef69', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TOFAT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c81de7ec9df615ff3800c13866d214d9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.479138] (py_cont) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1387', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c81de7ec9df615ff3800c13866d214d9', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1387,unix/kol:/tmp/.ICE-unix/1387', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ba3ebcdd_1d18_4e57_8b5a_78437978ef69', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TOFAT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c81de7ec9df615ff3800c13866d214d9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.529451] (-) TimerEvent: {}
+[4.630374] (-) TimerEvent: {}
+[4.731247] (-) TimerEvent: {}
+[4.832145] (-) TimerEvent: {}
+[4.933040] (-) TimerEvent: {}
+[5.033995] (-) TimerEvent: {}
+[5.134793] (-) TimerEvent: {}
+[5.235619] (-) TimerEvent: {}
+[5.336415] (-) TimerEvent: {}
+[5.437210] (-) TimerEvent: {}
+[5.538019] (-) TimerEvent: {}
+[5.639082] (-) TimerEvent: {}
+[5.739935] (-) TimerEvent: {}
+[5.840745] (-) TimerEvent: {}
+[5.869178] (welder_description) StdoutLine: {'line': b'running develop\n'}
+[5.939782] (py_cont) StdoutLine: {'line': b'running develop\n'}
+[5.940893] (-) TimerEvent: {}
+[6.041669] (-) TimerEvent: {}
+[6.142471] (-) TimerEvent: {}
+[6.243482] (-) TimerEvent: {}
+[6.344351] (-) TimerEvent: {}
+[6.445130] (-) TimerEvent: {}
+[6.545953] (-) TimerEvent: {}
+[6.646762] (-) TimerEvent: {}
+[6.747593] (-) TimerEvent: {}
+[6.811607] (welder_description) StdoutLine: {'line': b'running egg_info\n'}
+[6.812614] (welder_description) StdoutLine: {'line': b'writing welder_description.egg-info/PKG-INFO\n'}
+[6.813656] (welder_description) StdoutLine: {'line': b'writing dependency_links to welder_description.egg-info/dependency_links.txt\n'}
+[6.814485] (welder_description) StdoutLine: {'line': b'writing entry points to welder_description.egg-info/entry_points.txt\n'}
+[6.815260] (welder_description) StdoutLine: {'line': b'writing requirements to welder_description.egg-info/requires.txt\n'}
+[6.816161] (welder_description) StdoutLine: {'line': b'writing top-level names to welder_description.egg-info/top_level.txt\n'}
+[6.825220] (welder_description) StdoutLine: {'line': b"reading manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[6.829869] (welder_description) StdoutLine: {'line': b"writing manifest file 'welder_description.egg-info/SOURCES.txt'\n"}
+[6.835147] (welder_description) StdoutLine: {'line': b'running build_ext\n'}
+[6.836393] (welder_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)\n'}
+[6.839749] (welder_description) StdoutLine: {'line': b'\n'}
+[6.840568] (welder_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description\n'}
+[6.841156] (welder_description) StdoutLine: {'line': b'running symlink_data\n'}
+[6.847777] (-) TimerEvent: {}
+[6.948645] (-) TimerEvent: {}
+[6.954783] (py_cont) StdoutLine: {'line': b'running egg_info\n'}
+[6.955785] (py_cont) StdoutLine: {'line': b'creating py_cont.egg-info\n'}
+[6.956668] (py_cont) StdoutLine: {'line': b'writing py_cont.egg-info/PKG-INFO\n'}
+[6.957432] (py_cont) StdoutLine: {'line': b'writing dependency_links to py_cont.egg-info/dependency_links.txt\n'}
+[6.958253] (py_cont) StdoutLine: {'line': b'writing entry points to py_cont.egg-info/entry_points.txt\n'}
+[6.959447] (py_cont) StdoutLine: {'line': b'writing requirements to py_cont.egg-info/requires.txt\n'}
+[6.960235] (py_cont) StdoutLine: {'line': b'writing top-level names to py_cont.egg-info/top_level.txt\n'}
+[6.963351] (py_cont) StdoutLine: {'line': b"writing manifest file 'py_cont.egg-info/SOURCES.txt'\n"}
+[6.965507] (welder_description) CommandEnded: {'returncode': 0}
+[6.968394] (py_cont) StdoutLine: {'line': b"reading manifest file 'py_cont.egg-info/SOURCES.txt'\n"}
+[6.970271] (py_cont) StdoutLine: {'line': b"writing manifest file 'py_cont.egg-info/SOURCES.txt'\n"}
+[6.974973] (py_cont) StdoutLine: {'line': b'running build_ext\n'}
+[6.976052] (py_cont) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages/py-cont.egg-link (link to .)\n'}
+[6.980676] (py_cont) StdoutLine: {'line': b'\n'}
+[6.982116] (py_cont) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont\n'}
+[6.984050] (py_cont) StdoutLine: {'line': b'running symlink_data\n'}
+[6.984572] (py_cont) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index\n'}
+[6.985073] (py_cont) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index/resource_index\n'}
+[6.986583] (py_cont) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index/resource_index/packages\n'}
+[6.987410] (py_cont) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/resource/py_cont -> /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index/resource_index/packages\n'}
+[6.988542] (py_cont) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/package.xml -> /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/py_cont\n'}
+[7.038890] (welder_description) JobEnded: {'identifier': 'welder_description', 'rc': 0}
+[7.048870] (-) TimerEvent: {}
+[7.126135] (py_cont) CommandEnded: {'returncode': 0}
+[7.149053] (-) TimerEvent: {}
+[7.155555] (py_cont) JobEnded: {'identifier': 'py_cont', 'rc': 0}
+[7.158180] (-) EventReactorShutdown: {}

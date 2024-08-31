@@ -1,0 +1,16 @@
+[2.862s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description/build --no-deps symlink_data
+[4.182s] running develop
+[5.142s] running egg_info
+[5.143s] writing welder_description.egg-info/PKG-INFO
+[5.144s] writing dependency_links to welder_description.egg-info/dependency_links.txt
+[5.145s] writing entry points to welder_description.egg-info/entry_points.txt
+[5.145s] writing requirements to welder_description.egg-info/requires.txt
+[5.146s] writing top-level names to welder_description.egg-info/top_level.txt
+[5.157s] reading manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.165s] writing manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.173s] running build_ext
+[5.174s] Creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)
+[5.179s] 
+[5.179s] Installed /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description
+[5.180s] running symlink_data
+[5.312s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/welder_description/build --no-deps symlink_data

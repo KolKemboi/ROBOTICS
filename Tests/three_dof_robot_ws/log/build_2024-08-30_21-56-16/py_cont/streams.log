@@ -1,0 +1,23 @@
+[4.485s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/build --no-deps symlink_data
+[5.939s] running develop
+[6.954s] running egg_info
+[6.955s] creating py_cont.egg-info
+[6.956s] writing py_cont.egg-info/PKG-INFO
+[6.957s] writing dependency_links to py_cont.egg-info/dependency_links.txt
+[6.958s] writing entry points to py_cont.egg-info/entry_points.txt
+[6.959s] writing requirements to py_cont.egg-info/requires.txt
+[6.962s] writing top-level names to py_cont.egg-info/top_level.txt
+[6.964s] writing manifest file 'py_cont.egg-info/SOURCES.txt'
+[6.968s] reading manifest file 'py_cont.egg-info/SOURCES.txt'
+[6.970s] writing manifest file 'py_cont.egg-info/SOURCES.txt'
+[6.974s] running build_ext
+[6.975s] Creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages/py-cont.egg-link (link to .)
+[6.981s] 
+[6.983s] Installed /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont
+[6.983s] running symlink_data
+[6.984s] creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index
+[6.985s] creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index/resource_index
+[6.986s] creating /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index/resource_index/packages
+[6.987s] symbolically linking /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/resource/py_cont -> /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/ament_index/resource_index/packages
+[6.988s] symbolically linking /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/package.xml -> /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/share/py_cont
+[7.126s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/three_dof_robot_ws/build/py_cont/build --no-deps symlink_data
