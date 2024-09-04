@@ -1,0 +1,46 @@
+[5.908s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build
+[7.986s] running develop
+[9.434s] Removing /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb-description.egg-link (link to .)
+[9.554s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build
+[9.562s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/gwenLimb_description': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gwenLimb_description build --build-base /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build install --record /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/install.log --single-version-externally-managed install_data --force
+[11.184s] running egg_info
+[11.189s] writing ../../build/gwenLimb_description/gwenLimb_description.egg-info/PKG-INFO
+[11.190s] writing dependency_links to ../../build/gwenLimb_description/gwenLimb_description.egg-info/dependency_links.txt
+[11.197s] writing entry points to ../../build/gwenLimb_description/gwenLimb_description.egg-info/entry_points.txt
+[11.198s] writing requirements to ../../build/gwenLimb_description/gwenLimb_description.egg-info/requires.txt
+[11.198s] writing top-level names to ../../build/gwenLimb_description/gwenLimb_description.egg-info/top_level.txt
+[11.204s] reading manifest file '../../build/gwenLimb_description/gwenLimb_description.egg-info/SOURCES.txt'
+[11.212s] writing manifest file '../../build/gwenLimb_description/gwenLimb_description.egg-info/SOURCES.txt'
+[11.213s] running build
+[11.214s] running build_py
+[11.215s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build
+[11.216s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib
+[11.216s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib/gwenLimb_description
+[11.222s] copying gwenLimb_description/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib/gwenLimb_description
+[11.227s] running install
+[11.229s] running install_lib
+[11.231s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description
+[11.236s] copying /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib/gwenLimb_description/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description
+[11.238s] byte-compiling /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description/__init__.py to __init__.cpython-310.pyc
+[11.241s] running install_data
+[11.243s] copying resource/gwenLimb_description -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/ament_index/resource_index/packages
+[11.244s] copying package.xml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description
+[11.245s] copying launch/gazebo.launch.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+[11.245s] copying launch/display.launch.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+[11.246s] copying urdf/materials.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[11.246s] copying urdf/gwenLimb.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[11.257s] copying urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[11.259s] copying urdf/gwenLimb.trans -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[11.259s] copying urdf/gwenLimb.gazebo -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[11.260s] copying meshes/base_link.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[11.260s] copying meshes/link_4_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[11.261s] copying meshes/link_3_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[11.261s] copying meshes/link_1_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[11.262s] copying meshes/link_2_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[11.262s] copying config/robot_control.yaml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+[11.271s] copying config/display.rviz -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+[11.272s] running install_egg_info
+[11.272s] Copying ../../build/gwenLimb_description/gwenLimb_description.egg-info to /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description-0.0.0-py3.10.egg-info
+[11.273s] running install_scripts
+[11.396s] writing list of installed files to '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/install.log'
+[11.487s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/gwenLimb_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gwenLimb_description build --build-base /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build install --record /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/install.log --single-version-externally-managed install_data --force

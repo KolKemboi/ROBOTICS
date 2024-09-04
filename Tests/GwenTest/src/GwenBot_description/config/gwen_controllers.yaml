@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_sim_rate: 1000
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    joint_state_publisher:
+      type: joint_state_publisher/JointStatePublisher
+
+joint_trajectory_controller:
+  ros__parameters:
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+
+    joints:
+      - leg_1_joint_1
+      - leg_1_joint_2
+      - leg_1_joint_3
+      - leg_1_joint_4
+
+      - leg_2_joint_1
+      - leg_2_joint_2
+      - leg_2_joint_3
+      - leg_2_joint_4
+
+      - leg_3_joint_1
+      - leg_3_joint_2
+      - leg_3_joint_3
+      - leg_3_joint_4
+
+      - leg_4_joint_1
+      - leg_4_joint_2
+      - leg_4_joint_3
+      - leg_4_joint_4

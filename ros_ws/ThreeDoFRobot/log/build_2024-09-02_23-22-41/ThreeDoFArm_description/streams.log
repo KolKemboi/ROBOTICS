@@ -1,0 +1,16 @@
+[3.984s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description/build --no-deps symlink_data
+[5.637s] running develop
+[6.670s] running egg_info
+[6.672s] writing ThreeDoFArm_description.egg-info/PKG-INFO
+[6.673s] writing dependency_links to ThreeDoFArm_description.egg-info/dependency_links.txt
+[6.674s] writing entry points to ThreeDoFArm_description.egg-info/entry_points.txt
+[6.674s] writing requirements to ThreeDoFArm_description.egg-info/requires.txt
+[6.675s] writing top-level names to ThreeDoFArm_description.egg-info/top_level.txt
+[6.682s] reading manifest file 'ThreeDoFArm_description.egg-info/SOURCES.txt'
+[6.691s] writing manifest file 'ThreeDoFArm_description.egg-info/SOURCES.txt'
+[6.694s] running build_ext
+[6.695s] Creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages/ThreeDoFArm-description.egg-link (link to .)
+[6.704s] 
+[6.705s] Installed /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description
+[6.723s] running symlink_data
+[6.847s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description/build --no-deps symlink_data

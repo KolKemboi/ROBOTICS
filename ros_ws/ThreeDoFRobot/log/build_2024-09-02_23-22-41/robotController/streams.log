@@ -1,0 +1,16 @@
+[3.934s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/build --no-deps symlink_data
+[5.632s] running develop
+[6.740s] running egg_info
+[6.741s] writing robotController.egg-info/PKG-INFO
+[6.742s] writing dependency_links to robotController.egg-info/dependency_links.txt
+[6.743s] writing entry points to robotController.egg-info/entry_points.txt
+[6.744s] writing requirements to robotController.egg-info/requires.txt
+[6.745s] writing top-level names to robotController.egg-info/top_level.txt
+[6.757s] reading manifest file 'robotController.egg-info/SOURCES.txt'
+[6.760s] writing manifest file 'robotController.egg-info/SOURCES.txt'
+[6.770s] running build_ext
+[6.771s] Creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages/robotController.egg-link (link to .)
+[6.774s] 
+[6.775s] Installed /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController
+[6.776s] running symlink_data
+[6.912s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/build --no-deps symlink_data

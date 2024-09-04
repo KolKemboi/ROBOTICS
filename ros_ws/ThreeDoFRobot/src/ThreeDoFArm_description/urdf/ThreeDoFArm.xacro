@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<robot name="ThreeDoFArm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find ThreeDoFArm_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find ThreeDoFArm_description)/urdf/ros2_control.xacro" />
+<xacro:include filename="$(find ThreeDoFArm_description)/urdf/ThreeDoFArm.trans" />
+<xacro:include filename="$(find ThreeDoFArm_description)/urdf/ThreeDoFArm.gazebo" />
+
+<link name = "world"></link>
+
+<joint name="world_joint" type="fixed">
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <parent link="world"/>
+  <child link="base_link"/>
+  <axis xyz="0.0 0.0 0.0"/>
+</joint>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.02218644426338725 -2.877088731489105e-08 0.05226133617249149" rpy="0 0 0"/>
+    <mass value="5.668864967651046"/>
+    <inertia ixx="0.061065" iyy="0.073372" izz="0.026744" ixy="-0.0" iyz="-0.0" ixz="0.020113"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link1_1">
+  <inertial>
+    <origin xyz="0.048443161868147 -1.7192424228639024e-18 -0.11183410870726407" rpy="0 0 0"/>
+    <mass value="0.6488625922137717"/>
+    <inertia ixx="0.004206" iyy="0.004303" izz="0.000126" ixy="-0.0" iyz="0.0" ixz="0.000372"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.063737 -0.0 -0.415947" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0.063737 -0.0 -0.415947" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link2_1">
+  <inertial>
+    <origin xyz="0.019077234301298908 0.0 -0.04092280902331237" rpy="0 0 0"/>
+    <mass value="0.22409652124046817"/>
+    <inertia ixx="9e-05" iyy="0.00017" izz="9e-05" ixy="0.0" iyz="0.0" ixz="6.8e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.010037 -0.0 -0.160947" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0.010037 -0.0 -0.160947" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link3_1">
+  <inertial>
+    <origin xyz="0.018860664798537936 -2.20499288411448e-08 -0.0004227178798861392" rpy="0 0 0"/>
+    <mass value="0.11034176146118516"/>
+    <inertia ixx="1.2e-05" iyy="1.1e-05" izz="1.9e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.049963 -0.0 -0.100947" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="-0.049963 -0.0 -0.100947" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find ThreeDoFArm_description)/meshes/link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="joint_1" type="continuous">
+  <origin xyz="-0.063737 0.0 0.415947" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="link1_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="joint_2" type="continuous">
+  <origin xyz="0.0537 0.0 -0.255" rpy="0 0 0"/>
+  <parent link="link1_1"/>
+  <child link="link2_1"/>
+  <axis xyz="-0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="joint_3" type="continuous">
+  <origin xyz="0.06 0.0 -0.06" rpy="0 0 0"/>
+  <parent link="link2_1"/>
+  <child link="link3_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+</robot>

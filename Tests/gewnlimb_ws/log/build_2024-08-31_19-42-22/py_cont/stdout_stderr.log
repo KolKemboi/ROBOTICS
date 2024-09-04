@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_cont/py_cont.egg-info
+writing ../../build/py_cont/py_cont.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_cont/py_cont.egg-info/dependency_links.txt
+writing entry points to ../../build/py_cont/py_cont.egg-info/entry_points.txt
+writing requirements to ../../build/py_cont/py_cont.egg-info/requires.txt
+writing top-level names to ../../build/py_cont/py_cont.egg-info/top_level.txt
+writing manifest file '../../build/py_cont/py_cont.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_cont/py_cont.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_cont/py_cont.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont
+copying py_cont/main.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont
+copying py_cont/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont
+running install
+running install_lib
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont
+copying /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont/main.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont
+copying /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont
+byte-compiling /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont/main.py to main.cpython-310.pyc
+byte-compiling /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index/packages
+copying resource/py_cont -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index/packages
+copying package.xml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont
+running install_egg_info
+Copying ../../build/py_cont/py_cont.egg-info to /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/install.log'

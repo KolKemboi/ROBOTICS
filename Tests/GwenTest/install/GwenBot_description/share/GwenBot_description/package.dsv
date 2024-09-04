@@ -1,0 +1,9 @@
+source;share/GwenBot_description/hook/pythonpath.ps1
+source;share/GwenBot_description/hook/pythonpath.dsv
+source;share/GwenBot_description/hook/pythonpath.sh
+source;share/GwenBot_description/hook/ament_prefix_path.ps1
+source;share/GwenBot_description/hook/ament_prefix_path.dsv
+source;share/GwenBot_description/hook/ament_prefix_path.sh
+source;../../build/GwenBot_description/share/GwenBot_description/hook/pythonpath_develop.ps1
+source;../../build/GwenBot_description/share/GwenBot_description/hook/pythonpath_develop.dsv
+source;../../build/GwenBot_description/share/GwenBot_description/hook/pythonpath_develop.sh

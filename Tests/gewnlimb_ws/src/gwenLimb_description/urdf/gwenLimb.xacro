@@ -2,8 +2,21 @@
 <robot name="gwenLimb" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find gwenLimb_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find gwenLimb_description)/urdf/ros2_control.xacro" />
 <xacro:include filename="$(find gwenLimb_description)/urdf/gwenLimb.trans" />
 <xacro:include filename="$(find gwenLimb_description)/urdf/gwenLimb.gazebo" />
+
+<link name="world">
+  
+</link>
+<joint name="world_joint" type="fixed">
+  <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  <parent link="world"/>
+  <child link="base_link"/>
+  <axis xyz="0.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.0" effort="0.0" velocity="0.0"/>
+</joint>
+
 <link name="base_link">
   <inertial>
     <origin xyz="3.634199599635309e-18 0.0 0.005021235985580691" rpy="0 0 0"/>

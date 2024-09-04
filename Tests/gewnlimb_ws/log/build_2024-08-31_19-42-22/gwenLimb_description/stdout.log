@@ -1,0 +1,42 @@
+running develop
+Removing /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb-description.egg-link (link to .)
+running egg_info
+writing ../../build/gwenLimb_description/gwenLimb_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/gwenLimb_description/gwenLimb_description.egg-info/dependency_links.txt
+writing entry points to ../../build/gwenLimb_description/gwenLimb_description.egg-info/entry_points.txt
+writing requirements to ../../build/gwenLimb_description/gwenLimb_description.egg-info/requires.txt
+writing top-level names to ../../build/gwenLimb_description/gwenLimb_description.egg-info/top_level.txt
+reading manifest file '../../build/gwenLimb_description/gwenLimb_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/gwenLimb_description/gwenLimb_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib/gwenLimb_description
+copying gwenLimb_description/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib/gwenLimb_description
+running install
+running install_lib
+creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description
+copying /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build/lib/gwenLimb_description/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description
+byte-compiling /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/gwenLimb_description -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description
+copying launch/gazebo.launch.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+copying launch/display.launch.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+copying urdf/materials.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+copying urdf/gwenLimb.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+copying urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+copying urdf/gwenLimb.trans -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+copying urdf/gwenLimb.gazebo -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+copying meshes/base_link.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+copying meshes/link_4_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+copying meshes/link_3_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+copying meshes/link_1_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+copying meshes/link_2_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+copying config/robot_control.yaml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+copying config/display.rviz -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+running install_egg_info
+Copying ../../build/gwenLimb_description/gwenLimb_description.egg-info to /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/install.log'

@@ -1,0 +1,23 @@
+[3.955s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/build --no-deps symlink_data
+[6.120s] running develop
+[7.113s] running egg_info
+[7.114s] creating robotController.egg-info
+[7.115s] writing robotController.egg-info/PKG-INFO
+[7.116s] writing dependency_links to robotController.egg-info/dependency_links.txt
+[7.117s] writing entry points to robotController.egg-info/entry_points.txt
+[7.117s] writing requirements to robotController.egg-info/requires.txt
+[7.118s] writing top-level names to robotController.egg-info/top_level.txt
+[7.119s] writing manifest file 'robotController.egg-info/SOURCES.txt'
+[7.128s] reading manifest file 'robotController.egg-info/SOURCES.txt'
+[7.133s] writing manifest file 'robotController.egg-info/SOURCES.txt'
+[7.139s] running build_ext
+[7.140s] Creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages/robotController.egg-link (link to .)
+[7.144s] 
+[7.146s] Installed /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController
+[7.148s] running symlink_data
+[7.148s] creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/share/ament_index
+[7.149s] creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/share/ament_index/resource_index
+[7.149s] creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/share/ament_index/resource_index/packages
+[7.150s] symbolically linking /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/resource/robotController -> /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/share/ament_index/resource_index/packages
+[7.151s] symbolically linking /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/package.xml -> /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/share/robotController
+[7.293s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/build --no-deps symlink_data

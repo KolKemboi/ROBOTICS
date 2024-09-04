@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (ThreeDoFArm_description) JobQueued: {'identifier': 'ThreeDoFArm_description', 'dependencies': OrderedDict()}
+[0.000672] (robotController) JobQueued: {'identifier': 'robotController', 'dependencies': OrderedDict()}
+[0.000740] (ThreeDoFArm_description) JobStarted: {'identifier': 'ThreeDoFArm_description'}
+[0.020380] (robotController) JobStarted: {'identifier': 'robotController'}
+[0.097384] (-) TimerEvent: {}
+[0.197931] (-) TimerEvent: {}
+[0.298473] (-) TimerEvent: {}
+[0.398999] (-) TimerEvent: {}
+[0.499506] (-) TimerEvent: {}
+[0.600025] (-) TimerEvent: {}
+[0.700583] (-) TimerEvent: {}
+[0.801151] (-) TimerEvent: {}
+[0.901783] (-) TimerEvent: {}
+[1.002489] (-) TimerEvent: {}
+[1.103240] (-) TimerEvent: {}
+[1.203926] (-) TimerEvent: {}
+[1.304559] (-) TimerEvent: {}
+[1.405195] (-) TimerEvent: {}
+[1.505837] (-) TimerEvent: {}
+[1.606536] (-) TimerEvent: {}
+[1.707263] (-) TimerEvent: {}
+[1.807962] (-) TimerEvent: {}
+[1.908669] (-) TimerEvent: {}
+[2.009377] (-) TimerEvent: {}
+[2.110142] (-) TimerEvent: {}
+[2.211231] (-) TimerEvent: {}
+[2.311979] (-) TimerEvent: {}
+[2.412719] (-) TimerEvent: {}
+[2.513459] (-) TimerEvent: {}
+[2.614208] (-) TimerEvent: {}
+[2.714956] (-) TimerEvent: {}
+[2.815721] (-) TimerEvent: {}
+[2.916492] (-) TimerEvent: {}
+[3.018722] (-) TimerEvent: {}
+[3.122727] (-) TimerEvent: {}
+[3.223453] (-) TimerEvent: {}
+[3.324206] (-) TimerEvent: {}
+[3.425270] (-) TimerEvent: {}
+[3.526053] (-) TimerEvent: {}
+[3.627002] (-) TimerEvent: {}
+[3.729022] (-) TimerEvent: {}
+[3.832259] (-) TimerEvent: {}
+[3.933326] (-) TimerEvent: {}
+[3.948173] (robotController) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1381', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bdc9ca4952a9161b09c95d0066d60f02', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1381,unix/kol:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/31674f7d_0a8a_4c41_bd92_34513616ed36', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V4WQT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.920', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bdc9ca4952a9161b09c95d0066d60f02', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.981708] (ThreeDoFArm_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1381', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bdc9ca4952a9161b09c95d0066d60f02', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1381,unix/kol:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/31674f7d_0a8a_4c41_bd92_34513616ed36', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V4WQT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.920', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bdc9ca4952a9161b09c95d0066d60f02', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description:/home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.042745] (-) TimerEvent: {}
+[4.143620] (-) TimerEvent: {}
+[4.246751] (-) TimerEvent: {}
+[4.348516] (-) TimerEvent: {}
+[4.450785] (-) TimerEvent: {}
+[4.551612] (-) TimerEvent: {}
+[4.653191] (-) TimerEvent: {}
+[4.754754] (-) TimerEvent: {}
+[4.855601] (-) TimerEvent: {}
+[4.956448] (-) TimerEvent: {}
+[5.057232] (-) TimerEvent: {}
+[5.158028] (-) TimerEvent: {}
+[5.258910] (-) TimerEvent: {}
+[5.359802] (-) TimerEvent: {}
+[5.460971] (-) TimerEvent: {}
+[5.561791] (-) TimerEvent: {}
+[5.637149] (ThreeDoFArm_description) StdoutLine: {'line': b'running develop\n'}
+[5.652817] (robotController) StdoutLine: {'line': b'running develop\n'}
+[5.661967] (-) TimerEvent: {}
+[5.764004] (-) TimerEvent: {}
+[5.864879] (-) TimerEvent: {}
+[5.965704] (-) TimerEvent: {}
+[6.066547] (-) TimerEvent: {}
+[6.167419] (-) TimerEvent: {}
+[6.268256] (-) TimerEvent: {}
+[6.369115] (-) TimerEvent: {}
+[6.469949] (-) TimerEvent: {}
+[6.570753] (-) TimerEvent: {}
+[6.669770] (ThreeDoFArm_description) StdoutLine: {'line': b'running egg_info\n'}
+[6.671233] (-) TimerEvent: {}
+[6.672214] (ThreeDoFArm_description) StdoutLine: {'line': b'writing ThreeDoFArm_description.egg-info/PKG-INFO\n'}
+[6.673124] (ThreeDoFArm_description) StdoutLine: {'line': b'writing dependency_links to ThreeDoFArm_description.egg-info/dependency_links.txt\n'}
+[6.674307] (ThreeDoFArm_description) StdoutLine: {'line': b'writing entry points to ThreeDoFArm_description.egg-info/entry_points.txt\n'}
+[6.674908] (ThreeDoFArm_description) StdoutLine: {'line': b'writing requirements to ThreeDoFArm_description.egg-info/requires.txt\n'}
+[6.675437] (ThreeDoFArm_description) StdoutLine: {'line': b'writing top-level names to ThreeDoFArm_description.egg-info/top_level.txt\n'}
+[6.682662] (ThreeDoFArm_description) StdoutLine: {'line': b"reading manifest file 'ThreeDoFArm_description.egg-info/SOURCES.txt'\n"}
+[6.691712] (ThreeDoFArm_description) StdoutLine: {'line': b"writing manifest file 'ThreeDoFArm_description.egg-info/SOURCES.txt'\n"}
+[6.694306] (ThreeDoFArm_description) StdoutLine: {'line': b'running build_ext\n'}
+[6.695619] (ThreeDoFArm_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/ThreeDoFArm_description/lib/python3.10/site-packages/ThreeDoFArm-description.egg-link (link to .)\n'}
+[6.704731] (ThreeDoFArm_description) StdoutLine: {'line': b'\n'}
+[6.705508] (ThreeDoFArm_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/ThreeDoFArm_description\n'}
+[6.706080] (ThreeDoFArm_description) StdoutLine: {'line': b'running symlink_data\n'}
+[6.760663] (robotController) StdoutLine: {'line': b'running egg_info\n'}
+[6.761828] (robotController) StdoutLine: {'line': b'writing robotController.egg-info/PKG-INFO\n'}
+[6.763020] (robotController) StdoutLine: {'line': b'writing dependency_links to robotController.egg-info/dependency_links.txt\n'}
+[6.764108] (robotController) StdoutLine: {'line': b'writing entry points to robotController.egg-info/entry_points.txt\n'}
+[6.765160] (robotController) StdoutLine: {'line': b'writing requirements to robotController.egg-info/requires.txt\n'}
+[6.766045] (robotController) StdoutLine: {'line': b'writing top-level names to robotController.egg-info/top_level.txt\n'}
+[6.771417] (-) TimerEvent: {}
+[6.776491] (robotController) StdoutLine: {'line': b"reading manifest file 'robotController.egg-info/SOURCES.txt'\n"}
+[6.781467] (robotController) StdoutLine: {'line': b"writing manifest file 'robotController.egg-info/SOURCES.txt'\n"}
+[6.791227] (robotController) StdoutLine: {'line': b'running build_ext\n'}
+[6.792175] (robotController) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/install/robotController/lib/python3.10/site-packages/robotController.egg-link (link to .)\n'}
+[6.795093] (robotController) StdoutLine: {'line': b'\n'}
+[6.796617] (robotController) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/ThreeDoFRobot/build/robotController\n'}
+[6.797338] (robotController) StdoutLine: {'line': b'running symlink_data\n'}
+[6.844547] (ThreeDoFArm_description) CommandEnded: {'returncode': 0}
+[6.872584] (-) TimerEvent: {}
+[6.919784] (ThreeDoFArm_description) JobEnded: {'identifier': 'ThreeDoFArm_description', 'rc': 0}
+[6.933122] (robotController) CommandEnded: {'returncode': 0}
+[6.970368] (robotController) JobEnded: {'identifier': 'robotController', 'rc': 0}
+[6.974049] (-) TimerEvent: {}
+[6.974454] (-) EventReactorShutdown: {}
