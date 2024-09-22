@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.001829] (FiveDoFBot_description) JobQueued: {'identifier': 'FiveDoFBot_description', 'dependencies': OrderedDict()}
+[0.002744] (FiveDoFBot_description) JobStarted: {'identifier': 'FiveDoFBot_description'}
+[0.099808] (-) TimerEvent: {}
+[0.200403] (-) TimerEvent: {}
+[0.301036] (-) TimerEvent: {}
+[0.401646] (-) TimerEvent: {}
+[0.502274] (-) TimerEvent: {}
+[0.602914] (-) TimerEvent: {}
+[0.703571] (-) TimerEvent: {}
+[0.804291] (-) TimerEvent: {}
+[0.904990] (-) TimerEvent: {}
+[1.005765] (-) TimerEvent: {}
+[1.106529] (-) TimerEvent: {}
+[1.207299] (-) TimerEvent: {}
+[1.308116] (-) TimerEvent: {}
+[1.408850] (-) TimerEvent: {}
+[1.509562] (-) TimerEvent: {}
+[1.610301] (-) TimerEvent: {}
+[1.711044] (-) TimerEvent: {}
+[1.811739] (-) TimerEvent: {}
+[1.912480] (-) TimerEvent: {}
+[2.013244] (-) TimerEvent: {}
+[2.114006] (-) TimerEvent: {}
+[2.214743] (-) TimerEvent: {}
+[2.315485] (-) TimerEvent: {}
+[2.416279] (-) TimerEvent: {}
+[2.516982] (-) TimerEvent: {}
+[2.617672] (-) TimerEvent: {}
+[2.718354] (-) TimerEvent: {}
+[2.819037] (-) TimerEvent: {}
+[2.919766] (-) TimerEvent: {}
+[3.020490] (-) TimerEvent: {}
+[3.121199] (-) TimerEvent: {}
+[3.221886] (-) TimerEvent: {}
+[3.322579] (-) TimerEvent: {}
+[3.423291] (-) TimerEvent: {}
+[3.523966] (-) TimerEvent: {}
+[3.624676] (-) TimerEvent: {}
+[3.725350] (-) TimerEvent: {}
+[3.826033] (-) TimerEvent: {}
+[3.926777] (-) TimerEvent: {}
+[4.027525] (-) TimerEvent: {}
+[4.128703] (-) TimerEvent: {}
+[4.194528] (FiveDoFBot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/src/FiveDoFBot_description', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1381', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bdc9ca4952a9161b09c95d0066d60f02', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1381,unix/kol:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b53cf83_c6fb_47ad_97c1_7864ee57f21d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V4WQT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bdc9ca4952a9161b09c95d0066d60f02', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.228902] (-) TimerEvent: {}
+[4.330071] (-) TimerEvent: {}
+[4.430910] (-) TimerEvent: {}
+[4.531678] (-) TimerEvent: {}
+[4.632465] (-) TimerEvent: {}
+[4.733175] (-) TimerEvent: {}
+[4.833996] (-) TimerEvent: {}
+[4.934851] (-) TimerEvent: {}
+[5.035695] (-) TimerEvent: {}
+[5.136503] (-) TimerEvent: {}
+[5.237258] (-) TimerEvent: {}
+[5.338015] (-) TimerEvent: {}
+[5.439131] (-) TimerEvent: {}
+[5.540307] (-) TimerEvent: {}
+[5.641061] (-) TimerEvent: {}
+[5.741856] (-) TimerEvent: {}
+[5.842701] (-) TimerEvent: {}
+[5.943554] (-) TimerEvent: {}
+[5.987078] (FiveDoFBot_description) StdoutLine: {'line': b'running develop\n'}
+[6.043764] (-) TimerEvent: {}
+[6.144761] (-) TimerEvent: {}
+[6.245601] (-) TimerEvent: {}
+[6.346447] (-) TimerEvent: {}
+[6.447314] (-) TimerEvent: {}
+[6.548185] (-) TimerEvent: {}
+[6.649015] (-) TimerEvent: {}
+[6.749798] (-) TimerEvent: {}
+[6.850692] (-) TimerEvent: {}
+[6.951538] (-) TimerEvent: {}
+[7.052430] (-) TimerEvent: {}
+[7.153264] (-) TimerEvent: {}
+[7.254155] (-) TimerEvent: {}
+[7.354892] (-) TimerEvent: {}
+[7.455623] (-) TimerEvent: {}
+[7.471509] (FiveDoFBot_description) StdoutLine: {'line': b'running egg_info\n'}
+[7.472440] (FiveDoFBot_description) StdoutLine: {'line': b'creating FiveDoFBot_description.egg-info\n'}
+[7.473195] (FiveDoFBot_description) StdoutLine: {'line': b'writing FiveDoFBot_description.egg-info/PKG-INFO\n'}
+[7.474339] (FiveDoFBot_description) StdoutLine: {'line': b'writing dependency_links to FiveDoFBot_description.egg-info/dependency_links.txt\n'}
+[7.475072] (FiveDoFBot_description) StdoutLine: {'line': b'writing entry points to FiveDoFBot_description.egg-info/entry_points.txt\n'}
+[7.475723] (FiveDoFBot_description) StdoutLine: {'line': b'writing requirements to FiveDoFBot_description.egg-info/requires.txt\n'}
+[7.476442] (FiveDoFBot_description) StdoutLine: {'line': b'writing top-level names to FiveDoFBot_description.egg-info/top_level.txt\n'}
+[7.477779] (FiveDoFBot_description) StdoutLine: {'line': b"writing manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'\n"}
+[7.490274] (FiveDoFBot_description) StdoutLine: {'line': b"reading manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'\n"}
+[7.498599] (FiveDoFBot_description) StdoutLine: {'line': b"writing manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'\n"}
+[7.506063] (FiveDoFBot_description) StdoutLine: {'line': b'running build_ext\n'}
+[7.507613] (FiveDoFBot_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages/FiveDoFBot-description.egg-link (link to .)\n'}
+[7.512508] (FiveDoFBot_description) StdoutLine: {'line': b'\n'}
+[7.513310] (FiveDoFBot_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description\n'}
+[7.514186] (FiveDoFBot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[7.514963] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index\n'}
+[7.515642] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index/resource_index\n'}
+[7.516364] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index/resource_index/packages\n'}
+[7.517107] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/resource/FiveDoFBot_description -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index/resource_index/packages\n'}
+[7.517881] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/package.xml -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description\n'}
+[7.518755] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/launch\n'}
+[7.519258] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/launch\n'}
+[7.519753] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/launch/display.launch.py -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/launch\n'}
+[7.520298] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf\n'}
+[7.521083] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/FiveDoFBot.trans -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf\n'}
+[7.521767] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf\n'}
+[7.522472] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/FiveDoFBot.xacro -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf\n'}
+[7.523074] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/FiveDoFBot.gazebo -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf\n'}
+[7.524043] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.524746] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.525511] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_4_1.stl -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.526018] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_3_1.stl -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.526546] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_1_1.stl -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.527121] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_2_1.stl -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.527579] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_5_1.stl -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes\n'}
+[7.528079] (FiveDoFBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/config\n'}
+[7.528575] (FiveDoFBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/config/display.rviz -> /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/config\n'}
+[7.555819] (-) TimerEvent: {}
+[7.656980] (-) TimerEvent: {}
+[7.677168] (FiveDoFBot_description) CommandEnded: {'returncode': 0}
+[7.755743] (FiveDoFBot_description) JobEnded: {'identifier': 'FiveDoFBot_description', 'rc': 0}
+[7.758808] (-) TimerEvent: {}
+[7.759184] (-) EventReactorShutdown: {}

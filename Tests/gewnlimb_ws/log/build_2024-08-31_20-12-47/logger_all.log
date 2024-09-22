@@ -1,0 +1,247 @@
+[0.387s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.387s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78c74c2330d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78c74c3e0a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78c74c3e0a60>>, mixin_verb=('build',))
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.986s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extension 'colcon_pkg'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extensions ['colcon_meta']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extension 'colcon_meta'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extensions ['ros']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_cont) by extension 'ros'
+[1.040s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_cont' with type 'ros.ament_cmake' and name 'cpp_cont'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extension 'ignore_ament_install'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extensions ['colcon_pkg']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/gwenLimb_description) by extension 'ros'
+[1.046s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gwenLimb_description' with type 'ros.ament_python' and name 'gwenLimb_description'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extensions ['colcon_meta']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cont) by extension 'ros'
+[1.051s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_cont' with type 'ros.ament_python' and name 'py_cont'
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install
+[1.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.316s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'cmake_args' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'cmake_target' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'cmake_clean_cache' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'cmake_clean_first' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'cmake_force_configure' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'ament_cmake_args' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'catkin_cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'cpp_cont' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.318s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_cont' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont', 'merge_install': False, 'path': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/cpp_cont', 'symlink_install': True, 'test_result_base': None}
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'cmake_args' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'cmake_target' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'gwenLimb_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.320s] DEBUG:colcon.colcon_core.verb:Building package 'gwenLimb_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description', 'merge_install': False, 'path': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/gwenLimb_description', 'symlink_install': True, 'test_result_base': None}
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'cmake_args' from command line to 'None'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'cmake_target' from command line to 'None'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'cmake_clean_cache' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'cmake_clean_first' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'cmake_force_configure' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'ament_cmake_args' from command line to 'None'
+[1.323s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'catkin_cmake_args' from command line to 'None'
+[1.323s] Level 5:colcon.colcon_core.verb:set package 'py_cont' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.323s] DEBUG:colcon.colcon_core.verb:Building package 'py_cont' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont', 'merge_install': False, 'path': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/py_cont', 'symlink_install': True, 'test_result_base': None}
+[1.323s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/cpp_cont' with build type 'ament_cmake'
+[1.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/cpp_cont'
+[1.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.348s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/gwenLimb_description' with build type 'ament_python'
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('gwenLimb_description', 'ament_prefix_path')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/hook/ament_prefix_path.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/hook/ament_prefix_path.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/hook/ament_prefix_path.sh'
+[1.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/py_cont' with build type 'ament_python'
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_cont', 'ament_prefix_path')
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/hook/ament_prefix_path.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/hook/ament_prefix_path.dsv'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/hook/ament_prefix_path.sh'
+[1.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont -- -j4 -l4
+[2.591s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/gwenLimb_description'
+[2.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.074s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/py_cont'
+[4.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont -- -j4 -l4
+[4.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont
+[4.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_cont)
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont
+[4.454s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont' for CMake module files
+[4.457s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont' for CMake config files
+[4.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_cont', 'cmake_prefix_path')
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/hook/cmake_prefix_path.ps1'
+[4.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/hook/cmake_prefix_path.dsv'
+[4.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/hook/cmake_prefix_path.sh'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/bin'
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/lib/pkgconfig/cpp_cont.pc'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/lib/python3.10/site-packages'
+[4.488s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/bin'
+[4.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.ps1'
+[4.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.dsv'
+[4.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.sh'
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.bash'
+[4.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.zsh'
+[4.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/colcon-core/packages/cpp_cont)
+[4.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_cont)
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont' for CMake module files
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont' for CMake config files
+[4.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_cont', 'cmake_prefix_path')
+[4.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/hook/cmake_prefix_path.ps1'
+[4.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/hook/cmake_prefix_path.dsv'
+[4.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/hook/cmake_prefix_path.sh'
+[4.696s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/bin'
+[4.697s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/lib/pkgconfig/cpp_cont.pc'
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/lib/python3.10/site-packages'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/bin'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.ps1'
+[4.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.dsv'
+[4.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.sh'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.bash'
+[4.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.zsh'
+[4.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/colcon-core/packages/cpp_cont)
+[7.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build --no-deps symlink_data
+[7.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build --no-deps symlink_data
+[11.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('gwenLimb_description', 'pythonpath_develop')
+[11.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/share/gwenLimb_description/hook/pythonpath_develop.ps1'
+[11.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build --no-deps symlink_data
+[11.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/share/gwenLimb_description/hook/pythonpath_develop.dsv'
+[11.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/share/gwenLimb_description/hook/pythonpath_develop.sh'
+[11.537s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description' for CMake module files
+[11.540s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description' for CMake config files
+[11.545s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib'
+[11.558s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/bin'
+[11.559s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/pkgconfig/gwenLimb_description.pc'
+[11.560s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages'
+[11.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('gwenLimb_description', 'pythonpath')
+[11.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/hook/pythonpath.ps1'
+[11.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/hook/pythonpath.dsv'
+[11.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/hook/pythonpath.sh'
+[11.577s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/bin'
+[11.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gwenLimb_description)
+[11.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/package.ps1'
+[11.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/package.dsv'
+[11.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/package.sh'
+[11.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/package.bash'
+[11.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/package.zsh'
+[11.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/colcon-core/packages/gwenLimb_description)
+[11.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_cont', 'pythonpath_develop')
+[11.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/share/py_cont/hook/pythonpath_develop.ps1'
+[11.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build --no-deps symlink_data
+[11.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/share/py_cont/hook/pythonpath_develop.dsv'
+[11.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/share/py_cont/hook/pythonpath_develop.sh'
+[11.682s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont' for CMake module files
+[11.684s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont' for CMake config files
+[11.700s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib'
+[11.701s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/bin'
+[11.701s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/pkgconfig/py_cont.pc'
+[11.703s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages'
+[11.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_cont', 'pythonpath')
+[11.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/hook/pythonpath.ps1'
+[11.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/hook/pythonpath.dsv'
+[11.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/hook/pythonpath.sh'
+[11.716s] Level 1:colcon.colcon_core.environment:checking '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/bin'
+[11.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_cont)
+[11.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/package.ps1'
+[11.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/package.dsv'
+[11.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/package.sh'
+[11.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/package.bash'
+[11.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont/package.zsh'
+[11.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/colcon-core/packages/py_cont)
+[11.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.745s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.865s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.867s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/local_setup.ps1'
+[11.873s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/_local_setup_util_ps1.py'
+[11.887s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/setup.ps1'
+[11.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/local_setup.sh'
+[11.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/_local_setup_util_sh.py'
+[11.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/setup.sh'
+[11.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/local_setup.bash'
+[11.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/setup.bash'
+[11.925s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/local_setup.zsh'
+[11.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/setup.zsh'

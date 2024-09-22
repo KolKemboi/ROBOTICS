@@ -1,11 +1,15 @@
 <?xml version="1.0" ?>
 <robot name="gwenLimb" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<xacro:property name="body_color" value="Gazebo/Silver" />
+<xacro:property name="silver" value="Gazebo/Silver" />
+<xacro:property name="red" value="Gazebo/Red" />
+<xacro:property name="green" value="Gazebo/Green" />
+<xacro:property name="blue" value="Gazebo/Blue" />
+<xacro:property name="white" value="Gazebo/White" />
 
 
 <gazebo reference="base_link">
-  <material>${body_color}</material>
+  <material>${silver}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
@@ -13,28 +17,28 @@
 </gazebo>
 
 <gazebo reference="link_1_1">
-  <material>${body_color}</material>
+  <material>${red}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
 <gazebo reference="link_2_1">
-  <material>${body_color}</material>
+  <material>${green}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
 <gazebo reference="link_3_1">
-  <material>${body_color}</material>
+  <material>${blue}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
 <gazebo reference="link_4_1">
-  <material>${body_color}</material>
+  <material>${white}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>

@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.001424] (cpp_cont) JobQueued: {'identifier': 'cpp_cont', 'dependencies': OrderedDict()}
+[0.003187] (gwenLimb_description) JobQueued: {'identifier': 'gwenLimb_description', 'dependencies': OrderedDict()}
+[0.003543] (py_cont) JobQueued: {'identifier': 'py_cont', 'dependencies': OrderedDict()}
+[0.003677] (cpp_cont) JobStarted: {'identifier': 'cpp_cont'}
+[0.022154] (gwenLimb_description) JobStarted: {'identifier': 'gwenLimb_description'}
+[0.049637] (py_cont) JobStarted: {'identifier': 'py_cont'}
+[0.079962] (cpp_cont) JobProgress: {'identifier': 'cpp_cont', 'progress': 'cmake'}
+[0.082253] (cpp_cont) JobProgress: {'identifier': 'cpp_cont', 'progress': 'build'}
+[0.085231] (cpp_cont) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont', '--', '-j4', '-l4'], 'cwd': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1385'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1385,unix/kol:/tmp/.ICE-unix/1385'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3f80897_4976_4b25_a14a_8cddfcdd5c02'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZARNT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble')]), 'shell': False}
+[0.100027] (-) TimerEvent: {}
+[0.201548] (-) TimerEvent: {}
+[0.302285] (-) TimerEvent: {}
+[0.403057] (-) TimerEvent: {}
+[0.503762] (-) TimerEvent: {}
+[0.604429] (-) TimerEvent: {}
+[0.705047] (-) TimerEvent: {}
+[0.805682] (-) TimerEvent: {}
+[0.906411] (-) TimerEvent: {}
+[1.007110] (-) TimerEvent: {}
+[1.107808] (-) TimerEvent: {}
+[1.211107] (-) TimerEvent: {}
+[1.338452] (-) TimerEvent: {}
+[1.443103] (-) TimerEvent: {}
+[1.543931] (-) TimerEvent: {}
+[1.644754] (-) TimerEvent: {}
+[1.745514] (-) TimerEvent: {}
+[1.846278] (-) TimerEvent: {}
+[1.947074] (-) TimerEvent: {}
+[2.047871] (-) TimerEvent: {}
+[2.148640] (-) TimerEvent: {}
+[2.249427] (-) TimerEvent: {}
+[2.350202] (-) TimerEvent: {}
+[2.451000] (-) TimerEvent: {}
+[2.551760] (-) TimerEvent: {}
+[2.652516] (-) TimerEvent: {}
+[2.753902] (-) TimerEvent: {}
+[2.767559] (cpp_cont) CommandEnded: {'returncode': 0}
+[2.854142] (-) TimerEvent: {}
+[2.907068] (cpp_cont) JobProgress: {'identifier': 'cpp_cont', 'progress': 'install'}
+[2.963366] (cpp_cont) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont'], 'cwd': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kol'), ('LC_TIME', 'lg_UG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kol'), ('OLDPWD', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lg_UG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1385'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kol:@/tmp/.ICE-unix/1385,unix/kol:/tmp/.ICE-unix/1385'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lg_UG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3f80897_4976_4b25_a14a_8cddfcdd5c02'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lg_UG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZARNT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lg_UG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lg_UG.UTF-8'), ('LC_IDENTIFICATION', 'lg_UG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lg_UG.UTF-8'), ('LC_PAPER', 'lg_UG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble')]), 'shell': False}
+[2.966013] (-) TimerEvent: {}
+[3.013712] (cpp_cont) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.016655] (cpp_cont) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.018442] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/ament_index/resource_index/package_run_dependencies/cpp_cont\n'}
+[3.020315] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/ament_index/resource_index/parent_prefix_path/cpp_cont\n'}
+[3.022071] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/ament_prefix_path.sh\n'}
+[3.023643] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/ament_prefix_path.dsv\n'}
+[3.024998] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/path.sh\n'}
+[3.028666] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/path.dsv\n'}
+[3.030074] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.bash\n'}
+[3.034093] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.sh\n'}
+[3.035566] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.zsh\n'}
+[3.042581] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.dsv\n'}
+[3.047178] (cpp_cont) StdoutLine: {'line': b'-- Symlinking: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.dsv\n'}
+[3.066205] (-) TimerEvent: {}
+[3.096423] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/ament_index/resource_index/packages/cpp_cont\n'}
+[3.097659] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/cmake/cpp_contConfig.cmake\n'}
+[3.098586] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/cmake/cpp_contConfig-version.cmake\n'}
+[3.099896] (cpp_cont) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.xml\n'}
+[3.115375] (cpp_cont) CommandEnded: {'returncode': 0}
+[3.168657] (-) TimerEvent: {}
+[3.269580] (-) TimerEvent: {}
+[3.370757] (-) TimerEvent: {}
+[3.400659] (cpp_cont) JobEnded: {'identifier': 'cpp_cont', 'rc': 0}
+[3.471119] (-) TimerEvent: {}
+[3.575115] (-) TimerEvent: {}
+[3.679121] (-) TimerEvent: {}
+[3.783103] (-) TimerEvent: {}
+[3.885270] (-) TimerEvent: {}
+[3.986309] (-) TimerEvent: {}
+[4.087117] (-) TimerEvent: {}
+[4.188028] (-) TimerEvent: {}
+[4.288943] (-) TimerEvent: {}
+[4.389779] (-) TimerEvent: {}
+[4.490622] (-) TimerEvent: {}
+[4.591465] (-) TimerEvent: {}
+[4.692346] (-) TimerEvent: {}
+[4.793230] (-) TimerEvent: {}
+[4.894125] (-) TimerEvent: {}
+[4.995391] (-) TimerEvent: {}
+[5.099102] (-) TimerEvent: {}
+[5.199984] (-) TimerEvent: {}
+[5.303142] (-) TimerEvent: {}
+[5.404124] (-) TimerEvent: {}
+[5.507113] (-) TimerEvent: {}
+[5.611146] (-) TimerEvent: {}
+[5.715116] (-) TimerEvent: {}
+[5.743507] (gwenLimb_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1385', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1385,unix/kol:/tmp/.ICE-unix/1385', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3f80897_4976_4b25_a14a_8cddfcdd5c02', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZARNT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont'}, 'shell': False}
+[5.760904] (py_cont) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1385', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1385,unix/kol:/tmp/.ICE-unix/1385', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3f80897_4976_4b25_a14a_8cddfcdd5c02', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZARNT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9cc15822eec8ae815ff0c80966d3377a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont'}, 'shell': False}
+[5.816717] (-) TimerEvent: {}
+[5.919092] (-) TimerEvent: {}
+[6.019974] (-) TimerEvent: {}
+[6.120811] (-) TimerEvent: {}
+[6.223154] (-) TimerEvent: {}
+[6.327099] (-) TimerEvent: {}
+[6.427992] (-) TimerEvent: {}
+[6.531612] (-) TimerEvent: {}
+[6.632477] (-) TimerEvent: {}
+[6.733344] (-) TimerEvent: {}
+[6.834195] (-) TimerEvent: {}
+[6.936007] (-) TimerEvent: {}
+[7.036950] (-) TimerEvent: {}
+[7.138017] (-) TimerEvent: {}
+[7.239140] (-) TimerEvent: {}
+[7.343114] (-) TimerEvent: {}
+[7.447119] (-) TimerEvent: {}
+[7.551103] (-) TimerEvent: {}
+[7.655096] (-) TimerEvent: {}
+[7.755924] (-) TimerEvent: {}
+[7.859107] (-) TimerEvent: {}
+[7.901392] (gwenLimb_description) StdoutLine: {'line': b'running develop\n'}
+[7.963126] (-) TimerEvent: {}
+[8.055241] (py_cont) StdoutLine: {'line': b'running develop\n'}
+[8.067081] (-) TimerEvent: {}
+[8.171108] (-) TimerEvent: {}
+[8.275103] (-) TimerEvent: {}
+[8.379125] (-) TimerEvent: {}
+[8.483098] (-) TimerEvent: {}
+[8.586274] (-) TimerEvent: {}
+[8.691095] (-) TimerEvent: {}
+[8.795107] (-) TimerEvent: {}
+[8.896731] (-) TimerEvent: {}
+[8.997585] (-) TimerEvent: {}
+[9.100953] (-) TimerEvent: {}
+[9.201837] (-) TimerEvent: {}
+[9.302743] (-) TimerEvent: {}
+[9.403686] (-) TimerEvent: {}
+[9.504584] (-) TimerEvent: {}
+[9.605477] (-) TimerEvent: {}
+[9.706382] (-) TimerEvent: {}
+[9.807318] (-) TimerEvent: {}
+[9.908249] (-) TimerEvent: {}
+[9.923655] (gwenLimb_description) StdoutLine: {'line': b'running egg_info\n'}
+[9.925075] (gwenLimb_description) StdoutLine: {'line': b'writing gwenLimb_description.egg-info/PKG-INFO\n'}
+[9.931323] (gwenLimb_description) StdoutLine: {'line': b'writing dependency_links to gwenLimb_description.egg-info/dependency_links.txt\n'}
+[9.932525] (gwenLimb_description) StdoutLine: {'line': b'writing entry points to gwenLimb_description.egg-info/entry_points.txt\n'}
+[9.933630] (gwenLimb_description) StdoutLine: {'line': b'writing requirements to gwenLimb_description.egg-info/requires.txt\n'}
+[9.934627] (gwenLimb_description) StdoutLine: {'line': b'writing top-level names to gwenLimb_description.egg-info/top_level.txt\n'}
+[9.961228] (gwenLimb_description) StdoutLine: {'line': b"reading manifest file 'gwenLimb_description.egg-info/SOURCES.txt'\n"}
+[9.980468] (gwenLimb_description) StdoutLine: {'line': b"writing manifest file 'gwenLimb_description.egg-info/SOURCES.txt'\n"}
+[9.987329] (gwenLimb_description) StdoutLine: {'line': b'running build_ext\n'}
+[9.989087] (gwenLimb_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb-description.egg-link (link to .)\n'}
+[9.997774] (gwenLimb_description) StdoutLine: {'line': b'\n'}
+[9.998790] (gwenLimb_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description\n'}
+[9.999598] (gwenLimb_description) StdoutLine: {'line': b'running symlink_data\n'}
+[10.008445] (-) TimerEvent: {}
+[10.109335] (-) TimerEvent: {}
+[10.129823] (py_cont) StdoutLine: {'line': b'running egg_info\n'}
+[10.131985] (py_cont) StdoutLine: {'line': b'writing py_cont.egg-info/PKG-INFO\n'}
+[10.133952] (py_cont) StdoutLine: {'line': b'writing dependency_links to py_cont.egg-info/dependency_links.txt\n'}
+[10.135799] (py_cont) StdoutLine: {'line': b'writing entry points to py_cont.egg-info/entry_points.txt\n'}
+[10.137429] (py_cont) StdoutLine: {'line': b'writing requirements to py_cont.egg-info/requires.txt\n'}
+[10.138873] (py_cont) StdoutLine: {'line': b'writing top-level names to py_cont.egg-info/top_level.txt\n'}
+[10.151768] (py_cont) StdoutLine: {'line': b"reading manifest file 'py_cont.egg-info/SOURCES.txt'\n"}
+[10.158516] (py_cont) StdoutLine: {'line': b"writing manifest file 'py_cont.egg-info/SOURCES.txt'\n"}
+[10.169713] (py_cont) StdoutLine: {'line': b'running build_ext\n'}
+[10.172343] (py_cont) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py-cont.egg-link (link to .)\n'}
+[10.178926] (py_cont) StdoutLine: {'line': b'\n'}
+[10.179984] (py_cont) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont\n'}
+[10.180667] (py_cont) StdoutLine: {'line': b'running symlink_data\n'}
+[10.191201] (gwenLimb_description) CommandEnded: {'returncode': 0}
+[10.210842] (-) TimerEvent: {}
+[10.287207] (gwenLimb_description) JobEnded: {'identifier': 'gwenLimb_description', 'rc': 0}
+[10.311092] (-) TimerEvent: {}
+[10.336877] (py_cont) CommandEnded: {'returncode': 0}
+[10.411293] (-) TimerEvent: {}
+[10.415788] (py_cont) JobEnded: {'identifier': 'py_cont', 'rc': 0}
+[10.419845] (-) EventReactorShutdown: {}

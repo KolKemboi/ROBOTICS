@@ -1,0 +1,56 @@
+[3.404s] Invoking command in '/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description': PYTHONPATH=/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/build --no-deps symlink_data
+[4.583s] /home/kol/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.584s]   warnings.warn(
+[4.807s] running develop
+[5.927s] running egg_info
+[5.928s] creating GwenBot_description.egg-info
+[5.929s] writing GwenBot_description.egg-info/PKG-INFO
+[5.930s] writing dependency_links to GwenBot_description.egg-info/dependency_links.txt
+[5.931s] writing entry points to GwenBot_description.egg-info/entry_points.txt
+[5.932s] writing requirements to GwenBot_description.egg-info/requires.txt
+[5.932s] writing top-level names to GwenBot_description.egg-info/top_level.txt
+[5.933s] writing manifest file 'GwenBot_description.egg-info/SOURCES.txt'
+[5.941s] reading manifest file 'GwenBot_description.egg-info/SOURCES.txt'
+[5.945s] writing manifest file 'GwenBot_description.egg-info/SOURCES.txt'
+[5.950s] running build_ext
+[5.951s] Creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/lib/python3.10/site-packages/GwenBot-description.egg-link (link to .)
+[5.956s] 
+[5.957s] Installed /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description
+[5.957s] running symlink_data
+[5.958s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index
+[5.959s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index/resource_index
+[5.960s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index/resource_index/packages
+[5.960s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/resource/GwenBot_description -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index/resource_index/packages
+[5.961s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/package.xml -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description
+[5.962s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/launch
+[5.963s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/launch
+[5.963s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/launch/display.launch.py -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/launch
+[5.964s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf
+[5.965s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf
+[5.966s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/GwenBot.trans -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf
+[5.967s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf
+[5.967s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/GwenBot.gazebo -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf
+[5.968s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/GwenBot.xacro -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf
+[5.970s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.971s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.972s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.972s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.973s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.974s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.974s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.975s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.975s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.976s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.977s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.977s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.978s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.978s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.979s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.979s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/camera_link_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.980s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.981s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.981s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes
+[5.982s] creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/config
+[5.982s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/config/gwen_controllers.yaml -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/config
+[5.983s] symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/config/display.rviz -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/config
+[6.081s] Invoked command in '/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/build --no-deps symlink_data

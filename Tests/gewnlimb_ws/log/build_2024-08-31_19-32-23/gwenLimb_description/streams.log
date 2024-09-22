@@ -1,0 +1,41 @@
+[2.998s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build --no-deps symlink_data
+[4.336s] running develop
+[5.326s] running egg_info
+[5.327s] creating gwenLimb_description.egg-info
+[5.327s] writing gwenLimb_description.egg-info/PKG-INFO
+[5.328s] writing dependency_links to gwenLimb_description.egg-info/dependency_links.txt
+[5.329s] writing entry points to gwenLimb_description.egg-info/entry_points.txt
+[5.330s] writing requirements to gwenLimb_description.egg-info/requires.txt
+[5.331s] writing top-level names to gwenLimb_description.egg-info/top_level.txt
+[5.331s] writing manifest file 'gwenLimb_description.egg-info/SOURCES.txt'
+[5.341s] reading manifest file 'gwenLimb_description.egg-info/SOURCES.txt'
+[5.347s] writing manifest file 'gwenLimb_description.egg-info/SOURCES.txt'
+[5.352s] running build_ext
+[5.354s] Creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages/gwenLimb-description.egg-link (link to .)
+[5.357s] 
+[5.359s] Installed /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description
+[5.360s] running symlink_data
+[5.375s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/ament_index
+[5.376s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/ament_index/resource_index
+[5.377s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/ament_index/resource_index/packages
+[5.377s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/resource/gwenLimb_description -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/ament_index/resource_index/packages
+[5.378s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/package.xml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description
+[5.378s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+[5.379s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+[5.379s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/launch/display.launch.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/launch
+[5.380s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[5.380s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[5.381s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/urdf/gwenLimb.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[5.382s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[5.387s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/urdf/gwenLimb.trans -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[5.388s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/urdf/gwenLimb.gazebo -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/urdf
+[5.388s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[5.389s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[5.389s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/meshes/link_4_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[5.390s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/meshes/link_3_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[5.390s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/meshes/link_1_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[5.391s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/meshes/link_2_1.stl -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/meshes
+[5.392s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+[5.392s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/config/robot_control.yaml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+[5.394s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/config/display.rviz -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/share/gwenLimb_description/config
+[5.488s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description/build --no-deps symlink_data

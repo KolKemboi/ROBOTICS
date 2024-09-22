@@ -1,0 +1,511 @@
+<?xml version="1.0" ?>
+<robot name="GwenBot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find GwenBot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find GwenBot_description)/urdf/GwenBot.trans" />
+<xacro:include filename="$(find GwenBot_description)/urdf/GwenBot.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-9.508086022411699e-18 -9.508086022411699e-18 0.09122340169705838" rpy="0 0 0"/>
+    <mass value="15.01781408390448"/>
+    <inertia ixx="0.036553" iyy="0.036553" izz="0.054579" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_1_link1_1">
+  <inertial>
+    <origin xyz="-0.0508405506944885 0.00030098679807078615 0.006242457644906829" rpy="0 0 0"/>
+    <mass value="1.870884141195306"/>
+    <inertia ixx="0.001302" iyy="0.002818" izz="0.002014" ixy="6e-06" iyz="-2e-06" ixz="0.000617"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.04 -0.035 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.04 -0.035 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_1_link2_1">
+  <inertial>
+    <origin xyz="-0.04845026640977741 -0.012500320225002104 0.029491466510299297" rpy="0 0 0"/>
+    <mass value="1.4597449761137202"/>
+    <inertia ixx="0.001173" iyy="0.003657" izz="0.002636" ixy="-0.0" iyz="-0.0" ixz="0.001415"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.115 -0.015361 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.115 -0.015361 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_1_link3_1">
+  <inertial>
+    <origin xyz="-0.0471116566968843 0.012499679774997895 -0.019629712187191783" rpy="0 0 0"/>
+    <mass value="1.301183102585068"/>
+    <inertia ixx="0.000634" iyy="0.002921" izz="0.002422" ixy="0.0" iyz="0.0" ixz="-0.000902"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.23 -0.015361 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.23 -0.015361 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_1_link4_1">
+  <inertial>
+    <origin xyz="0.004146156223267139 -0.012500320225002104 -0.03340633776308424" rpy="0 0 0"/>
+    <mass value="0.7990380974909679"/>
+    <inertia ixx="0.00091" iyy="0.000965" izz="0.000139" ixy="0.0" iyz="-0.0" ixz="9.8e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.35 -0.015361 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.35 -0.015361 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_1_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_2_link1_1">
+  <inertial>
+    <origin xyz="-0.00030098679807080003 -0.050840550694488514 0.006242457644906836" rpy="0 0 0"/>
+    <mass value="1.8708841411953063"/>
+    <inertia ixx="0.002818" iyy="0.001302" izz="0.002014" ixy="-6e-06" iyz="0.000617" ixz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.035 0.04 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.035 0.04 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_2_link2_1">
+  <inertial>
+    <origin xyz="0.012500320225002092 -0.048450266409777384 0.029491466510299297" rpy="0 0 0"/>
+    <mass value="1.4597449761137204"/>
+    <inertia ixx="0.003657" iyy="0.001173" izz="0.002636" ixy="0.0" iyz="0.001415" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.015361 0.115 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.015361 0.115 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_2_link3_1">
+  <inertial>
+    <origin xyz="-0.01249967977499792 -0.047111656696884247 -0.019629712187191756" rpy="0 0 0"/>
+    <mass value="1.3011831025850682"/>
+    <inertia ixx="0.002921" iyy="0.000634" izz="0.002422" ixy="-0.0" iyz="-0.000902" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.015361 0.23 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.015361 0.23 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_2_link4_1">
+  <inertial>
+    <origin xyz="0.012500320225002082 0.004146156223267139 -0.03340633776308424" rpy="0 0 0"/>
+    <mass value="0.7990380974909679"/>
+    <inertia ixx="0.000965" iyy="0.00091" izz="0.000139" ixy="0.0" iyz="9.8e-05" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.015361 0.35 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.015361 0.35 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_2_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_3_link1_1">
+  <inertial>
+    <origin xyz="0.0508405506944885 -0.00030098679807080003 0.006242457644906836" rpy="0 0 0"/>
+    <mass value="1.870884141195306"/>
+    <inertia ixx="0.001302" iyy="0.002818" izz="0.002014" ixy="6e-06" iyz="2e-06" ixz="-0.000617"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.04 0.035 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.04 0.035 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_3_link2_1">
+  <inertial>
+    <origin xyz="0.04845026640977741 0.012500320225002078 0.02949146651029931" rpy="0 0 0"/>
+    <mass value="1.4597449761137204"/>
+    <inertia ixx="0.001173" iyy="0.003657" izz="0.002636" ixy="0.0" iyz="0.0" ixz="-0.001415"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.115 0.015361 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.115 0.015361 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_3_link3_1">
+  <inertial>
+    <origin xyz="0.047111656696884247 -0.012499679774997927 -0.019629712187191756" rpy="0 0 0"/>
+    <mass value="1.3011831025850682"/>
+    <inertia ixx="0.000634" iyy="0.002921" izz="0.002422" ixy="0.0" iyz="0.0" ixz="0.000902"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.23 0.015361 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.23 0.015361 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_3_link4_1">
+  <inertial>
+    <origin xyz="-0.0041461562232671945 0.012500320225002063 -0.03340633776308424" rpy="0 0 0"/>
+    <mass value="0.7990380974909678"/>
+    <inertia ixx="0.00091" iyy="0.000965" izz="0.000139" ixy="0.0" iyz="0.0" ixz="-9.8e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.35 0.015361 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.35 0.015361 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_3_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_4_link1_1">
+  <inertial>
+    <origin xyz="0.00030098679807080003 0.05084055069448847 0.006242457644906829" rpy="0 0 0"/>
+    <mass value="1.8708841411953063"/>
+    <inertia ixx="0.002818" iyy="0.001302" izz="0.002014" ixy="-6e-06" iyz="-0.000617" ixz="-2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.035 -0.04 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.035 -0.04 -0.045" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_4_link2_1">
+  <inertial>
+    <origin xyz="-0.012500320225002071 0.04845026640977747 0.029491466510299325" rpy="0 0 0"/>
+    <mass value="1.4597449761137202"/>
+    <inertia ixx="0.003657" iyy="0.001173" izz="0.002636" ixy="0.0" iyz="-0.001415" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.015361 -0.115 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.015361 -0.115 -0.08" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_4_link3_1">
+  <inertial>
+    <origin xyz="0.012499679774997944 0.0471116566968843 -0.019629712187191783" rpy="0 0 0"/>
+    <mass value="1.301183102585068"/>
+    <inertia ixx="0.002921" iyy="0.000634" izz="0.002422" ixy="-0.0" iyz="0.000902" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.015361 -0.23 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.015361 -0.23 -0.15" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leg_4_link4_1">
+  <inertial>
+    <origin xyz="-0.012500320225002042 -0.0041461562232671945 -0.03340633776308426" rpy="0 0 0"/>
+    <mass value="0.799038097490968"/>
+    <inertia ixx="0.000965" iyy="0.00091" izz="0.000139" ixy="0.0" iyz="-9.8e-05" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.015361 -0.35 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.015361 -0.35 -0.1" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/leg_4_link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_link_1">
+  <inertial>
+    <origin xyz="0.0030352218012061807 -8.804310368859141e-18 0.029872136334849975" rpy="0 0 0"/>
+    <mass value="4.0545670869180315"/>
+    <inertia ixx="0.003714" iyy="0.004368" izz="0.005749" ixy="-0.0" iyz="-0.0" ixz="2.9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.14" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/camera_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.14" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find GwenBot_description)/meshes/camera_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="leg_1_joint_1" type="revolute">
+  <origin xyz="-0.04 0.035 0.045" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="leg_1_link1_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_1_joint_2" type="revolute">
+  <origin xyz="-0.075 -0.019639 0.035" rpy="0 0 0"/>
+  <parent link="leg_1_link1_1"/>
+  <child link="leg_1_link2_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_1_joint_3" type="continuous">
+  <origin xyz="-0.115 0.0 0.07" rpy="0 0 0"/>
+  <parent link="leg_1_link2_1"/>
+  <child link="leg_1_link3_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="leg_1_joint_4" type="continuous">
+  <origin xyz="-0.12 0.0 -0.05" rpy="0 0 0"/>
+  <parent link="leg_1_link3_1"/>
+  <child link="leg_1_link4_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="leg_2_joint_1" type="revolute">
+  <origin xyz="-0.035 -0.04 0.045" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="leg_2_link1_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_2_joint_2" type="revolute">
+  <origin xyz="0.019639 -0.075 0.035" rpy="0 0 0"/>
+  <parent link="leg_2_link1_1"/>
+  <child link="leg_2_link2_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_2_joint_3" type="continuous">
+  <origin xyz="0.0 -0.115 0.07" rpy="0 0 0"/>
+  <parent link="leg_2_link2_1"/>
+  <child link="leg_2_link3_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="leg_2_joint_4" type="continuous">
+  <origin xyz="0.0 -0.12 -0.05" rpy="0 0 0"/>
+  <parent link="leg_2_link3_1"/>
+  <child link="leg_2_link4_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="leg_3_joint_1" type="revolute">
+  <origin xyz="0.04 -0.035 0.045" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="leg_3_link1_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_3_joint_2" type="revolute">
+  <origin xyz="0.075 0.019639 0.035" rpy="0 0 0"/>
+  <parent link="leg_3_link1_1"/>
+  <child link="leg_3_link2_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_3_joint_3" type="continuous">
+  <origin xyz="0.115 0.0 0.07" rpy="0 0 0"/>
+  <parent link="leg_3_link2_1"/>
+  <child link="leg_3_link3_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="leg_3_joint_4" type="continuous">
+  <origin xyz="0.12 0.0 -0.05" rpy="0 0 0"/>
+  <parent link="leg_3_link3_1"/>
+  <child link="leg_3_link4_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="leg_4_join_1" type="revolute">
+  <origin xyz="0.035 0.04 0.045" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="leg_4_link1_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_4_joint_1" type="revolute">
+  <origin xyz="-0.019639 0.075 0.035" rpy="0 0 0"/>
+  <parent link="leg_4_link1_1"/>
+  <child link="leg_4_link2_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="leg_4_joint_3" type="continuous">
+  <origin xyz="0.0 0.115 0.07" rpy="0 0 0"/>
+  <parent link="leg_4_link2_1"/>
+  <child link="leg_4_link3_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="leg_4_joint_4" type="continuous">
+  <origin xyz="0.0 0.12 -0.05" rpy="0 0 0"/>
+  <parent link="leg_4_link3_1"/>
+  <child link="leg_4_link4_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="camera_joint" type="fixed">
+  <origin xyz="0.0 0.0 0.14" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="camera_link_1"/>
+</joint>
+
+</robot>

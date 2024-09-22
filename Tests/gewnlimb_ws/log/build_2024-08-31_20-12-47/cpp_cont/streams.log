@@ -1,0 +1,21 @@
+[0.085s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont -- -j4 -l4
+[2.770s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont -- -j4 -l4
+[2.961s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont
+[3.011s] -- Install configuration: ""
+[3.013s] -- Execute custom install script
+[3.015s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/ament_index/resource_index/package_run_dependencies/cpp_cont
+[3.017s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/ament_index/resource_index/parent_prefix_path/cpp_cont
+[3.019s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/ament_prefix_path.sh
+[3.020s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/ament_prefix_path.dsv
+[3.022s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/path.sh
+[3.026s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/environment/path.dsv
+[3.027s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.bash
+[3.031s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.sh
+[3.032s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.zsh
+[3.039s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/local_setup.dsv
+[3.044s] -- Symlinking: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.dsv
+[3.093s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/ament_index/resource_index/packages/cpp_cont
+[3.094s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/cmake/cpp_contConfig.cmake
+[3.095s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/cmake/cpp_contConfig-version.cmake
+[3.097s] -- Up-to-date symlink: /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/cpp_cont/share/cpp_cont/package.xml
+[3.113s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/cpp_cont

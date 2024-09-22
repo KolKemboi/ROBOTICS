@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont",
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description",
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont",
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages",
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/gwenLimb_description",
+        "/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/gwenLimb_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

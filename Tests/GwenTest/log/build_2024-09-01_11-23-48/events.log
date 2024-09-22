@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.001093] (GwenBot_description) JobQueued: {'identifier': 'GwenBot_description', 'dependencies': OrderedDict()}
+[0.001247] (GwenBot_description) JobStarted: {'identifier': 'GwenBot_description'}
+[0.098559] (-) TimerEvent: {}
+[0.199286] (-) TimerEvent: {}
+[0.299974] (-) TimerEvent: {}
+[0.400649] (-) TimerEvent: {}
+[0.501321] (-) TimerEvent: {}
+[0.602050] (-) TimerEvent: {}
+[0.702800] (-) TimerEvent: {}
+[0.803559] (-) TimerEvent: {}
+[0.904267] (-) TimerEvent: {}
+[1.004982] (-) TimerEvent: {}
+[1.105691] (-) TimerEvent: {}
+[1.206426] (-) TimerEvent: {}
+[1.307046] (-) TimerEvent: {}
+[1.408064] (-) TimerEvent: {}
+[1.508844] (-) TimerEvent: {}
+[1.609920] (-) TimerEvent: {}
+[1.710764] (-) TimerEvent: {}
+[1.811912] (-) TimerEvent: {}
+[1.912909] (-) TimerEvent: {}
+[2.013703] (-) TimerEvent: {}
+[2.114475] (-) TimerEvent: {}
+[2.215265] (-) TimerEvent: {}
+[2.315967] (-) TimerEvent: {}
+[2.416655] (-) TimerEvent: {}
+[2.517429] (-) TimerEvent: {}
+[2.618439] (-) TimerEvent: {}
+[2.719209] (-) TimerEvent: {}
+[2.819809] (-) TimerEvent: {}
+[2.920615] (-) TimerEvent: {}
+[3.021400] (-) TimerEvent: {}
+[3.122194] (-) TimerEvent: {}
+[3.222920] (-) TimerEvent: {}
+[3.323700] (-) TimerEvent: {}
+[3.396542] (GwenBot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1405', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2908b715345725d18cc87fff66d4178e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1405,unix/kol:/tmp/.ICE-unix/1405', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cde273cd_2adc_473a_9a86_37a0e83c8223', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B2QDT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.219', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2908b715345725d18cc87fff66d4178e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.423879] (-) TimerEvent: {}
+[3.524682] (-) TimerEvent: {}
+[3.625640] (-) TimerEvent: {}
+[3.726389] (-) TimerEvent: {}
+[3.827289] (-) TimerEvent: {}
+[3.928117] (-) TimerEvent: {}
+[4.029195] (-) TimerEvent: {}
+[4.129952] (-) TimerEvent: {}
+[4.230754] (-) TimerEvent: {}
+[4.331624] (-) TimerEvent: {}
+[4.432401] (-) TimerEvent: {}
+[4.533182] (-) TimerEvent: {}
+[4.583748] (GwenBot_description) StderrLine: {'line': b"/home/kol/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.584544] (GwenBot_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.633382] (-) TimerEvent: {}
+[4.734199] (-) TimerEvent: {}
+[4.808088] (GwenBot_description) StdoutLine: {'line': b'running develop\n'}
+[4.834378] (-) TimerEvent: {}
+[4.935134] (-) TimerEvent: {}
+[5.035959] (-) TimerEvent: {}
+[5.136847] (-) TimerEvent: {}
+[5.237553] (-) TimerEvent: {}
+[5.338249] (-) TimerEvent: {}
+[5.438918] (-) TimerEvent: {}
+[5.539570] (-) TimerEvent: {}
+[5.640295] (-) TimerEvent: {}
+[5.741098] (-) TimerEvent: {}
+[5.841965] (-) TimerEvent: {}
+[5.928044] (GwenBot_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.928973] (GwenBot_description) StdoutLine: {'line': b'creating GwenBot_description.egg-info\n'}
+[5.930163] (GwenBot_description) StdoutLine: {'line': b'writing GwenBot_description.egg-info/PKG-INFO\n'}
+[5.930864] (GwenBot_description) StdoutLine: {'line': b'writing dependency_links to GwenBot_description.egg-info/dependency_links.txt\n'}
+[5.931877] (GwenBot_description) StdoutLine: {'line': b'writing entry points to GwenBot_description.egg-info/entry_points.txt\n'}
+[5.932542] (GwenBot_description) StdoutLine: {'line': b'writing requirements to GwenBot_description.egg-info/requires.txt\n'}
+[5.933012] (GwenBot_description) StdoutLine: {'line': b'writing top-level names to GwenBot_description.egg-info/top_level.txt\n'}
+[5.933742] (GwenBot_description) StdoutLine: {'line': b"writing manifest file 'GwenBot_description.egg-info/SOURCES.txt'\n"}
+[5.941572] (GwenBot_description) StdoutLine: {'line': b"reading manifest file 'GwenBot_description.egg-info/SOURCES.txt'\n"}
+[5.942289] (-) TimerEvent: {}
+[5.945659] (GwenBot_description) StdoutLine: {'line': b"writing manifest file 'GwenBot_description.egg-info/SOURCES.txt'\n"}
+[5.951016] (GwenBot_description) StdoutLine: {'line': b'running build_ext\n'}
+[5.952325] (GwenBot_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/lib/python3.10/site-packages/GwenBot-description.egg-link (link to .)\n'}
+[5.956084] (GwenBot_description) StdoutLine: {'line': b'\n'}
+[5.957289] (GwenBot_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description\n'}
+[5.958147] (GwenBot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[5.958958] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index\n'}
+[5.959874] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index/resource_index\n'}
+[5.960597] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index/resource_index/packages\n'}
+[5.961190] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/resource/GwenBot_description -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/ament_index/resource_index/packages\n'}
+[5.961784] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/package.xml -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description\n'}
+[5.962387] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/launch\n'}
+[5.963337] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/launch/gazebo.launch.py -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/launch\n'}
+[5.964216] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/launch/display.launch.py -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/launch\n'}
+[5.964935] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf\n'}
+[5.965522] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/materials.xacro -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf\n'}
+[5.966323] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/GwenBot.trans -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf\n'}
+[5.967213] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf\n'}
+[5.968032] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/GwenBot.gazebo -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf\n'}
+[5.968763] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/urdf/GwenBot.xacro -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/urdf\n'}
+[5.969379] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.971294] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.972315] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.973318] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.973929] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/base_link.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.974510] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.975077] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.975701] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link4_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.976276] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.976835] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.977397] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.977974] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_4_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.978513] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.979035] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.979677] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.980301] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/camera_link_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.980874] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_1_link3_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.981472] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_3_link1_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.982043] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/meshes/leg_2_link2_1.stl -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/meshes\n'}
+[5.982608] (GwenBot_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/config\n'}
+[5.983269] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/config/gwen_controllers.yaml -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/config\n'}
+[5.983868] (GwenBot_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robotics/Tests/GwenTest/build/GwenBot_description/config/display.rviz -> /home/kol/Documents/Robotics/Tests/GwenTest/install/GwenBot_description/share/GwenBot_description/config\n'}
+[6.042527] (-) TimerEvent: {}
+[6.081262] (GwenBot_description) CommandEnded: {'returncode': 0}
+[6.139259] (GwenBot_description) JobEnded: {'identifier': 'GwenBot_description', 'rc': 0}
+[6.142280] (-) EventReactorShutdown: {}

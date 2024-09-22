@@ -1,0 +1,16 @@
+[3.074s] Invoking command in '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/build --no-deps symlink_data
+[4.927s] running develop
+[5.958s] running egg_info
+[5.959s] writing FiveDoFBot_description.egg-info/PKG-INFO
+[5.960s] writing dependency_links to FiveDoFBot_description.egg-info/dependency_links.txt
+[5.961s] writing entry points to FiveDoFBot_description.egg-info/entry_points.txt
+[5.962s] writing requirements to FiveDoFBot_description.egg-info/requires.txt
+[5.962s] writing top-level names to FiveDoFBot_description.egg-info/top_level.txt
+[5.981s] reading manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'
+[5.981s] writing manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'
+[5.994s] running build_ext
+[5.995s] Creating /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages/FiveDoFBot-description.egg-link (link to .)
+[6.000s] 
+[6.000s] Installed /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description
+[6.001s] running symlink_data
+[6.137s] Invoked command in '/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/build --no-deps symlink_data

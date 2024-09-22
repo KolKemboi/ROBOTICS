@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<robot name="GwenBot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+    <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+</gazebo>
+
+<ros2_control>
+
+<!--LEG 1 -->
+    <joint name = "leg_1_joint_1">
+        <command_interface name = "position">
+            <param name = "min">-0.174533</param>
+            <param name = "max">0.174533</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+    
+    <joint name = "leg_1_joint_2">
+        <command_interface name = "position">
+            <param name = "min">-1.047198</param>
+            <param name = "max">1.047198</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_1_joint_3">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_1_joint_4">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+
+<!--LEG 2 -->
+    <joint name = "leg_2_joint_1">
+        <command_interface name = "position">
+            <param name = "min">-0.174533</param>
+            <param name = "max">0.174533</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+    
+    <joint name = "leg_2_joint_2">
+        <command_interface name = "position">
+            <param name = "min">-1.047198</param>
+            <param name = "max">1.047198</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_2_joint_3">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_2_joint_4">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+<!--LEG 3 -->
+    <joint name = "leg_3_joint_1">
+        <command_interface name = "position">
+            <param name = "min">-0.174533</param>
+            <param name = "max">0.174533</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+    
+    <joint name = "leg_3_joint_2">
+        <command_interface name = "position">
+            <param name = "min">-1.047198</param>
+            <param name = "max">1.047198</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_3_joint_3">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_3_joint_4">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+
+<!--LEG 4 -->
+    <joint name = "leg_4_joint_1">
+        <command_interface name = "position">
+            <param name = "min">-0.174533</param>
+            <param name = "max">0.174533</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+    
+    <joint name = "leg_4_joint_2">
+        <command_interface name = "position">
+            <param name = "min">-1.047198</param>
+            <param name = "max">1.047198</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_4_joint_3">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+    <joint name = "leg_4_joint_4">
+        <command_interface name = "position">
+            <param name = "min">-3.14</param>
+            <param name = "max">3.14</param>
+        </command_interface>
+        <state_interface name = "position">
+            <param name = "initial_value">0.0</param>
+        </state_interface>
+        <state_interface name = "velocity"></state_interface>
+    </joint>
+
+</ros2_control>
+
+</robot>

@@ -1,0 +1,18 @@
+[6.009s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build --no-deps symlink_data --force
+[8.045s] running develop
+[9.358s] running egg_info
+[9.359s] writing py_cont.egg-info/PKG-INFO
+[9.360s] writing dependency_links to py_cont.egg-info/dependency_links.txt
+[9.361s] writing entry points to py_cont.egg-info/entry_points.txt
+[9.364s] writing requirements to py_cont.egg-info/requires.txt
+[9.365s] writing top-level names to py_cont.egg-info/top_level.txt
+[9.374s] reading manifest file 'py_cont.egg-info/SOURCES.txt'
+[9.379s] writing manifest file 'py_cont.egg-info/SOURCES.txt'
+[9.388s] running build_ext
+[9.389s] Creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py-cont.egg-link (link to .)
+[9.394s] 
+[9.394s] Installed /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont
+[9.395s] running symlink_data
+[9.395s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/resource/py_cont -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index/packages
+[9.400s] symbolically linking /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/package.xml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont
+[9.555s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build --no-deps symlink_data --force

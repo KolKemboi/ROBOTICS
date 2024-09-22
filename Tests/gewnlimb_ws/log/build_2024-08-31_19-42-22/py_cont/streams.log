@@ -1,0 +1,37 @@
+[5.629s] Invoking command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/py_cont': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_cont build --build-base /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build install --record /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/install.log --single-version-externally-managed install_data
+[7.931s] running egg_info
+[7.944s] creating ../../build/py_cont/py_cont.egg-info
+[7.946s] writing ../../build/py_cont/py_cont.egg-info/PKG-INFO
+[7.949s] writing dependency_links to ../../build/py_cont/py_cont.egg-info/dependency_links.txt
+[7.950s] writing entry points to ../../build/py_cont/py_cont.egg-info/entry_points.txt
+[7.952s] writing requirements to ../../build/py_cont/py_cont.egg-info/requires.txt
+[7.954s] writing top-level names to ../../build/py_cont/py_cont.egg-info/top_level.txt
+[7.960s] writing manifest file '../../build/py_cont/py_cont.egg-info/SOURCES.txt'
+[7.972s] reading manifest file '../../build/py_cont/py_cont.egg-info/SOURCES.txt'
+[7.978s] adding license file 'LICENSE'
+[7.984s] writing manifest file '../../build/py_cont/py_cont.egg-info/SOURCES.txt'
+[7.985s] running build
+[7.986s] running build_py
+[7.988s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build
+[7.990s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib
+[7.992s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont
+[7.994s] copying py_cont/main.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont
+[7.996s] copying py_cont/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont
+[7.998s] running install
+[8.002s] running install_lib
+[8.008s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont
+[8.009s] copying /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont/main.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont
+[8.011s] copying /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build/lib/py_cont/__init__.py -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont
+[8.015s] byte-compiling /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont/main.py to main.cpython-310.pyc
+[8.017s] byte-compiling /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont/__init__.py to __init__.cpython-310.pyc
+[8.019s] running install_data
+[8.021s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index
+[8.022s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index
+[8.023s] creating /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index/packages
+[8.024s] copying resource/py_cont -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/ament_index/resource_index/packages
+[8.026s] copying package.xml -> /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/share/py_cont
+[8.027s] running install_egg_info
+[8.040s] Copying ../../build/py_cont/py_cont.egg-info to /home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages/py_cont-0.0.0-py3.10.egg-info
+[8.046s] running install_scripts
+[8.321s] writing list of installed files to '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/install.log'
+[8.511s] Invoked command in '/home/kol/Documents/Robotics/Tests/gewnlimb_ws/src/py_cont' returned '0': PYTHONPATH=/home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robotics/Tests/gewnlimb_ws/install/py_cont/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_cont build --build-base /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/build install --record /home/kol/Documents/Robotics/Tests/gewnlimb_ws/build/py_cont/install.log --single-version-externally-managed install_data
