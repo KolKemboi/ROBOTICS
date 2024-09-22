@@ -1,9 +1,0 @@
-source;share/ThreeDoFArm_description/hook/pythonpath.ps1
-source;share/ThreeDoFArm_description/hook/pythonpath.dsv
-source;share/ThreeDoFArm_description/hook/pythonpath.sh
-source;share/ThreeDoFArm_description/hook/ament_prefix_path.ps1
-source;share/ThreeDoFArm_description/hook/ament_prefix_path.dsv
-source;share/ThreeDoFArm_description/hook/ament_prefix_path.sh
-source;../../build/ThreeDoFArm_description/share/ThreeDoFArm_description/hook/pythonpath_develop.ps1
-source;../../build/ThreeDoFArm_description/share/ThreeDoFArm_description/hook/pythonpath_develop.dsv
-source;../../build/ThreeDoFArm_description/share/ThreeDoFArm_description/hook/pythonpath_develop.sh

@@ -8,6 +8,8 @@ from geometry_msgs.msg import Twist
 class Subscriber(Node):
     def __init__(self):
         super().__init__("teleop_subscriber")
+        self.get_logger().info("Info")
+
         self.subscription = self.create_subscription(
             Twist,
             "topic",
