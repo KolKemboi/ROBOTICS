@@ -1,0 +1,39 @@
+[4.686s] Invoking command in '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/build --no-deps symlink_data
+[6.954s] running develop
+[8.625s] running egg_info
+[8.625s] creating Ackerman_description.egg-info
+[8.626s] writing Ackerman_description.egg-info/PKG-INFO
+[8.628s] writing dependency_links to Ackerman_description.egg-info/dependency_links.txt
+[8.628s] writing entry points to Ackerman_description.egg-info/entry_points.txt
+[8.629s] writing requirements to Ackerman_description.egg-info/requires.txt
+[8.630s] writing top-level names to Ackerman_description.egg-info/top_level.txt
+[8.631s] writing manifest file 'Ackerman_description.egg-info/SOURCES.txt'
+[8.643s] reading manifest file 'Ackerman_description.egg-info/SOURCES.txt'
+[8.649s] writing manifest file 'Ackerman_description.egg-info/SOURCES.txt'
+[8.658s] running build_ext
+[8.660s] Creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages/Ackerman-description.egg-link (link to .)
+[8.665s] 
+[8.666s] Installed /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description
+[8.667s] running symlink_data
+[8.667s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index
+[8.668s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index/resource_index
+[8.669s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index/resource_index/packages
+[8.671s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/resource/Ackerman_description -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index/resource_index/packages
+[8.672s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/package.xml -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description
+[8.672s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/launch
+[8.674s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/launch/gazebo.launch.py -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/launch
+[8.675s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/launch/display.launch.py -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/launch
+[8.676s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf
+[8.677s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/Ackerman.xacro -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf
+[8.678s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/materials.xacro -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf
+[8.678s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/Ackerman.trans -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf
+[8.679s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/Ackerman.gazebo -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf
+[8.680s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes
+[8.680s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/front_right_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes
+[8.681s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/base_link.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes
+[8.681s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/back_left_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes
+[8.682s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/front_left_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes
+[8.682s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/back_right_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes
+[8.683s] creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/config
+[8.683s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/config/display.rviz -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/config
+[8.828s] Invoked command in '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/build --no-deps symlink_data

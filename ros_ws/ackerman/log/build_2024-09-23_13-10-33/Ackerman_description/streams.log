@@ -1,0 +1,18 @@
+[2.682s] Invoking command in '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/build --no-deps symlink_data
+[3.947s] running develop
+[4.874s] running egg_info
+[4.875s] writing Ackerman_description.egg-info/PKG-INFO
+[4.876s] writing dependency_links to Ackerman_description.egg-info/dependency_links.txt
+[4.877s] writing entry points to Ackerman_description.egg-info/entry_points.txt
+[4.878s] writing requirements to Ackerman_description.egg-info/requires.txt
+[4.878s] writing top-level names to Ackerman_description.egg-info/top_level.txt
+[4.890s] reading manifest file 'Ackerman_description.egg-info/SOURCES.txt'
+[4.896s] writing manifest file 'Ackerman_description.egg-info/SOURCES.txt'
+[4.903s] running build_ext
+[4.905s] Creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages/Ackerman-description.egg-link (link to .)
+[4.909s] 
+[4.910s] Installed /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description
+[4.910s] running symlink_data
+[4.912s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf
+[4.915s] symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/config/controls.yaml -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/config
+[5.094s] Invoked command in '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/build --no-deps symlink_data

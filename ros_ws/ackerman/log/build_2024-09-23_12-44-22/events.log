@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.002122] (Ackerman_description) JobQueued: {'identifier': 'Ackerman_description', 'dependencies': OrderedDict()}
+[0.002322] (Ackerman_description) JobStarted: {'identifier': 'Ackerman_description'}
+[0.097812] (-) TimerEvent: {}
+[0.198457] (-) TimerEvent: {}
+[0.299164] (-) TimerEvent: {}
+[0.399866] (-) TimerEvent: {}
+[0.500523] (-) TimerEvent: {}
+[0.601247] (-) TimerEvent: {}
+[0.701928] (-) TimerEvent: {}
+[0.802625] (-) TimerEvent: {}
+[0.903373] (-) TimerEvent: {}
+[1.004067] (-) TimerEvent: {}
+[1.104791] (-) TimerEvent: {}
+[1.205513] (-) TimerEvent: {}
+[1.306227] (-) TimerEvent: {}
+[1.406976] (-) TimerEvent: {}
+[1.507673] (-) TimerEvent: {}
+[1.608384] (-) TimerEvent: {}
+[1.709092] (-) TimerEvent: {}
+[1.809795] (-) TimerEvent: {}
+[1.910505] (-) TimerEvent: {}
+[2.011273] (-) TimerEvent: {}
+[2.111992] (-) TimerEvent: {}
+[2.212715] (-) TimerEvent: {}
+[2.313517] (-) TimerEvent: {}
+[2.414320] (-) TimerEvent: {}
+[2.515149] (-) TimerEvent: {}
+[2.615939] (-) TimerEvent: {}
+[2.716652] (-) TimerEvent: {}
+[2.817764] (-) TimerEvent: {}
+[2.918465] (-) TimerEvent: {}
+[3.019208] (-) TimerEvent: {}
+[3.119924] (-) TimerEvent: {}
+[3.220631] (-) TimerEvent: {}
+[3.321347] (-) TimerEvent: {}
+[3.422061] (-) TimerEvent: {}
+[3.522773] (-) TimerEvent: {}
+[3.623511] (-) TimerEvent: {}
+[3.724288] (-) TimerEvent: {}
+[3.825001] (-) TimerEvent: {}
+[3.925903] (-) TimerEvent: {}
+[4.026614] (-) TimerEvent: {}
+[4.127408] (-) TimerEvent: {}
+[4.228180] (-) TimerEvent: {}
+[4.328945] (-) TimerEvent: {}
+[4.429697] (-) TimerEvent: {}
+[4.530467] (-) TimerEvent: {}
+[4.631278] (-) TimerEvent: {}
+[4.681383] (Ackerman_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kol', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kol', 'OLDPWD': '/home/kol/Documents/Robots/ros_ws/ackerman/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lg_UG.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1446', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=df37ad17d98db6c74fa20c1c66f1620c', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kol', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kol', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kol:@/tmp/.ICE-unix/1446,unix/kol:/tmp/.ICE-unix/1446', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c8fb6373_7aeb_4dca_b448_18c1a6b0ef48', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FB6QU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=df37ad17d98db6c74fa20c1c66f1620c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.731499] (-) TimerEvent: {}
+[4.832348] (-) TimerEvent: {}
+[4.933121] (-) TimerEvent: {}
+[5.034013] (-) TimerEvent: {}
+[5.134773] (-) TimerEvent: {}
+[5.235775] (-) TimerEvent: {}
+[5.336592] (-) TimerEvent: {}
+[5.437402] (-) TimerEvent: {}
+[5.538181] (-) TimerEvent: {}
+[5.638976] (-) TimerEvent: {}
+[5.739789] (-) TimerEvent: {}
+[5.840656] (-) TimerEvent: {}
+[5.941534] (-) TimerEvent: {}
+[6.042310] (-) TimerEvent: {}
+[6.143206] (-) TimerEvent: {}
+[6.244050] (-) TimerEvent: {}
+[6.344852] (-) TimerEvent: {}
+[6.445601] (-) TimerEvent: {}
+[6.546395] (-) TimerEvent: {}
+[6.647273] (-) TimerEvent: {}
+[6.748070] (-) TimerEvent: {}
+[6.848880] (-) TimerEvent: {}
+[6.949760] (-) TimerEvent: {}
+[6.955331] (Ackerman_description) StdoutLine: {'line': b'running develop\n'}
+[7.049962] (-) TimerEvent: {}
+[7.150868] (-) TimerEvent: {}
+[7.251673] (-) TimerEvent: {}
+[7.352452] (-) TimerEvent: {}
+[7.453223] (-) TimerEvent: {}
+[7.554008] (-) TimerEvent: {}
+[7.654880] (-) TimerEvent: {}
+[7.755695] (-) TimerEvent: {}
+[7.856548] (-) TimerEvent: {}
+[7.957381] (-) TimerEvent: {}
+[8.058202] (-) TimerEvent: {}
+[8.159034] (-) TimerEvent: {}
+[8.259811] (-) TimerEvent: {}
+[8.360617] (-) TimerEvent: {}
+[8.461426] (-) TimerEvent: {}
+[8.562218] (-) TimerEvent: {}
+[8.626499] (Ackerman_description) StdoutLine: {'line': b'running egg_info\n'}
+[8.627487] (Ackerman_description) StdoutLine: {'line': b'creating Ackerman_description.egg-info\n'}
+[8.628208] (Ackerman_description) StdoutLine: {'line': b'writing Ackerman_description.egg-info/PKG-INFO\n'}
+[8.629425] (Ackerman_description) StdoutLine: {'line': b'writing dependency_links to Ackerman_description.egg-info/dependency_links.txt\n'}
+[8.630203] (Ackerman_description) StdoutLine: {'line': b'writing entry points to Ackerman_description.egg-info/entry_points.txt\n'}
+[8.631061] (Ackerman_description) StdoutLine: {'line': b'writing requirements to Ackerman_description.egg-info/requires.txt\n'}
+[8.631700] (Ackerman_description) StdoutLine: {'line': b'writing top-level names to Ackerman_description.egg-info/top_level.txt\n'}
+[8.633022] (Ackerman_description) StdoutLine: {'line': b"writing manifest file 'Ackerman_description.egg-info/SOURCES.txt'\n"}
+[8.644925] (Ackerman_description) StdoutLine: {'line': b"reading manifest file 'Ackerman_description.egg-info/SOURCES.txt'\n"}
+[8.650751] (Ackerman_description) StdoutLine: {'line': b"writing manifest file 'Ackerman_description.egg-info/SOURCES.txt'\n"}
+[8.660263] (Ackerman_description) StdoutLine: {'line': b'running build_ext\n'}
+[8.662139] (Ackerman_description) StdoutLine: {'line': b'Creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/lib/python3.10/site-packages/Ackerman-description.egg-link (link to .)\n'}
+[8.662856] (-) TimerEvent: {}
+[8.667034] (Ackerman_description) StdoutLine: {'line': b'\n'}
+[8.667675] (Ackerman_description) StdoutLine: {'line': b'Installed /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description\n'}
+[8.668409] (Ackerman_description) StdoutLine: {'line': b'running symlink_data\n'}
+[8.669317] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index\n'}
+[8.669953] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index/resource_index\n'}
+[8.670923] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index/resource_index/packages\n'}
+[8.671753] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/resource/Ackerman_description -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/ament_index/resource_index/packages\n'}
+[8.673423] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/package.xml -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description\n'}
+[8.674111] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/launch\n'}
+[8.675175] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/launch/gazebo.launch.py -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/launch\n'}
+[8.676405] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/launch/display.launch.py -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/launch\n'}
+[8.677700] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf\n'}
+[8.679025] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/Ackerman.xacro -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf\n'}
+[8.679830] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/materials.xacro -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf\n'}
+[8.680412] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/Ackerman.trans -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf\n'}
+[8.681053] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/urdf/Ackerman.gazebo -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/urdf\n'}
+[8.681624] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes\n'}
+[8.682267] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/front_right_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes\n'}
+[8.682875] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/base_link.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes\n'}
+[8.683426] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/back_left_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes\n'}
+[8.683901] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/front_left_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes\n'}
+[8.684461] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/meshes/back_right_link_1.stl -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/meshes\n'}
+[8.684942] (Ackerman_description) StdoutLine: {'line': b'creating /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/config\n'}
+[8.685393] (Ackerman_description) StdoutLine: {'line': b'symbolically linking /home/kol/Documents/Robots/ros_ws/ackerman/build/Ackerman_description/config/display.rviz -> /home/kol/Documents/Robots/ros_ws/ackerman/install/Ackerman_description/share/Ackerman_description/config\n'}
+[8.763088] (-) TimerEvent: {}
+[8.828126] (Ackerman_description) CommandEnded: {'returncode': 0}
+[8.863286] (-) TimerEvent: {}
+[8.919025] (Ackerman_description) JobEnded: {'identifier': 'Ackerman_description', 'rc': 0}
+[8.924287] (-) EventReactorShutdown: {}

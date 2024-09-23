@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<robot name="Ackerman" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Ackerman_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Ackerman_description)/urdf/ros2_control.xacro" />
+<xacro:include filename="$(find Ackerman_description)/urdf/Ackerman.trans" />
+<xacro:include filename="$(find Ackerman_description)/urdf/Ackerman.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0020510622368631656 0.0 0.05" rpy="0 0 0"/>
+    <mass value="8.144574973020813"/>
+    <inertia ixx="0.01851" iyy="0.069982" izz="0.087523" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_right_link_1">
+  <inertial>
+    <origin xyz="1.3877787807814457e-17 -0.045000000000000026 -1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="3.0642016881239384"/>
+    <inertia ixx="0.002543" iyy="0.00381" izz="0.002543" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.11 0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/front_right_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.11 0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/front_right_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_left_link_1">
+  <inertial>
+    <origin xyz="-1.3877787807814457e-17 0.044999999999999984 1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="3.0642016881239393"/>
+    <inertia ixx="0.002543" iyy="0.00381" izz="0.002543" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.11 -0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/front_left_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.11 -0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/front_left_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="back_right_link_1">
+  <inertial>
+    <origin xyz="1.3877787807814457e-17 -0.044999999999999984 1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="3.0642016881239393"/>
+    <inertia ixx="0.002543" iyy="0.00381" izz="0.002543" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.11 0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/back_right_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.11 0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/back_right_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="back_left_link_1">
+  <inertial>
+    <origin xyz="-1.3877787807814457e-17 0.045000000000000026 -1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="3.0642016881239384"/>
+    <inertia ixx="0.002543" iyy="0.00381" izz="0.002543" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.11 -0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/back_left_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.11 -0.08 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Ackerman_description)/meshes/back_left_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="front_right_joint" type="continuous">
+  <origin xyz="0.11 -0.08 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="front_right_link_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="front_left_joint" type="continuous">
+  <origin xyz="0.11 0.08 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="front_left_link_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="back_right_joint" type="continuous">
+  <origin xyz="-0.11 -0.08 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="back_right_link_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="back_left_joint" type="continuous">
+  <origin xyz="-0.11 0.08 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="back_left_link_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+</robot>

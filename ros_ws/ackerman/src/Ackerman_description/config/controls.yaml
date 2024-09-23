@@ -1,0 +1,18 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+    use_sim_time: true
+
+    ackermann_steering_controller:
+      type: ackermann_steering_controller/AckermannSteeringController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+ackermann_steering_controller:
+  ros__parameters:
+    publish_rate: 1000
+    base_frame_id: base_link
+    front_wheel_names: ["front_right_joint", "front_left_joint"]
+    rear_wheel_names: ["back_right_joint", "back_left_joint"]
+    front_steering_joints: ["front_right_joint", "front_left_joint"]

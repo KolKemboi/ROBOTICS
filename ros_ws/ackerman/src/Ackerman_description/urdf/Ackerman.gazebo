@@ -1,8 +1,7 @@
 <?xml version="1.0" ?>
-<robot name="Gripper" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<robot name="Ackerman" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
 <xacro:property name="body_color" value="Gazebo/Silver" />
-
 
 <gazebo reference="base_link">
   <material>${body_color}</material>
@@ -12,14 +11,28 @@
   <gravity>true</gravity>
 </gazebo>
 
-<gazebo reference="gripper_1_1">
+<gazebo reference="front_right_link_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="gripper_2_1">
+<gazebo reference="front_left_link_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="back_right_link_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="back_left_link_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
