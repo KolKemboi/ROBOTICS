@@ -1,0 +1,16 @@
+[3.768s] Invoking command in '/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/build --no-deps symlink_data
+[5.191s] running develop
+[6.227s] running egg_info
+[6.228s] writing welder_description.egg-info/PKG-INFO
+[6.229s] writing dependency_links to welder_description.egg-info/dependency_links.txt
+[6.230s] writing entry points to welder_description.egg-info/entry_points.txt
+[6.230s] writing requirements to welder_description.egg-info/requires.txt
+[6.231s] writing top-level names to welder_description.egg-info/top_level.txt
+[6.241s] reading manifest file 'welder_description.egg-info/SOURCES.txt'
+[6.246s] writing manifest file 'welder_description.egg-info/SOURCES.txt'
+[6.252s] running build_ext
+[6.253s] Creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)
+[6.256s] 
+[6.257s] Installed /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description
+[6.257s] running symlink_data
+[6.399s] Invoked command in '/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/src/FiveDoF_Moveit_config/launch/move_group.launch.py

@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_moveit_config/ament_cmake_core/welder_moveit_configConfig-version.cmake

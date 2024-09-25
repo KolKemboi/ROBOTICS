@@ -1,0 +1,42 @@
+[3.579s] Invoking command in '/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/build --no-deps symlink_data
+[4.873s] running develop
+[5.786s] running egg_info
+[5.787s] creating welder_description.egg-info
+[5.788s] writing welder_description.egg-info/PKG-INFO
+[5.788s] writing dependency_links to welder_description.egg-info/dependency_links.txt
+[5.789s] writing entry points to welder_description.egg-info/entry_points.txt
+[5.790s] writing requirements to welder_description.egg-info/requires.txt
+[5.790s] writing top-level names to welder_description.egg-info/top_level.txt
+[5.791s] writing manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.799s] reading manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.802s] writing manifest file 'welder_description.egg-info/SOURCES.txt'
+[5.809s] running build_ext
+[5.810s] Creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages/welder-description.egg-link (link to .)
+[5.814s] 
+[5.815s] Installed /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description
+[5.816s] running symlink_data
+[5.817s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/ament_index
+[5.818s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/ament_index/resource_index
+[5.819s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/ament_index/resource_index/packages
+[5.820s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/resource/welder_description -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/ament_index/resource_index/packages
+[5.821s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/package.xml -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description
+[5.822s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/launch
+[5.823s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/launch/gazebo.launch.py -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/launch
+[5.824s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/launch/display.launch.py -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/launch
+[5.824s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/urdf
+[5.826s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/urdf/welder.trans -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/urdf
+[5.827s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/urdf/welder.gazebo -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/urdf
+[5.828s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/urdf
+[5.829s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/urdf/welder.xacro -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/urdf
+[5.830s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.830s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/base_link.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.831s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/link_4_1.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.831s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/link_3_1.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.832s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/link_1_1.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.833s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/link_2_1.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.833s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/link_6_1.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.834s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/meshes/link_5_1.stl -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/meshes
+[5.834s] creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/config
+[5.835s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/config/display.rviz -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/config
+[5.836s] symbolically linking /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/config/my_controllers.yaml -> /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/share/welder_description/config
+[6.001s] Invoked command in '/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_description/build --no-deps symlink_data

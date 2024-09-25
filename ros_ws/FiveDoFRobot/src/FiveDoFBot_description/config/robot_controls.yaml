@@ -2,13 +2,13 @@ controller_manager:
   ros__parameters:
     update_rate: 1000
 
-    joint_state_broadcaster:
+    Five_DoF_controller:
       type: joint_state_broadcaster/JointStateBroadcaster
 
     joint_trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-joint_trajectory_controller:
+Five_DoF_controller:
   ros__parameters:
     command_interfaces:
       - position

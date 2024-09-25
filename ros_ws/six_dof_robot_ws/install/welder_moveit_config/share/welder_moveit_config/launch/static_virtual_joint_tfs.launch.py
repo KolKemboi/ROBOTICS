@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/src/welder_moveit_config/launch/static_virtual_joint_tfs.launch.py
