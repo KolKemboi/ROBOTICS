@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/src/FiveDoF_moveit_config/launch/setup_assistant.launch.py

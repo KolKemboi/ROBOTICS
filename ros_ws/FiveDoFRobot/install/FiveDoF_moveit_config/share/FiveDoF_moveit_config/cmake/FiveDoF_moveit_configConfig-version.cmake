@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config/ament_cmake_core/FiveDoF_moveit_configConfig-version.cmake

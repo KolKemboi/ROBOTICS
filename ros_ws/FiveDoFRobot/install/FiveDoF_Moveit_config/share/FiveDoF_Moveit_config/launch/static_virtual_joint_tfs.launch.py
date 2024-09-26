@@ -1,1 +1,0 @@
-/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/src/FiveDoF_Moveit_config/launch/static_virtual_joint_tfs.launch.py

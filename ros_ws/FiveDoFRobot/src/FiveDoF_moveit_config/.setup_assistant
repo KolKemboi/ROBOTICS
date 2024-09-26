@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: FiveDoFBot_description
+    relative_path: urdf/FiveDoFBot.xacro
+  srdf:
+    relative_path: config/FiveDoFBot.srdf
+  package_settings:
+    author_name: kol
+    author_email: kolkemboi@gmail.com
+    generated_timestamp: 1727343904
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

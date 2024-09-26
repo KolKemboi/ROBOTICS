@@ -1,0 +1,42 @@
+[4.296s] Invoking command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/build --no-deps symlink_data
+[5.784s] running develop
+[6.793s] running egg_info
+[6.794s] creating FiveDoFBot_description.egg-info
+[6.794s] writing FiveDoFBot_description.egg-info/PKG-INFO
+[6.795s] writing dependency_links to FiveDoFBot_description.egg-info/dependency_links.txt
+[6.796s] writing entry points to FiveDoFBot_description.egg-info/entry_points.txt
+[6.797s] writing requirements to FiveDoFBot_description.egg-info/requires.txt
+[6.797s] writing top-level names to FiveDoFBot_description.egg-info/top_level.txt
+[6.798s] writing manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'
+[6.805s] reading manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'
+[6.812s] writing manifest file 'FiveDoFBot_description.egg-info/SOURCES.txt'
+[6.817s] running build_ext
+[6.818s] Creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages/FiveDoFBot-description.egg-link (link to .)
+[6.822s] 
+[6.822s] Installed /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description
+[6.823s] running symlink_data
+[6.824s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index
+[6.824s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index/resource_index
+[6.825s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index/resource_index/packages
+[6.827s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/resource/FiveDoFBot_description -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/ament_index/resource_index/packages
+[6.828s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/package.xml -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description
+[6.829s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/launch
+[6.830s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/launch/gazebo.launch.py -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/launch
+[6.831s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/launch/display.launch.py -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/launch
+[6.832s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf
+[6.833s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/FiveDoFBot.trans -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf
+[6.833s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/materials.xacro -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf
+[6.834s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/FiveDoFBot.xacro -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf
+[6.835s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/ros2_control.xacro -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf
+[6.835s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/urdf/FiveDoFBot.gazebo -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/urdf
+[6.836s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.836s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/base_link.stl -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.837s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_4_1.stl -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.838s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_3_1.stl -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.838s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_1_1.stl -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.839s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_2_1.stl -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.839s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/meshes/link_5_1.stl -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/meshes
+[6.840s] creating /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/config
+[6.840s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/config/robot_controls.yaml -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/config
+[6.841s] symbolically linking /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/config/display.rviz -> /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/share/FiveDoFBot_description/config
+[6.961s] Invoked command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description/build --no-deps symlink_data

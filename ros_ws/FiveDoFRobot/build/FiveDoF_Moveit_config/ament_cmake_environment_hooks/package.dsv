@@ -1,4 +1,0 @@
-source;share/FiveDoF_Moveit_config/local_setup.bash
-source;share/FiveDoF_Moveit_config/local_setup.dsv
-source;share/FiveDoF_Moveit_config/local_setup.sh
-source;share/FiveDoF_Moveit_config/local_setup.zsh
