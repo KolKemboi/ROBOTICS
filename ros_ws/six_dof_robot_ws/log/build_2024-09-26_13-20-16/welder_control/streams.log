@@ -1,0 +1,17 @@
+[6.071s] Invoking command in '/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control/build --no-deps symlink_data
+[8.408s] running develop
+[9.909s] running egg_info
+[9.913s] writing welder_control.egg-info/PKG-INFO
+[9.915s] writing dependency_links to welder_control.egg-info/dependency_links.txt
+[9.916s] writing entry points to welder_control.egg-info/entry_points.txt
+[9.917s] writing requirements to welder_control.egg-info/requires.txt
+[9.917s] writing top-level names to welder_control.egg-info/top_level.txt
+[9.950s] reading manifest file 'welder_control.egg-info/SOURCES.txt'
+[9.951s] writing manifest file 'welder_control.egg-info/SOURCES.txt'
+[9.952s] running build_ext
+[9.953s] Creating /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages/welder-control.egg-link (link to .)
+[9.953s] Installing welder_cont script to /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_control/lib/welder_control
+[9.964s] 
+[9.965s] Installed /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control
+[9.965s] running symlink_data
+[10.138s] Invoked command in '/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/install/welder_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/six_dof_robot_ws/build/welder_control/build --no-deps symlink_data

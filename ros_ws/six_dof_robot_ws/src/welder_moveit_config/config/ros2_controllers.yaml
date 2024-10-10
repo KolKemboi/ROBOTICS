@@ -26,4 +26,6 @@ Welder_Arm_controller:
       - velocity
 
     trajectory_execution:
+      max_allowed_time: 400
       allowed_start_tolerance: 0.1
+      allowed_execution_duration_scaling: 0.0
