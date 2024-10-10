@@ -33,13 +33,8 @@ Continuing with my robotics journey, I decided to make a robot that walks on 4 l
 The name is inspired by the Marvel Character Gwen Stacy - Spider Gwen - the color code of the 
 crawler also follows Gwen's colors in the MCU.
 
-
-![image url](https://github.com/KolKemboi/ROBOTICS/blob/bd547804aac03944c04c0e7184f7632fe97a1d7e/Gwenbot%20v0.png)
-
 ![image url](https://github.com/KolKemboi/ROBOTICS/blob/bd547804aac03944c04c0e7184f7632fe97a1d7e/Gwenbot%20v1.png)
-
-![image url](https://github.com/KolKemboi/ROBOTICS/blob/bd547804aac03944c04c0e7184f7632fe97a1d7e/Gwenbot%20v2.png)
 
 ![image url](https://github.com/KolKemboi/ROBOTICS/blob/bd547804aac03944c04c0e7184f7632fe97a1d7e/Gwenbot%20v3.png)
 
-![image url](https://github.com/KolKemboi/ROBOTICS/blob/bd547804aac03944c04c0e7184f7632fe97a1d7e/Gwenbot%20v4.png)
+
