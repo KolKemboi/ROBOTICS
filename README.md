@@ -1,7 +1,5 @@
 # Robots 
-Programmed using ROS2
-
-A collection of robot types
+Programmed using ROS
 
 <h2>A FIVE DOF ROBOT</h2>
 This robot type has five degrees of freedom. It Offers a chuck mounted to the end that spins. This allows mounting of Tools for
