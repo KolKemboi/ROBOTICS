@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/custom_publisher.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable custom_publisher[0m
+[100%] Built target custom_publisher
+-- Install configuration: ""
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/lib/pub_sub/custom_publisher
+-- Set runtime path of "/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/lib/pub_sub/custom_publisher" to ""
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/path.sh
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/path.dsv
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.bash
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.sh
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.zsh
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.dsv
+-- Up-to-date: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/package.dsv
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake
+-- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/package.xml

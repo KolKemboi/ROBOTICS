@@ -1,0 +1,17 @@
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/lib/pub_sub/custom_publisher
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/lib/pub_sub/custom_subscriber
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/path.sh
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/path.dsv
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.bash
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.sh
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.zsh
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.dsv
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/package.dsv
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake
+/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/package.xml

@@ -1,0 +1,30 @@
+[0.015s] Invoking command in '/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub': CMAKE_PREFIX_PATH=/home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub -- -j4 -l4
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_publisher.dir/src/publisher.cpp.o[0m
+[2.737s] [01m[K/home/kol/Documents/Robots/learning/pub_sub_cpp/src/pub_sub/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.737s] [01m[K/home/kol/Documents/Robots/learning/pub_sub_cpp/src/pub_sub/src/publisher.cpp:51:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.737s]    51 |     [01;35m[Krclcpp::shutdown[m[K;
+[2.737s]       |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[2.737s] [01m[K/home/kol/Documents/Robots/learning/pub_sub_cpp/src/pub_sub/src/publisher.cpp:51:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.708s] [100%] [32m[1mLinking CXX executable custom_publisher[0m
+[4.942s] [100%] Built target custom_publisher
+[4.954s] Invoked command in '/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub -- -j4 -l4
+[4.985s] Invoking command in '/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub': CMAKE_PREFIX_PATH=/home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub
+[4.992s] -- Install configuration: ""
+[4.992s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/lib/pub_sub/custom_publisher
+[4.993s] -- Set runtime path of "/home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/lib/pub_sub/custom_publisher" to ""
+[4.993s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub
+[4.994s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub
+[4.994s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh
+[4.994s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv
+[4.994s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/path.sh
+[4.994s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/environment/path.dsv
+[4.994s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.bash
+[4.995s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.sh
+[4.995s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.zsh
+[4.995s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/local_setup.dsv
+[4.995s] -- Up-to-date: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/package.dsv
+[4.995s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
+[4.996s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake
+[4.996s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake
+[4.996s] -- Installing: /home/kol/Documents/Robots/learning/pub_sub_cpp/install/pub_sub/share/pub_sub/package.xml
+[4.998s] Invoked command in '/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub

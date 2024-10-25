@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating pub_sub.egg-info
+writing pub_sub.egg-info/PKG-INFO
+writing dependency_links to pub_sub.egg-info/dependency_links.txt
+writing entry points to pub_sub.egg-info/entry_points.txt
+writing requirements to pub_sub.egg-info/requires.txt
+writing top-level names to pub_sub.egg-info/top_level.txt
+writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+reading manifest file 'pub_sub.egg-info/SOURCES.txt'
+writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+Installing custom_publisher script to /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/lib/pub_sub
+
+Installed /home/kol/Documents/Robots/learning/pub_sub_py/build/pub_sub
+running symlink_data
+creating /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/share/ament_index
+creating /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/share/ament_index/resource_index
+creating /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robots/learning/pub_sub_py/build/pub_sub/resource/pub_sub -> /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robots/learning/pub_sub_py/build/pub_sub/package.xml -> /home/kol/Documents/Robots/learning/pub_sub_py/install/pub_sub/share/pub_sub

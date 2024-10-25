@@ -1,0 +1,11 @@
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/uninstall.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/pub_sub_uninstall.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/custom_publisher.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/custom_subscriber.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/test.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/edit_cache.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/rebuild_cache.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/list_install_components.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/install.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/install/local.dir
+/home/kol/Documents/Robots/learning/pub_sub_cpp/build/pub_sub/CMakeFiles/install/strip.dir
