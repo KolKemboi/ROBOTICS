@@ -1,0 +1,18 @@
+[0.701s] Invoking command in '/home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub': PYTHONPATH=/home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub/build --no-deps symlink_data
+[0.996s] running develop
+[1.194s] running egg_info
+[1.194s] writing pub_sub.egg-info/PKG-INFO
+[1.194s] writing dependency_links to pub_sub.egg-info/dependency_links.txt
+[1.194s] writing entry points to pub_sub.egg-info/entry_points.txt
+[1.195s] writing requirements to pub_sub.egg-info/requires.txt
+[1.195s] writing top-level names to pub_sub.egg-info/top_level.txt
+[1.197s] reading manifest file 'pub_sub.egg-info/SOURCES.txt'
+[1.198s] writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+[1.199s] running build_ext
+[1.199s] Creating /home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+[1.200s] Installing custom_pub script to /home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/pub_sub
+[1.200s] Installing custom_sub script to /home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/pub_sub
+[1.200s] 
+[1.201s] Installed /home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub
+[1.201s] running symlink_data
+[1.234s] Invoked command in '/home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub' returned '0': PYTHONPATH=/home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub/build --no-deps symlink_data

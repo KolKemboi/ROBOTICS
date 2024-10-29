@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub",
+        "/home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub",
+        "/home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

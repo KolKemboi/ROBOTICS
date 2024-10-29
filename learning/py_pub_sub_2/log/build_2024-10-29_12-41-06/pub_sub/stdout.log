@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing pub_sub.egg-info/PKG-INFO
+writing dependency_links to pub_sub.egg-info/dependency_links.txt
+writing entry points to pub_sub.egg-info/entry_points.txt
+writing requirements to pub_sub.egg-info/requires.txt
+writing top-level names to pub_sub.egg-info/top_level.txt
+reading manifest file 'pub_sub.egg-info/SOURCES.txt'
+writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+Installing custom_pub script to /home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/pub_sub
+Installing custom_sub script to /home/kol/Documents/Robots/learning/py_pub_sub_2/install/pub_sub/lib/pub_sub
+
+Installed /home/kol/Documents/Robots/learning/py_pub_sub_2/build/pub_sub
+running symlink_data
