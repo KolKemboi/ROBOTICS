@@ -1,0 +1,24 @@
+[0.790s] Invoking command in '/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic': PYTHONPATH=/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/build --no-deps symlink_data
+[1.091s] running develop
+[1.288s] running egg_info
+[1.288s] creating turtle_joystic.egg-info
+[1.288s] writing turtle_joystic.egg-info/PKG-INFO
+[1.288s] writing dependency_links to turtle_joystic.egg-info/dependency_links.txt
+[1.289s] writing entry points to turtle_joystic.egg-info/entry_points.txt
+[1.289s] writing requirements to turtle_joystic.egg-info/requires.txt
+[1.289s] writing top-level names to turtle_joystic.egg-info/top_level.txt
+[1.289s] writing manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+[1.291s] reading manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+[1.292s] writing manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+[1.293s] running build_ext
+[1.293s] Creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages/turtle-joystic.egg-link (link to .)
+[1.294s] Installing joystick_cont script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
+[1.295s] 
+[1.295s] Installed /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic
+[1.295s] running symlink_data
+[1.295s] creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index
+[1.295s] creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index/resource_index
+[1.295s] creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index/resource_index/packages
+[1.296s] symbolically linking /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/resource/turtle_joystic -> /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index/resource_index/packages
+[1.296s] symbolically linking /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/package.xml -> /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/turtle_joystic
+[1.330s] Invoked command in '/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic' returned '0': PYTHONPATH=/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/build --no-deps symlink_data

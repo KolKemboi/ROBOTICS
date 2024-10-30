@@ -1,0 +1,3 @@
+[console_scripts]
+joy_stick_listener = turtle_joystic.joystick_listener:main
+

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtle_joystic.egg-info
+writing turtle_joystic.egg-info/PKG-INFO
+writing dependency_links to turtle_joystic.egg-info/dependency_links.txt
+writing entry points to turtle_joystic.egg-info/entry_points.txt
+writing requirements to turtle_joystic.egg-info/requires.txt
+writing top-level names to turtle_joystic.egg-info/top_level.txt
+writing manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+reading manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+writing manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages/turtle-joystic.egg-link (link to .)
+Installing joystick_cont script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
+
+Installed /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic
+running symlink_data
+creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index
+creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index/resource_index
+creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/resource/turtle_joystic -> /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/ament_index/resource_index/packages
+symbolically linking /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/package.xml -> /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/share/turtle_joystic

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/turtle_joystic
+turtle_joystic/__init__.py
+turtle_joystic/joystick_listener.py
+turtle_joystic.egg-info/PKG-INFO
+turtle_joystic.egg-info/SOURCES.txt
+turtle_joystic.egg-info/dependency_links.txt
+turtle_joystic.egg-info/entry_points.txt
+turtle_joystic.egg-info/requires.txt
+turtle_joystic.egg-info/top_level.txt
+turtle_joystic.egg-info/zip-safe
