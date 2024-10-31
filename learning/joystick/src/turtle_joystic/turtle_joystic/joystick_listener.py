@@ -3,8 +3,10 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
+import json
+from std_msgs.msg import String
 
-topic = "/joy"
+joy_stick_topic = "/joy"
 
 class JoystickListener(Node):
     def __init__(self):
@@ -12,8 +14,13 @@ class JoystickListener(Node):
 
         self.joy_sub = self.create_subscription(
             Joy,
-            topic,
+            joy_stick_topic,
             self._joy_stick_callback,
+            10,
+        )
+        self.joy_stick_pub = self.create_publisher(
+            String,
+            "/joystick_data/axes_buttons",
             10,
         )
 
@@ -47,7 +54,17 @@ class JoystickListener(Node):
              "L_2" : joy_msg.buttons[6],
         }
 
-        self.get_logger().info(f"{axes}, {buttons}")
+        data = {
+            "axes" : axes,
+            "buttons": buttons,
+        }
+        json_data = json.dumps(data, indent= 4)
+
+        msg = String()
+        msg.data = json_data
+
+        self.joy_stick_pub.publish(msg = msg)
+        self.get_logger().info(f"PUBLISHING....")
         
 
 

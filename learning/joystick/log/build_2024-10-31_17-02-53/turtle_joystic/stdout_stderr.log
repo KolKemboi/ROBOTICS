@@ -11,7 +11,8 @@ reading manifest file 'turtle_joystic.egg-info/SOURCES.txt'
 writing manifest file 'turtle_joystic.egg-info/SOURCES.txt'
 running build_ext
 Creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages/turtle-joystic.egg-link (link to .)
-Installing joystick_cont script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
+Installing joy_stick_listener script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
+Installing turtle_controller script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
 
 Installed /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic
 running symlink_data

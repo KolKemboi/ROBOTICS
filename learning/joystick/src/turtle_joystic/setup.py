@@ -21,6 +21,10 @@ setup(
     entry_points={
         'console_scripts': [
             "joy_stick_listener = turtle_joystic.joystick_listener:main",
+            "turtle_controller = turtle_joystic.turtle_cont:main",
         ],
+    },
+    package_data={
+        package_name: ['launch/*.launch.py'],  # Include all launch files
     },
 )
