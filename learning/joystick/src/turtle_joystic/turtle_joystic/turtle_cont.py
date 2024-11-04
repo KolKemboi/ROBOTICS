@@ -53,7 +53,7 @@ class JoySubTurtleCont(Node):
 
 
         self.turtle_pub.publish(turtle_msg)
-        self.get_logger().info(f"PUBLISHING..........")
+        self.get_logger().info(f"TURTLE CONTROLLER LISTENING AND PUBLISHING..........")
 
 
 def main(args=None):

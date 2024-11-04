@@ -1,0 +1,16 @@
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/launch/demo.launch.py
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/ament_index/resource_index/package_run_dependencies/turtle_bringup
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/ament_index/resource_index/parent_prefix_path/turtle_bringup
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.sh
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.dsv
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/environment/path.sh
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/environment/path.dsv
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/local_setup.bash
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/local_setup.sh
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/local_setup.zsh
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/local_setup.dsv
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/package.dsv
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/ament_index/resource_index/packages/turtle_bringup
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig.cmake
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig-version.cmake
+/home/kol/Documents/Robots/learning/joystick/install/turtle_bringup/share/turtle_bringup/package.xml

@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic",
+        "/home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic",
+        "/home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

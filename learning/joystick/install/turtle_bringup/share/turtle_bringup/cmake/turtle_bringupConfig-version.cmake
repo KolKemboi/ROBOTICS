@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/ament_cmake_core/turtle_bringupConfig-version.cmake

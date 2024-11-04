@@ -64,7 +64,7 @@ class JoystickListener(Node):
         msg.data = json_data
 
         self.joy_stick_pub.publish(msg = msg)
-        self.get_logger().info(f"PUBLISHING....")
+        self.get_logger().info(f"JOYSTICK LISTENER AND PUBLISHING....")
         
 
 

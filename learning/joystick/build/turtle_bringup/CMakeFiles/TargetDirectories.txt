@@ -1,0 +1,9 @@
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/uninstall.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/turtle_bringup_uninstall.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/test.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/edit_cache.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/rebuild_cache.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/list_install_components.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/install.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/install/local.dir
+/home/kol/Documents/Robots/learning/joystick/build/turtle_bringup/CMakeFiles/install/strip.dir
