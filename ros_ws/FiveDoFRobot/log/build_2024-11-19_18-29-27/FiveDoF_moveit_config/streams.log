@@ -1,0 +1,62 @@
+[0.009s] Invoking command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/src/FiveDoF_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.595s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.688s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.785s] WARNING: Package name "FiveDoF_moveit_config" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.803s] -- Configuring done
+[0.805s] -- Generating done
+[0.806s] -- Build files have been written to: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config
+[0.810s] Invoked command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/src/FiveDoF_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config
+[0.813s] Invoking command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config -- -j4 -l4
+[0.849s] Invoked command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config -- -j4 -l4
+[0.882s] Invoking command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config': AMENT_PREFIX_PATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config
+[0.892s] -- Install configuration: ""
+[0.892s] -- Execute custom install script
+[0.893s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/ament_index/resource_index/package_run_dependencies/FiveDoF_moveit_config
+[0.906s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/ament_index/resource_index/parent_prefix_path/FiveDoF_moveit_config
+[0.921s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/environment/ament_prefix_path.sh
+[0.930s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/environment/ament_prefix_path.dsv
+[0.943s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/environment/path.sh
+[0.955s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/environment/path.dsv
+[0.969s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/local_setup.bash
+[0.983s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/local_setup.sh
+[1.002s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/local_setup.zsh
+[1.017s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/local_setup.dsv
+[1.033s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/package.dsv
+[1.049s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/ament_index/resource_index/packages/FiveDoF_moveit_config
+[1.064s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/cmake/FiveDoF_moveit_configConfig.cmake
+[1.082s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/cmake/FiveDoF_moveit_configConfig-version.cmake
+[1.103s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/package.xml
+[1.128s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/demo.launch.py
+[1.141s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/move_group.launch.py
+[1.155s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/moveit_rviz.launch.py
+[1.172s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/rsp.launch.py
+[1.184s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/setup_assistant.launch.py
+[1.198s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/spawn_controllers.launch.py
+[1.207s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.223s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/launch/warehouse_db.launch.py
+[1.242s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/FiveDoFBot.ros2_control.xacro
+[1.252s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/FiveDoFBot.srdf
+[1.260s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/FiveDoFBot.urdf.xacro
+[1.270s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/initial_positions.yaml
+[1.278s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/joint_limits.yaml
+[1.286s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/kinematics.yaml
+[1.297s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/moveit.rviz
+[1.306s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/moveit_controllers.yaml
+[1.315s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/pilz_cartesian_limits.yaml
+[1.323s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/ros2_controllers.yaml
+[1.333s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/config/sensors_3d.yaml
+[1.341s] -- Symlinking: /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoF_moveit_config/share/FiveDoF_moveit_config/.setup_assistant
+[1.352s] Invoked command in '/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoFBot_description:/home/kol/Documents/Robots/ros_ws/FiveDoFRobot/install/FiveDoFBot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kol/Documents/Robots/ros_ws/FiveDoFRobot/build/FiveDoF_moveit_config

@@ -11,6 +11,10 @@
 
   <exec_depend>demo_nodes_cpp</exec_depend>
   <exec_depend>demo_nodes_py</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>turtle_joystic</exec_depend>
+
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

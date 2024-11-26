@@ -1,0 +1,41 @@
+[0.769s] Invoking command in '/home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/build --no-deps symlink_data
+[1.048s] running develop
+[1.238s] running egg_info
+[1.238s] creating gripper_2_description.egg-info
+[1.238s] writing gripper_2_description.egg-info/PKG-INFO
+[1.247s] writing dependency_links to gripper_2_description.egg-info/dependency_links.txt
+[1.248s] writing entry points to gripper_2_description.egg-info/entry_points.txt
+[1.248s] writing requirements to gripper_2_description.egg-info/requires.txt
+[1.248s] writing top-level names to gripper_2_description.egg-info/top_level.txt
+[1.249s] writing manifest file 'gripper_2_description.egg-info/SOURCES.txt'
+[1.254s] reading manifest file 'gripper_2_description.egg-info/SOURCES.txt'
+[1.255s] writing manifest file 'gripper_2_description.egg-info/SOURCES.txt'
+[1.258s] running build_ext
+[1.259s] Creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/lib/python3.10/site-packages/gripper-2-description.egg-link (link to .)
+[1.260s] 
+[1.260s] Installed /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description
+[1.261s] running symlink_data
+[1.261s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/ament_index
+[1.261s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/ament_index/resource_index
+[1.261s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/ament_index/resource_index/packages
+[1.262s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/resource/gripper_2_description -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/ament_index/resource_index/packages
+[1.262s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/package.xml -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description
+[1.262s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/launch
+[1.262s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/launch/gazebo.launch.py -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/launch
+[1.262s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/launch/display.launch.py -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/launch
+[1.263s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/urdf
+[1.263s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/urdf/gripper_2.gazebo -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/urdf
+[1.263s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/urdf/materials.xacro -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/urdf
+[1.264s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/urdf/gripper_2.xacro -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/urdf
+[1.264s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/urdf/gripper_2.trans -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/urdf
+[1.264s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.264s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/Component2_1.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.264s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/base_link.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.264s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/Spur_Gear__24_teeth___1__1.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.265s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/Component1_Mirror__1.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.265s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/Component1_1.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.265s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/Spur_Gear__24_teeth__1.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.265s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/meshes/Component2_Mirror__1.stl -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/meshes
+[1.265s] creating /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/config
+[1.265s] symbolically linking /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/config/display.rviz -> /home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/share/gripper_2_description/config
+[1.294s] Invoked command in '/home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description' returned '0': PYTHONPATH=/home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/ros_ws/Gripper/install/gripper_2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/ros_ws/Gripper/build/gripper_2_description/build --no-deps symlink_data

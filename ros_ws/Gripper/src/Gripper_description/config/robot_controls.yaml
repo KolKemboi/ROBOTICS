@@ -1,5 +1,0 @@
-control_manager:
-  ros__parameters:
-    use_sim_time: true
-    
-    joint_trajectory_c

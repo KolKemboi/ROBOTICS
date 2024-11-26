@@ -1,1 +1,1 @@
-demo_nodes_cpp;demo_nodes_py;ament_lint_auto;ament_lint_common
+demo_nodes_cpp;demo_nodes_py;turtlesim;joy;turtle_joystic;ament_lint_auto;ament_lint_common

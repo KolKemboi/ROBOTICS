@@ -1,0 +1,18 @@
+[0.718s] Invoking command in '/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic': PYTHONPATH=/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/build --no-deps symlink_data
+[1.019s] running develop
+[1.222s] running egg_info
+[1.223s] writing turtle_joystic.egg-info/PKG-INFO
+[1.223s] writing dependency_links to turtle_joystic.egg-info/dependency_links.txt
+[1.223s] writing entry points to turtle_joystic.egg-info/entry_points.txt
+[1.223s] writing requirements to turtle_joystic.egg-info/requires.txt
+[1.223s] writing top-level names to turtle_joystic.egg-info/top_level.txt
+[1.226s] reading manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+[1.227s] writing manifest file 'turtle_joystic.egg-info/SOURCES.txt'
+[1.230s] running build_ext
+[1.230s] Creating /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages/turtle-joystic.egg-link (link to .)
+[1.231s] Installing joy_stick_listener script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
+[1.231s] Installing turtle_controller script to /home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/turtle_joystic
+[1.231s] 
+[1.231s] Installed /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic
+[1.232s] running symlink_data
+[1.266s] Invoked command in '/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic' returned '0': PYTHONPATH=/home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kol/Documents/Robots/learning/joystick/install/turtle_joystic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kol/Documents/Robots/learning/joystick/build/turtle_joystic/build --no-deps symlink_data

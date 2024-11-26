@@ -1,0 +1,1 @@
+/home/kol/Documents/Robots/ros_ws/Gripper/src/gripper_2_description/setup.py
